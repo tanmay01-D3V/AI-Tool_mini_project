@@ -1,0 +1,546 @@
+order_id,customer_id,customer_name,email,phone,signup_date,order_date,city,country,product_category,quantity,unit_price,total_amount,payment_method,status,rating
+ORD-10001,CUST-2097,Kavya Sharma,kavya.sharma97@hotmail.com,+91 68671 28617,22 Sep 2024,2025/11/08,Mumbai,India,Home & Kitchen,1,"4,800",4800.00,Debit Card,Cancelled,
+ORD-10002,CUST-2236,Neha Chopra,neha.chopra236@yahoo.com,84166-36626,2024-03-04,2025-02-25,Delhi,India,Clothing,1,2560.00,2560.00,Credit Card,Shipped,
+ORD-10488,CUST-2102,Arjun Patel,arjun.patel102@gmail.com,+91 63338 40628,2025-06-05,11/09/2025,Kolkata,India,electronics,3,16460.00,49380.00,NetBanking,Delivered,5
+ORD-10003,CUST-2237,Manish Rao,manish.rao237@gmail.com,8111125272,2024-07-15,2026-05-28,Ahmedabad,India,Grocery,1,1200.00,1200.00,Cash on Delivery,Delivered,5
+ORD-10004,CUST-2069,Pooja Shetty,POOJA.SHETTY69@YAHOO.COM,09578686926,2024-03-30,2025-01-26,Singapore,Singapore,Books,1,670.00,670.00,Credit Card,Delivered,4
+ORD-10005,CUST-2232,Vikram Kapoor,vikram.kapoor232@yahoo.com,94930-13038,2023/01/19,17-06-2025,NA,India,Electronics,1,21980.00,21980.00,Upi,Shipped,
+ORD-10006,CUST-2046,Meera Iyer,meera.iyer46@hotmail.com,+1 65456 73925,2025-06-24,2025-03-29,New York,United States,Electronics,2,38310.00,"₹76,620.00",Cash on Delivery,delivered,-1
+ORD-10490,CUST-2141,Lakshmi Agarwal,lakshmi.agarwal141@gmail.com,9421522814,2024-07-29,2025-08-29,Pune,India,Electronics,1,29520.00,29520.00,UPI,Delivered,5
+ORD-10007,CUST-2313,Harsh Chopra,harsh.chopra313@yahoo.com,+91 91137 28950,2024-04-05,14-02-2025,Madras,INDIA,Clothing,2,2330.00,4660.00,Debit Card,Cancelled,
+ORD-10008,CUST-2289,Karan Banerjee,KARAN.BANERJEE289@OUTLOOK.COM,+91 76239 50820,19/03/2023,2025-05-29,Jaipur,India,Grocery,1,430.00,430.00,Net Banking,Delivered,5
+ORD-10009,CUST-2157,Vikram Iyer,vikram.iyer157@outlook.com,+91 84402 26511,2023-01-07,2026-04-02,Pune,India,Home & Kitchen,3,7770.00,23310.00,Credit Card,Delivered,-
+ORD-10136,CUST-2035,Vikram Chopra,vikram.chopra35@gmail.com,+91 83237 37820,2025-02-06,2025-06-30,Jaipur,India,Clothing,2,660.00,1320.00,Credit Card,Pending,
+ORD-10010,CUST-2103,Rahul Reddy,rahul.reddy103@gmail.com,+91 98783 94495,2025-01-14,07/06/2026,Pune,India,Electronics,1,22230.00,22230.00,UPI,Returned,4
+ORD-10011,CUST-2311,Nikhil Malhotra,nikhil.malhotra311@yahoo.com,+91 73010 69960,2024-12-19,2026-05-03,Jaipur,India,Books,1,450.00,450.00,Cash on Delivery,Delivered,4
+ORD-10008,CUST-2289,Karan Banerjee,KARAN.BANERJEE289@OUTLOOK.COM,+91 76239 50820,19/03/2023,2025-05-29,Jaipur,India,Grocery,1,430.00,430.00,Net Banking,Delivered,5
+ORD-10012,CUST-2307,Kavya Iyer,kavya.iyer307@yahoo.com,+91 92474 36007,27 Feb 2023,2025-10-12,Chennai,India,Electronics,4,21540.00,86160.00,Credit Card,Delivered,4
+ORD-10013,CUST-2025,Ritu Bose,ritu.bose25@yahoo.com,+91 84918 10458,2024-01-08,2025-12-24,Pune,India,Clothing,1,1150.00,1150.00,Cash on Delivery,Delivered,5
+ORD-10014,CUST-2308,Deepak Khan,deepak.khan308@yahoo.com,+91 91823 09739,25/01/2025,2025-03-16,Mumbai,India,Home & Kitchen,4,3690.00,14760.00,Credit Card,Delivered,5
+ORD-10015,CUST-2145,Anjali Nair,anjali.nair145@yahoo.com,+91 90870 55721,2024-01-24,2026-08-16,Gurugram,India,Beauty,5,1100.00,5500.00,Debit Card,Delivered,1
+ORD-10296,CUST-2013,Shreya Verma,shreya.verma13@rediffmail.com,+91 62144 22948,2023-04-11,2025-09-05,Mumbai,India,Clothing,2,2860.00,5720.00,Cash on Delivery,Delivered,4
+ORD-10016,CUST-2165,Tanvi Mehta,tanvi.mehta165@hotmail.com,+65 75534 47616,2023-01-30,2026-03-14,Singapore ,SG,Home & Kitchen,3,4180.00,12540.00,Net Banking,Returned,2
+ORD-10017,CUST-2068,Kavya Banerjee,,+91 99341 93408,2024-02-02,2026-02-28,Ahmedabad,India,Electronics,1,23980.00,23980.00,Cash on Delivery,Delivered,5
+ORD-10018,CUST-2029,Gurpreet Banerjee,gurpreet.banerjee29@rediffmail.com,+91 94260 77141,2024-04-20,2026-05-11,Mumbai,India,Electronics,5,Rs. 44830,224150.00,Cash on Delivery,Shipped,
+ORD-10019,CUST-2147,Sanjay Patel,sanjay.patel147@outlook.com,696748270,2023-03-03,2025-09-23,Gurugram,India,Books,3,920.00,2760.00,Debit Card,Delivered,5
+ORD-10020,CUST-2066,Lakshmi Kulkarni,lakshmi.kulkarni66@rediffmail.com,+91 88407 26638,2024-01-10,25 May 2026,Delhi,India,Beauty,2,2740.00,5480.00,Cash on Delivery,Delivered,3
+ORD-10021,CUST-2119,Vikram Malhotra,vikram.malhotra119@rediffmail.com,+91 95181 93368,2023-12-11,02/01/2025,Jaipur,India,Sports ,5,6440.00 INR,32200.00,U.P.I,Delivered,4
+ORD-10022,CUST-2106,KAVYA BANERJEE,kavya.banerjee106@outlook.com,+91 99014 34013,2024-10-27,08/12/2025,Chennai,India,Grocery,1,1110.00,1110.00,CREDIT CARD,Delivered,5
+ORD-10451,CUST-2168,Tanvi Singh,tanvi.singh168@yahoo.com,+91 73165 41316,2024/07/22,2025-02-10,Bengaluru,India,Clothing,1,1820.00,1820.00,Debit Card,Delivered,5
+ORD-10023,CUST-2005,Karan Joshi,karan.joshi5@hotmail.com,+91 82486 11757,2024-08-20,2025-09-18,Pune,India,Sports,2,4620.00,9240.00,Debit Card,Cancelled,
+ORD-10024,CUST-2153,Priya Reddy,priya.reddy153@outlook.com,+91 63793 70294,2024/07/20,2025-04-27,Pune,India,Beauty,3,"1,850",5550.00,Debit Card,Shipped,
+ORD-10025,CUST-2202,Ananya Gupta,ananya.gupta202@yahoo.com,+91 85777 95939,2023-06-30,18-07-2025,Hyderabad,India,Sports,3,1090.00,3270.00,Net Banking,Delivered,4
+ORD-10026,CUST-2242,Deepak Das,deepak.das242@rediffmail.com,+91 74484 06085,2025-01-11,2026-05-19,Gurugram,India,Grocery,2,140.00,280.00,Cash on Delivery,Delivered,4
+ORD-10027,CUST-2171,Ananya Pillai,ananya.pillai171@gmail.com,+91 85774 24762,2024-04-05,"February 27, 2025",Chennai,India,Books,3,1150.00,3450.00,Debit Card,Returned,4
+ORD-10028,CUST-2284,Isha Kapoor,isha.kapoor284@gmail.com,+91 62367 94629,2025-03-03,nan,Bengaluru,India,Beauty,1,290.00,290.00,Debit Card,cancelled,
+ORD-10029,CUST-2033,Zoya Pillai,zoya.pillai33@hotmail.com,+91 69238 85778,2023-08-13,2025-12-14,Madras,India,Clothing,3,1830.00,5490.00,Cash on Delivery,Pending,
+ORD-10030,CUST-2084,Aditya Malhotra,aditya.malhotra84@gmail.com,+971-6414408727,"June 06, 2024",2025-04-30,Dubai,United Arab Emirates,Beauty,1,2190.00,2190.00,debit card,Returned,5
+ORD-10031,CUST-2016,Manish Iyer,manish.iyer16@rediffmail.com,+91 65621 82564,2024-08-01,2025-09-01,Jaipur,Ind,Home & Kitchen,1,4530.00,4530.00,Debit Card,Delivered,5
+ORD-10032,CUST-2110,Karan Malhotra,karan.malhotra110@rediffmail.com,+91 97809 64638,2024-10-17,2026-01-19,Gurugram,India,Beauty,1,1740.00,1740.00,Credit Card,Cancelled,
+ORD-10033,CUST-2047,Ritu Rao,ritu.rao47@gmail.com,+91 76202 51464,2023-08-26,10-05-2026,Chennai,India,Books,1,790.00,711.00,Credit Card,Pending,
+ORD-10034,CUST-2097,Kavya Sharma,kavya.sharma97@hotmail.com,NULL,2024-09-22,2026-06-21,Mumbai,India,Home & Kitchen,2,5250.00,10500.00,UPI,Delivered,4
+ORD-10035,CUST-2264,Faisal Shetty,faisal.shetty264@outlook.com,+91 75137 59169,2023-01-12,2025-02-07,jaipur,India,Sports,1,3210.00,3210.00 INR,Cash on Delivery,Delivered,5
+ORD-10036,CUST-2059,Siddharth Kapoor,siddharth.kapoor59@gmail.com,+91 68883 37780,2023-08-29,2026-09-01,Chennai,India,Electronics,4,26970.00,107880.00,UPI,Returned,4
+ORD-10037,CUST-2052,Meera Shetty,meera.shetty52@hotmail.com,+65 64339 45965,2023-02-25,2025-11-16,Singapore,Singapore,Beauty,?,1790.00,1790.00,Credit Card,Shipped,
+ORD-10038,CUST-2164,Pooja Kulkarni,pooja.kulkarni164@outlook.com,+91 75307 40070,2024-10-25,2026-06-30,Delhi, India,Clothing,1,1380.00,1380.00,U.P.I,Delivered,4
+ORD-10039,CUST-2139,Karan Chopra,karan.chopra139@outlook.com,+91 77719 29557,2023-08-31,2025-01-16,Chennai,India,Clothing,1,1200.00,1200.00,Cash on Delivery,Pending,
+ORD-10040,CUST-2263,Divya Sharma,divya.sharma263@hotmail.com,+91 67570 91730,2024-01-26,2026/07/17,Pune, India,Electronics,2,18420.00,36840.00,Debit Card,Deliverd,3
+ORD-10041,CUST-2293,Karan Shetty,karan.shetty293@outlook.con,+91 99646 02536,2023/07/11,2026-09-20,jaipur,Ind,Clothing,1,1270.00,"1,270",UPI,Returned,4
+ORD-10042,CUST-2066,Lakshmi Kulkarni,lakshmi.kulkarni66@rediffmail.con,+91 88407 26638,2024-01-10,2025-02-21,Delhi,India,Electronics,4,40060.00,160240.00,Net Banking,Delivered,-
+ORD-10043,CUST-2200,Rohan Joshi,rohan.joshi200@rediffmail.com,+91 91856 87973,2025-03-11,2026-06-10,Ahmedabad,India,Clothing,2,4000.00,8000.00,CC,Delivered,4
+ORD-10044,CUST-2273,Anjali Chopra,anjali.chopra273@hotmail.com,+971 69375 88251,2025-05-09,06 Apr 2025,Dubai,United Arab Emirates,Electronics,2,39640.00 INR,79280.00,Net Banking,Cancelled,
+ORD-10045,CUST-2049,Rohan Patel,,(+91) 8589443425,2023-03-24,2026-04-22,Gurugram,India,Books,2,Rs. 540,1080.00,Credit Card,Delivered,5
+ORD-10046,CUST-2315,Arjun Agarwal,arjun.agarwal315@yahoo.com,+91 76361 50818,2023/04/20,05 Dec 2025,Ahmedabad,India,Home & Kitchen,1,4020.00,4020.00,Debit Card,Cancelled,
+ORD-10047,CUST-2232,Vikram Kapoor,vikram.kapoor232yahoo.com,,2023-01-19,2025-04-26,Mumbai,India,Books,1,180.00,180.00 INR,Credit Card,Delivered,4
+ORD-10048,CUST-2144,Harsh Nair,harsh.nair144@hotmail.com,+91 75735 32540,2025-02-18,28 Jun 2025,Kolkata,India,GROCERY,2,940.00,1880.00,UPI,Deliverd,4
+ORD-10359,CUST-2325,Nikhil Agarwal,nikhil.agarwal325@yahoo.com,+91 92310 50305,2025-02-19,2025-07-14,Bengaluru,India,Beauty,3,1240.00,3720.00,CREDIT CARD,Delivered,4.5
+ORD-10049,CUST-2166,Aditya Pillai,aditya.pillai166@hotmail.con,+91 67278 01813,2023-04-27,2026-06-30,Chennai,India,Beauty,3,560.00,1680.00,Credit Card,Delivered,4
+ORD-10050,CUST-2317,Aditya Banerjee,aditya.banerjee317@rediffmail.com,+91 98706 57802,2023-04-10,2026-05-09,Delhi,India,Clothing,999,3200.00,3200.00,Cash on Delivery,Delivered,4
+ORD-10051,CUST-2220,Faisal Menon,faisal.menon220@hotmail.com,+91 69237 73760,2023-08-05,17/12/2025,Pune,India,Grocery,2,1160.00,4640.00,UPI,Delivered,3
+ORD-10052,CUST-2293,Karan Shetty,karan.shetty293@outlook.com,+91 99646 02536,2023-07-11,2026/09/03,Jaipur,India,Grocery,1,1290.00,1290.00,Net Banking,Delivered,4
+ORD-10053,CUST-2090,Ananya Desai,ananya.desai90@hotmail.com,+91 82896 10693,2023-05-13,22-04-2025,Gurugram,India,Home & Kitchen,1,4450.00,4450.00 INR,Cash on Delivery,Shipped,
+ORD-10054,CUST-2194,Kavya Kulkarni,kavya.kulkarni194@gmail.com,89383 42917,2023-06-09,04 Mar 2025,Delhi,India,Home & Kitchen,2,5360.00,10720.00,COD,Delivered,5
+ORD-10055,CUST-2325,Nikhil Agarwal,nikhil.agarwal325@yahoo.com,+91 92310 50305,2025/02/19,2025-07-21,,India,Grocery,3,50.00,150.00,Cash on Delivery,Delivered,4
+ORD-10056,CUST-2295,Faisal Reddy,faisal.reddy295@rediffmail.com,+91 75818 74041,2024-06-30,21/11/2025,Calcutta,India,Books,1,400.00,Rs. 400,Debit Card,Delivered,5
+ORD-10057,CUST-2222,Faisal Patel,faisal.patel222@hotmail.com,9031343962,"August 31, 2024",2026-08-20,ahmedabad, India,Sports,5,7550.00,37750.00,Net Banking,Delivered,5
+ORD-10058,CUST-2065,Priya Pillai,priya.pillai65@yahoo.com,+91 70271 15959,2023-09-21,"July 17, 2026",AHMEDABAD,India,Grocery,1,800.00,800.00,UPI,Pending,
+ORD-10059,CUST-2286,Sneha Iyer,sneha.iyer286@rediffmail.com,+1 93355 70028,23/12/2023,2025/10/16,San Jose,United States,Grocery,1,960.00,960.00 INR,Cash on Delivery,Returned,3
+ORD-10060,CUST-2201,Pooja Pillai,,+91 92050 82843,2023/08/27,2026/02/20,Bengaluru,India,Sports,2,7010.00,14020.00,Credit Card,Delivered,4
+ORD-10061,CUST-2243,Kavya Shetty,kavya.shetty243@gmail.com,+91 64746 61886,2026-03-15,2026-01-04,Bengaluru,India,Clothing,2,1360.00,2720.00,Credit Card,Returned,3
+ORD-10062,CUST-2068,Kavya Banerjee,kavya.banerjee68@yahoo.com,+91 99341 93408,2024-02-02,2025-05-28,Ahmedabad,India,Electronics,2,7370.00,14740.00,Net Banking,Shipped,
+ORD-10063,CUST-2336,Ananya Singh,ananya.singh336@hotmail.com,+91 86652 00718,2026-05-31,02-03-2026,Kolkata,India,Books,1,320.00,320.00,Cash on Delivery,Returned,5
+ORD-10064,CUST-2217,Rahul Verma,rahul.verma217@hotmail.com,+971 60558 59075,2026-03-18,2026-03-11,Abu Dhabi,United Arab Emirates,Beauty,1,1120.00 INR,1120.00,debit card,Delivered,4
+ORD-10065,CUST-2115,Ananya Verma,ananya.verma115@outlook.com,+91 62202 36281,2024-08-14,2026-08-15,NULL,India,Clothing,2,2570.00,10280.00,Cash on Delivery,Delivered,5
+ORD-10066,CUST-2137,Divya Khan,,78794 74324,2023/10/10,04/02/2025,Hyderabad,India,Books,2,Rs. 840,1680.00,Cash on Delivery,Pending,
+ORD-10067,CUST-2247,Deepak Shetty,deepak.shetty247@hotmail.com,+91 83675 31848,2023-04-20,2026-05-09,Chennai,India,Sports,1,8040.00,8040.00 INR,U.P.I,Pending,
+ORD-10068,CUST-2072,Zoya Singh,zoya.singh72@yahoo.com,+1 87181 37502,2025-01-29,11 Nov 2025,San Jose,United States,Sports ,5,11280.00,56400.00,Cash on Delivery,Delivered,2
+ORD-10069,CUST-2045,Nikhil Kulkarni,nikhil.kulkarni45@yahoo.com,+91 93928 10456,"June 02, 2023",21/03/2025,Gurugram,India,Clothing,2,2810.00,5620.00,Cash on Delivery,Shipped,
+ORD-10070,CUST-2296,Lakshmi Menon,lakshmi.menon296@rediffmail.com,+91 63608 46433,2024-07-24,2025-12-18,Chennai,India,Home & Kitchen,1,6570.00,6570.00,Net Banking,Delivered,1
+ORD-10071,CUST-2262,Harsh Verma,harsh.verma262@gmail.com,+91 60755 22364,2024-02-03,2026-03-08,Delhi,India,Books,2,880.00,1760.00,Debit Card,Delivered,none
+ORD-10072,CUST-2148,Sanjay Shetty,SANJAY.SHETTY148@HOTMAIL.COM,+65 96054 07525,2025-04-05,2026-02-10,Singapore,SINGAPORE,Clothing,2,Rs. 580,1160.00,cash on delivery,Shipped,
+ORD-10073,CUST-2133,Lakshmi Shetty,lakshmi.shetty133@rediffmail.com,+91 76575 53918,2023-07-27,2026-08-10,Gurugram, India,electronics,2,40260.00,80520.00,Cash on Delivery,Delivered,5
+ORD-10074,CUST-2013,Shreya Verma,shreya.verma13@rediffmail.com,+91 62144 22948,2023-04-11,2026-06-02,Mumbai,India,Home & Kitchen,1,5260.00,5260.00,Debit Card,Delivered,5
+ORD-10190,CUST-2296,Lakshmi Menon,lakshmi.menon296@rediffmail.com,+91 63608 46433,24 Jul 2024,2026-05-28,Chennai,India,Home & Kitchen,1,3900.00,3900.00,Cash on Delivery,Cancelled,
+ORD-10075,CUST-2067,Lakshmi Khan,lakshmi.khan67@rediffmail.com,+91 64665 89120,2023-12-02,2025-09-21,null,India,Beauty,1,1630.00,1630.00,Credit Card,Delivered,Unknown
+ORD-10076,CUST-2302,Zoya Menon,zoya.menon302@rediffmail.com,+91 85195 54784,2023-11-14,14 Jan 2026,Kolkata,Ind,Sports,2,3590.00,7180.00,Debit Card,Cancelled,
+ORD-10077,CUST-2120,Faisal Agarwal,faisal.agarwal120@rediffmail.com,+91 84031 43886,2024/04/30,2025-02-03,Chennai,india,Books,3,380.00,1140.00,Credit Card,Delivered,2
+ORD-10078,CUST-2304,Deepak Menon,deepak.menon304@hotmail.com,+91 97575 18427,28-04-2025,"June 24, 2026",Pune,India,Grocery,3,440.00,Rs. 1320,Credit Card,Cancelled,
+ORD-10079,CUST-2338,Anjali Chopra,anjali.chopra338@rediffmail.com,+91 96884 76873,"August 31, 2024",2025-08-04,Jaipur,India,Books,2,1070.00,2140.00,UPI,Delivered,5
+ORD-10080,CUST-2328,Vikram Rao,vikram.rao328@hotmail.com,+91 67261 82383,2023-01-24,23 Feb 2025,Kolkata,Ind,Home & Kitchen,3,8030.00,24090.00,debit card,Delivered,4
+ORD-10081,CUST-2243,Kavya Shetty,kavya.shetty243@gmail.com,6474661886,20-10-2024,04 Feb 2026,Bengaluru,india,Sports,1,11400.00,11400.00,Net Banking,Delivered,3
+ORD-10082,CUST-2006,NA,pooja.gupta6@hotmail.com,+1-7500167403,25-06-2024,2025-11-20,San Jose,United States,Home & Kitchen,1,8460.00,8460.00,upi,Pending,
+ORD-10083,CUST-2049,Rohan Patel,rohan.patel49@hotmail.com,+91 85894 43425,24 Mar 2023,2026-03-19,Gurugram,India,beauty,5,"₹2,010.00",10050.00,Debit Card,DELIVERED,5
+ORD-10084,CUST-2171,Ananya Pillai,ananya.pillai171@gmail.com,+91 85774 24762,2024-04-05,2025-09-19,Chennai,India,Home & Kitchen,3,3030.00,9090.00,Net Banking,Shipped,
+ORD-10085,CUST-2236,Neha Chopra,neha.chopra236@yahoo.com,+91 84166 36626,2024/03/04,2026-08-26,Delhi,India,Grocery,2,660.00,1320.00,Cash on Delivery,canceled,
+ORD-10086,CUST-2172,Pooja Iyer,pooja.iyer172@yahoo.com,+91 67285 37611,2025-04-13,2025-04-23,Hyderabad,India,Sports,1,4180.00,4180.00,UPI,Shipped,
+ORD-10087,CUST-2006,Pooja Gupta,null,+1 75001 67403,2024-06-25,2026-04-02,San Jose,United States,Books,2,270.00,540.00,Debit Card,Delivered,5
+ORD-10088,CUST-2098,gurpreet iyer,gurpreet.iyer98@rediffmail.com,+91 78575 12304,2024-04-13,2025-02-28,DELHI,India,Electronics,2,3440.00 INR,6880.00,Credit Card,Pending,
+ORD-10089,CUST-2306,Meera Reddy,meera.reddy306@hotmail.com,+91 92610 05112,14/01/2025,2025-05-16,Bombay,India,Sports,2,2990.00,5980.00,Net Banking,Delivered,4
+ORD-10138,CUST-2090,Ananya Desai,ananya.desai90@hotmail.com,+91 82896 10693,2023-05-13,23-07-2025,GURUGRAM,India,Electronics,1,41520.00,41520.00,Debit Card,Delivered,5
+ORD-10288,CUST-2129,Aditay Banerjee,aditya.banerjee129@gmail.com,N/A,2025-01-24,2026-06-23,Kolkata,India,Home & Kitchen,2,2900.00,5800.00,NetBanking,DELIVERED,5
+ORD-10090,CUST-2336,Ananya Singh,ananya.singh336@hotmail.com,+91 86652 00718,2024-12-30,00/00/0000,Kolkata,India,Grocery,3,1490.00,4470.00,Debit Card,Returned,5
+ORD-10091,CUST-2150,Sanjay Banerjee,sanjay.banerjee150@gmail.com,+91 64346 70863,2024-06-24,2026-04-10,Mumbai,India,Books,4,990.00,3960.00,Debit Card,Pending,
+ORD-10092,CUST-2218,Vikram Singh,vikram.singh218@rediffmail.com,+91 69512 53434,29/04/2024,2025-03-17,Mumbai,India,Sports,1,7120.00,7120.00,Net Banking,Delivered,2
+ORD-10093,CUST-2170,Neha Malhotra,neha.malhotra170@hotmail.com,+91 91572 02275,2024-07-16,2025-09-29,Jaipur,India,Electronics,5,22650.00,"113,250",Credit Card,Delivered,2
+ORD-10094,CUST-2312,Lakshmi Reddy,lakshmi.reddy312@outlook.com,+91 73563 87037,2023-02-10,2025-04-22,Ahmedabad,india,Books,2,370.00,740.00,Credit Card,Delivered,5
+ORD-10095,CUST-2314,Faisal Joshi,faisal.joshi314@rediffmail.com,+91 90631 08727,2025-04-18,08-01-2026,Pune,India,Sports,3 pcs,2670.00,10680.00,Cash on Delivery,delivered,0
+ORD-10272,CUST-2092,POOJA R. KULKARNI,POOJA.KULKARNI92@REDIFFMAIL.COM,+91 73719 12755,2023-02-08,07 Oct 2025,Kolkata,India,Grocery,2,Rs. 480,960.00,Credit Card,Delivered,5
+ORD-10096,CUST-2128,Gurpreet Mehta,gurpreet.mehta128@gmail.com,+65 69349 99805,2023-12-10,25-05-2026,Singapore,Singapore,Grocery,1,1190.00,1190.00,UPI,Delivered,5
+ORD-10097,CUST-2199,Karan Shetty,karan.shetty199@rediffmail.com,+91 82128 06224,05/05/2024,05 Feb 2026,Mumbai,India,Home & Kitchen,2,1850.00,3700.00,Net Banking,Delivered,0
+ORD-10098,CUST-2244,Manish Menon,manish.menon244@hotmail.com,07042902642,"March 30, 2024",13-03-2025,Gurugram,India,Books,3,660.00,1980.00,Net Banking,Delivered,1
+ORD-10099,CUST-2062,Gurpreet Chopra,gurpreet.chopra62@hotmail.com,+971 70992 96439,2023-04-20,03-01-2026,Dubai,United Arab Emirates,Beauty,4,2940.00,11760.00,UPI,Delivered,4
+ORD-10100,CUST-2323,Sneha Menon,sneha.menon323@hotmail.com,+91 65375 00738,2025-06-07,17/08/2026,Delhi,India,Sports,1,2350.00,2350.00,UPI,Pending,
+ORD-10101,CUST-2235,Nikhil Agarwal,nikhil.agarwal235@gmail.com,+91 87736 76501,2023-02-19,30-06-2025,Delhi,India,Grocery,2,790.00,1580.00,Credit Card,Delivered,5
+ORD-10102,CUST-2153,Priya Reddy,priya.reddy153@outlook.com,+91 63793 70294,2024-07-20,2026-01-03,Pune,India,Sports,4,8480.00,33920.00,Net Banking,DELIVERED,5
+ORD-10103,CUST-2097,Kavya Sharma,kavya.sharma97@hotmail.com,+91 68671 28617,2024-09-22,2026-08-31,Mumbai,India,Clothing,1,580.00,580.00,Cash on Delivery,Delivered,4
+ORD-10104,CUST-2329,Arjun Rao,arjun.rao329@rediffmail.com,757569663,2023-02-14,06 Apr 2026,chennai,India,Home & Kitchen,2,5410.00,10820.00,UPI,Pending,
+ORD-10105,CUST-2018,Arjun Agarwal,arjun.agarwal18@gmail.com,+91 88831 87696,2024-11-14,"February 13, 2025",Jaipur,India,Home & Kitchen,1,870.00,870.00,Cash on Delivery,Delivered,3
+ORD-10106,CUST-2234,Gurpreet Shetty,gurpreet.shetty234@yahoo.com,+1 89471 98029,2025-01-21,06 Sep 2026,New York,United States,Sports,1,"₹11,480.00",11480.00,Credit Card,Delivered,2
+ORD-10107,CUST-2250,Tanvi Kapoor,TANVI.KAPOOR250@YAHOO.COM,+91 85399 72994,2023-05-22,2026-09-26,Pune,India,Sports,1,890.00,890.00,Credit Card,Delivered,
+ORD-10108,CUST-2007,Divya Sharma,divya.sharma7@outlook.com,+91 66526 14498,2024-05-27,2025-11-11,Bengaluru,India,Clothing,1,3630.00,3630.00,Cash on Delivery,Returned,N/A
+ORD-10109,CUST-2087,Nikhil Patel,nikhil.patel87@hotmail.com,+91 63408 08865,2024/08/17,2025-04-19,Jaipur,India,Grocery,3,210.00,630.00,Cash on Delivery,Delivered,4
+ORD-10110,CUST-2112,Sanjay Desai,sanjay.desai112@rediffmail.com,+91 86065 51693,2023-02-12,16-02-2026,Mumbai,India,Electronics,1,18100.00,18100.00,Cash on Delivery,Delivered,5
+ORD-10111,CUST-2279,Manish Reddy,manish.reddy279@hotmail.com,+91 79509 64486,2023-08-23,2025/08/07,Ahmedabad,India,clothing,3,N/A,6120.00,Cash on Delivery,Cancelled,
+ORD-10112,CUST-2088,Lakshmi Rao,lakshmi.rao88@gmail.com,+971 99516 59488,2024-05-31,2025-05-25,Dubai,United Arab Emirates,Home & Kitchen,1,940.00,940.00,Credit Card,Cancelled,
+ORD-10113,CUST-2189,Kavya Patel,kavya.patel189@outlook.com,+91 99190 87622,2023-10-05,2026-08-19,New Delhi,India,Beauty,1,1040.00,1040.00,Cash on Delivery,Delivered,2
+ORD-10114,CUST-2192,Aarav Gupta,aarav.gupta192@gmail.com,69068-71524,2023-05-26,2026-05-14,Unknown,India,Grocery,1,450.00,450.00,UPI,Delivered,1
+ORD-10060,CUST-2201,Pooj aPillai,,+91 92050 82843,2023/08/27,2026/02/20,Bengaluru,India,Sports,2,7010.00,14020.00,Credit Card,Delivered,4
+ORD-10115,CUST-2333,Kavya Singh,kavya.singh333@outlook.com,NA,2024-09-11,2026-05-03,Kolkata,India,Beauty,1,1650.00,1650.00,Credit_Card,Shipped,
+ORD-10116,CUST-2073,Manish Reddy,manish.reddy73@outlook.com,+91 94354 26796,2024-04-14,26-02-2026,Mumbai,India,Sports,2,6040.00,12080.00,UPI,Delivered,3
+ORD-10117,CUST-2305,Kavya Joshi,kavya.joshi305@gmail.com,+91 75766 26521,2023-07-06,2025-04-01,Bengaluru,India,Clothing,2,2950.00,"5,900",Debit Card,Shipped,
+ORD-10118,CUST-2178,Sneha Joshi,sneha.joshi178@gmail.com,+91 82391 33626,2023-01-02,2025-07-16,Hyderabad,India,Books,2,150.00,300.00,UPI,Delivered,4
+ORD-10119,CUST-2316,Arjun Reddy,arjun.reddy316@hotmail.com,+91 96572 36092,2025-06-30,2026-03-16,Delhi,India,home & kitchen,5,8090.00,"40,450",Credit Card,Delivered,5
+ORD-10120,CUST-2141,Lakshmi Agarwal,lakshmi.agarwal141@gmail.com,+91 94215 22814,2024/07/29,"June 02, 2025",Pune,India,Electronics,1,17360.00,17360.00,Net Banking,Shipped,
+ORD-10121,CUST-2254,Priya Das,priya.das254@gmail.com,+91 66652 63576,"January 26, 2024","February 14, 2025",Pune,India,Clothing,2,1210.00,2420.00,Credit Card,Delivered,4
+ORD-10122,CUST-2222,Faisal Patel,faisal.patel222@hotmail.com,+91 90313 43962,31-08-2024,2026-04-10,Ahmedabad,India,Home & Kitchen,2,3720.00,7440.00,Cash on Delivery,Delivered,5
+ORD-10398,CUST-2253,Manish D. Reddy,manish.reddy253@yahoo.com,+91 70027 96107,2025-02-10,"October 03, 2025",Jaipur,India,Clothing,2,Rs. 410,820.00,Net Banking,Delivered,3
+ORD-10123,CUST-2090,Ananya Desai,ananya.desai90@hotmail.com,+91 82896 10693,2023-05-13,2025-04-29,Gurugram,India,Clothing,1,540.00,540.00,Net Banking,Delivered,3
+ORD-10108,CUST-2007,Divya Sharma,divya.sharma7@outlook.com,+91 66526 14498,2024-05-27,2025-11-11,Bengaluru,India,Clothing,1,3630.00,3630.00,Cash on Delivery,Returned,N/A
+ORD-10124,CUST-2303,Isha Desai,isha.desai303@gmail.com,+91 64323 08834,2024-12-05,"November 30, 2025",Ahmedabad,India,Beauty,1,1860.00,1860.00,Credit Card,Delivered,N/A
+ORD-10333,CUST-2167,Tanvi Menon,tanvi.menon167@rediffmail.com,+91 85653 86872,2024-08-27,2026-01-05,Delhi,India,Beauty,3,1180.00,3540.00,net-banking,Delivered,3
+ORD-10125,CUST-2050,Priya Bose,priya.bose50@yahoo.com,+91 80268 50785,2024-04-26,2026-01-20,Jaipur,India,Clothing,3,2510.00,7530.00,Cash on Delivery,Returned,2
+ORD-10126,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,2026-09-17,Gurugram,India ,Electronics,1,37200.00,37200.00,credit card,Delivered,4
+ORD-10127,CUST-2234,  Gurpreet Shetty ,gurpreet.shetty234@yahoo.com,+1 89471 98029,2025-01-21,2025-10-24,New York,United States,Sports,2,4470.00,8940.00,Cash on Delivery,Delivered,2
+ORD-10128,CUST-2030,Divya Gupta,divya.gupta30@rediffmail.com,+971 64869 59867,2024-03-12,2026-04-22,Abu Dhabi ,United Arab Emirates,Home & Kitchen,1,1690.00,1690.00,Debit Card,Delivered,3
+ORD-10129,CUST-2112,Sanjay Desai,sanjay.desai112@rediffmail.com,+91 86065 51693,2023-02-12,19-09-2026,Mumbai,India,Home & Kitchen,1,"₹6,480.00",6480.00,Cash on Delivery,Pending,
+ORD-10130,CUST-2283,Aditya Malhotra,aditya.malhotra283@gmail.com,+65 62435 67190,"April 23, 2025",05-09-2026,Singapore,Singapore,Grocery,1,630.00,630.00,Net Banking,Returned,3
+ORD-10131,CUST-2236,Neha Chopra,neha.chopra236@yahoo.com,+91 84166 36626,2024-03-04,2025-09-10,Delhi,India,Home & Kitchen,2,440.00,880.00,Credit Card,Delivered,4
+ORD-10132,CUST-2302,Zoya Menon,zoya.menon302@rediffmail.com,+91 85195 54784,2023-11-14,2026/03/04,Kolkata,India,Clothing,4,3330.00,13320.00,upi,Pending,
+ORD-10133,CUST-2240,Tanvi Banerjee,tanvi.banerjee240@hotmail.com,+91 88927 33144,2024-12-07,2026-06-28,Ahmedabad,India,Sports,1,10820.00 INR,10820.00,UPI,Deliverd,5
+ORD-10134,CUST-2231,Gurpreet Chopra,gurpreet.chopra231@yahoo.com,+91 77461 60271,2024-05-16,2025-01-13,Delhi,India,Books,1,450.00,450.00,Net Banking,Shipped,
+ORD-10135,CUST-2111,Sneha Singh,sneha.singh111@gmail.com,+91 68531 92952,2023-09-14,2025-04-03,Hyderabad,India,Clothing,1,2230.00,2230.00,credit card,Delivered,5
+ORD-10136,CUST-2235,Nikhil Agarwal,nikhil.agarwal235@gmail.com,+91 87736 76501,2023-02-19,2026-04-20,Delhi,India,Grocery,5,110.00,550.00,Net Banking,Cancelled,
+ORD-10137,CUST-2094,Deepak Rao,deepak.rao94@outlook.com,+91 75384 83994,2025-03-07,2025/03/08,Pune,India,Grocery,2,990.00,1980.00,Debit Card,Returned,2
+ORD-10138,CUST-2271,Kavya Pillai,kavya.pillai271@rediffmail.com,+91 81503 02996,2023-05-24,2025-10-04,Ahmedabad,India,Electronics,1,25790.00,25790.00,Cash on Delivery,Shipped,
+ORD-10139,CUST-2277,Rohan Nair,rohan.nair277@outlook.com,+91 98186 78162,2024-04-09,2025-03-24,Gurugram,India,Beauty,3,1260.00,3780.00,Debit Card,Shipped,
+ORD-10140,CUST-2028,Meera Agarwal,meera.agarwal28@gmail.com,+91 80923 81096,2024-04-11,24/04/2025,Pune,India,Beauty,4,2060.00,8240.00,UPI,Delivered,4
+ORD-10141,CUST-2187,Pooja Agarwal,pooja.agarwal187@gmail.com,+91 81172 87082,2023-09-27,2025-03-10,Gurugram,India,Home & Kitchen,2,2090.00,4180.00,Credit Card,Delivered,5
+ORD-10158,CUST-2302,Zoya Menon,zoya.menon302@rediffmail.com,851955478,2023-11-14,2025-10-19,Kolkata,India,Books,2,930.00,1860.00,UPI,Delivered,1
+ORD-10142,CUST-2171,Ananya Pillai,ananya.pillai171@gmail.com,+91 85774 24762,2024/04/05,2026-05-05,Chennai,India,Clothing,0,3160.00,"₹3,160.00",Cash on Delivery,Shipped,
+ORD-10143,CUST-2107,Kavya Reddy,kavya.reddy107@hotmail.com,+91 74352 24929,2023-07-24,01/10/2025,Delhi,India,Grocery,1,620.00,₹620.00,UPI,Delivered,4
+ORD-10144,CUST-2032,Siddharth Desai,siddharth.desai32@rediffmail.com,+91 72670 45424,2024-12-13,2026/05/29,Mumbai ,India,Home & Kitchen,1,3830.00,3830.00 INR,Cash on Delivery,Delivered,6
+ORD-10145,CUST-2272,Sneha Mehta,sneha.mehta272@outlook.com,+91 77432 40302,2024-02-02,2025-03-09,Ahmedabad,India,Home & Kitchen,,4920.00,9840.00,UPI,Delivered,NA
+ORD-10146,CUST-2041,Sneha Menon,sneha.menon41@yahoo.com,+91 83872 09074,2024-12-08,20/03/2025,Ahmedabad,India,Books,1,370.00,370.00,Credit Card,Delivered,3
+ORD-10147,CUST-2254,Priya Das,priya.das254@gmail.com,+91 66652 63576,2024-01-26,24-01-2025,Pune,IN,Clothing,2,1440.00,2880.00,Cash On Delivery,Delivered,5
+ORD-10148,CUST-2067,Lakshmi Khan,lakshmi.khan67@rediffmail.com,+91 64665 89120,2023-12-02,2025-01-22,Gurugram,India,Books,1,590.00,590.00,Credit Card,Delivered,2
+ORD-10149,CUST-2266,Sneha Gupta,sneha.gupta266@outlook.com,+91 81178 89945,2024-11-18,18 Dec 2025,Delhi,India,Sports ,1,7370.00,7370.00,DC,Shipped,
+ORD-10150,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,13 Apr 2024,2026-04-01,Gurgaon,India,Beauty,3,Unknown,8730.00,Debit Card,Delivered,4
+ORD-10151,CUST-2087,Nikhil Patel,nikhil.patel87@hotmail.com,+91 63408 08865,2024-08-17,16 Jan 2026,Jaipur,India,Grocery,1,710.00,710.00,UPI,Pending,
+ORD-10239,CUST-2073,ManishReddy,manish.reddy73@outlook.com,+91 94354 26796,2024-04-14,2025-10-09,Mumbai,India,Electronics,1,15840.00,15840.00,Cash on Delivery,Delivered,3
+ORD-10152,CUST-2075,Karan Kapoor,karan.kapoor75@yahoo.com,+91 95471 68584,28 Feb 2024,2025-06-20,Kolkata,India,Home & Kitchen,1,3210.00,3210.00,Cash on Delivery,Delivered,3
+ORD-10153,CUST-2146,Faisal Gupta,faisal.gupta146@hotmail.com,+91 82896 41717,2023-07-08,2025-06-07,Jaipur,India,Clothing,3,Rs. 1290,7740.00,Debit Card,DELIVERED,2
+ORD-10154,CUST-2294,-,rahul.gupta294@rediffmail.com,+91 83427 38211,2024-12-03,2025-07-08,Hyderabad,Ind,Clothing,1,2650.00,2650.00,Debit Card,Delivered,?
+ORD-10432,CUST-2087,Nikhil R. Patel,nikhil.patel87@hotmail.com,+91 63408 08865,2024-08-17,2025-04-24,Jaipur,India,Home & Kitchen,1,4500.00,4500.00,UPI,Delivered,4
+ORD-10155,CUST-2176,Sanjay Shetty,,+91 67398 43251,2025-03-18,2025-08-31,Kolkata,India,Clothing,1,"2,300",2300.00,UPI,Delivered,2
+ORD-10156,CUST-2207,Shreya Sharma,shreya.sharma207@hotmail.com,+65-9875138661,2023-05-25,2026-04-15,Singapore,Singapore,Books,1,1130.00 INR,1130.00,Credit Card,Pending,
+ORD-10157,CUST-2002,Karan Reddy,karan.reddy2@outlook.com,+91 86875 93586,2024/08/14,06/12/2025,Hyderabad,India,Sports,5,11680.00,58400.00,Debit Card,Shipped,
+ORD-10158,CUST-2242,Deepak Das,deepak.das242@rediffmail.com,+91 74484 06085,2025-01-11,"August 21, 2026",Gurugram,India,Home & Kitchen,5,8020.00,40100.00,Cash on Delivery,Shipped,
+ORD-10159,CUST-2226,Divya Banerjee,divya.banerjee226@outlook.com,+91 82109 68278,2023-07-12,06-05-2026,Bengaluru,India,Home & Kitchen,1,7350.00,7350.00,Credit Card,Pending,
+ORD-10160,CUST-2282,Deepak Nair,deepak.nair282@gmail.com,+919154957318,2025-02-04,2025-09-17,Hyderabad,India,Electronics,1,26730.00,26730.00,UPI,Delivered,2
+ORD-10161,CUST-2311,Nikhil Malhotra,nikhil.malhotra311@yahoo.com,+91 73010 69960,2024-12-19,2025-08-16,Jaipur,India,Sports,2,4490.00,Rs. 8980,debit card,Cancelled,
+ORD-10162,CUST-2100,Manish Desai,manish.desai100@gmail.com,+91 63469 20737,2025-03-01,2026-05-31,,India,Electronics,2,8340.00,16680.00,UPI,Shipped,
+ORD-10163,CUST-2262,Harsh Verma,harsh.verma262@gmail,+91 60755 22364,"February 03, 2024",2026-09-10,Delhi,India,Books,1,₹390.00,390.00,Debit Card,Delivered,5
+ORD-10164,CUST-2203,Nikhil Verma,nikhil.verma203@hotmail.com,+91 89079 55198,2024-07-09,2026-01-17,Chennai,India,Clothing,1,2580.00,2580.00,Debit Card,Delivered,nan
+ORD-10165,CUST-2228,Siddharth Rao,siddharth.rao228@outlook.com,+91 99658 88101,2025-01-12,2026-04-11,JAIPUR,India,Grocery,1,1480.00,1480.00,Net Banking,Cancelled,
+ORD-10166,CUST-2226,Divya Banerjee,divya.banerjee226@outlook.com,+91 82109 68278,2023-07-12,11/03/2026,Bengaluru,India,Home & Kitchen,3,1970.00,5910.00,Net Banking,Shipped,
+ORD-10167,CUST-2071,Lakshmi Verma,lakshmi.verma71@rediffmail.con,+91 77285 58277,2023-01-03,07 Nov 2025,Madras,India,Grocery,1,270.00,243.00,Debit Card,Delivered,5
+ORD-10168,CUST-2033,Zoya Pillai,zoya.pillai33@hotmail.com,+91 69238 85778,2023-08-13,2026-02-24,Chennai,India,Beauty,1,2120.00,2120.00,Debit Card,Shipped,
+ORD-10460,CUST-2257,Aarav Verma,aarav.verma257@gmail.com,+91 70957 68375,13-03-2025,2025-07-18,Kolkata,India,Beauty,1,260.00,260.00,Credit Card,Delivered,5
+ORD-10212,CUST-2292,Siddharth Menon,siddharth.menon292@rediffmail.com,+971 84992 25074,2023-02-03,10 Jun 2025,Abu Dhabi,United Arab Emirates,Books,2,750.00,1500.00,Net banking,Delivered,4
+ORD-10169,CUST-2212,Meera Gupta,meera.gupta212@gmail.com,+91 95813 42661,2023-07-31,2026-08-05,Bengaluru,India,Clothing,1,3240.00,3240.00,Credit Card,Cancelled,
+ORD-10170,CUST-2102,Arjun Patel,arjun.patel102@gmail.com,+91 63338 40628,2025-06-05,2026-02-11,Kolkata,India,Clothing,1,2350.00,2350.00,Cash on Delivery,Delivered,5
+ORD-10171,CUST-2155,Rohan Sharma,rohan.sharma155@gmail.com,,2024-09-03,2025-08-18,Singapore,Singapore,Books,2,860.00,1720.00,Debit Card,Delivered,1
+ORD-10172,CUST-2153,Priya Reddy,priya.reddy153@outlook.com,+91 63793 70294,2024-07-20,22 Oct 2025,Pune,India,Sports,1,10170.00,10170.00,Credit Card,Delivered,4
+ORD-10173,CUST-2014,Sanjay Desai,sanjay.desai14@outlook.com,69814-24039,2025-03-13,2025-05-20,Ahmedabad,Ind,Electronics,1,24200.00,24200.00,Net Banking,Delivered,4
+ORD-10174,CUST-2289,Karan Banerjee,karan.banerjee289@outlook.com,+91 76239 50820,2023-03-19,"May 03, 2026",Jaipur,India,Books ,2,480.00,960,UPI,Pending,
+ORD-10175,CUST-2191,Pooja Nair,pooja.nair191@yahoo.com,+91 87239 97757,07 Jan 2023,"June 16, 2025",Pune,India,BEAUTY,3,280.00,840.00,Net Banking,Delivered,3
+ORD-10176,CUST-2069,Pooja Shetty,pooja.shetty69@yahoo.com,,30-03-2024,2026-01-05,Singapore,Singapore,Home & Kitchen,1,1970.00,Rs. 1970,Debit Card,DELIVERED,5
+ORD-10177,CUST-2024,Rahul Iyer,rahul.iyer24@outlook.com,+1 83568 30825,09/02/2023,2025-03-20,New York,United States,Home & Kitchen,2,3280.00,6560.00,Credit Card,Delivered,5
+ORD-10178,CUST-2048,Harsh Kulkarni,harsh.kulkarni48@yahoo.com,+91 90227 58112,2023-09-30,2025/11/20,Bangalore,India,Beauty,2,1050.00,2100.00,Debit Card,Returned,5
+ORD-10179,CUST-2138,ANJALI RAO,anjali.rao138@gmail.com,+91 68478 02105,08 Sep 2023,17 Aug 2026,Mumbai,India,Sports,1,7920.00,7920.00,Credit Card,DELIVERED,3
+ORD-10180,CUST-2265,Zoya Desai,zoya.desai265@rediffmail.com,+91 60559 37934,2023-05-26,2026-02-26,Bengaluru,India,Home & Kitchen,3,4110.00,12330.00,UPI,Delivered,5
+ORD-10181,CUST-2111,Sneha Singh,sneha.singh111@gmail.com,+91 68531 92952,2023-09-14,2025-07-12,Hyderabad,India,Clothing,1,2970.00,2970.00,Cash on Delivery,Cancelled,
+ORD-10182,CUST-2314,Faisal Joshi,faisal.joshi314@rediffmail.com,+91 90631 08727,2025-04-18,12 Aug 2025,Pune,India,Sports,3,11260.00,33780.00,UPI,Deliverd,5
+ORD-10183,CUST-2067,Lakshmi Khan,lakshmi.khan67@rediffmail.com,+91 64665 89120,2023-12-02,2026-01-07,Gurugram,India,Electronics,1,40780.00,40780.00,Cash on Delivery,Delivered,4
+ORD-10184,CUST-2267,Rahul Reddy,rahul.reddy267@outlook.com,+91 99362 20143,2024-12-11,2025-11-08,Gurugram,India,Grocery,1,920.00,920.00,Credit Card,Delivered,5
+ORD-10185,CUST-2065,Priya Pillai,priya.pillai65@yahoo.com,+917027115959,2023-09-21,2025-11-11,Ahmedabad,India,GROCERY,2,410.00,820.00,UPI,Delivered,3
+ORD-10186,CUST-2217,Rahul Verma,rahul.verma217@hotmail.com,+971 60558 59075,26 Apr 2023,2026-05-11,Abu Dhabi,United Arab Emirates,Sports,1,2780.00,2780.00,UPI,Cancelled,
+ORD-10187,CUST-2100,Manish Desai,manish.desai100@gmail.com,(+91) 6346920737,2025-03-01,08-08-2026,N/A,India,Electronics,3,4180.00,12540.00,debit card,Delivered,4
+ORD-10188,CUST-2022,Gurpreet Bose,gurpreet.bose22@hotmail.com,+17921714197,"April 01, 2025",2025/07/08,New York,U.S.A.,Electronics,2,26210.00,52420.00,Cash On Delivery,Cancelled,
+ORD-10189,CUST-2105,Ritu Bose,ritu.bose105@gmail.com,+91 60638 69167,2023-05-10,26/12/2025,Delhi,India,Beauty,1,"₹1,220.00",1220.00,Debit Card,Delivered,3
+ORD-10190,CUST-2296,Lakshmi Menon,lakshmi.menon296@rediffmail.com,+91 63608 46433,24 Jul 2024,2026-05-28,Chennai,India,Home & Kitchen,1,3900.00,3900.00,Cash on Delivery,Cancelled,
+ORD-10445,CUST-2224,Sanjay Gupta,sanjay.gupta224@yahoo.com,+91 86589 64118,2023-09-16,2025-06-15,Gurugram,India,Clothing,3,2810.00,8430.00,UPI,Delivered,1
+ORD-10191,CUST-2123,Manish Khan,manish.khan123@yahoo.com,+91 74556 86824,2023-10-13,2026-08-16,Jaipur,India,Beauty,1,540.00,540,Cash on Delivery,Cancelled,
+ORD-10192,CUST-2111,Sneha Singh,sneha.singh111@gmail.com,+91 68531 92952,2023-09-14,2025-06-25,Hyderabad,India,Sports,5,4420.00,22100.00,cod,Pending,
+ORD-10195,CUST-2109,Lakshmi P. Das,LAKSHMI.DAS109@GMAIL.COM,+91 69724 35491,2023-03-09,2027-08-15,Chennai,India,Beauty,1,1360.00,1360.00,Credit Card,Delivered,2
+ORD-10193,CUST-2002,Karan Reddy,karan.reddy2@outlook.com,+91 86875 93586,2024-08-14,"June 01, 2026",Hyderabad ,India,Sports,4,none,10080.00,cash on delivery,Returned,4
+ORD-10194,CUST-2094,Deepak Rao,deepak.rao94@outlook.com,NA,2025-03-07,2025-09-08,Pune,India,Books,5,1010.00,5050.00,Net Banking,Returned,5
+ORD-10195,CUST-2109,Lakshmi Das,lakshmi.das109@gmail.com,+91 69724 35491,2023-03-09,2027-08-15,Chennai,India,Beauty,1,1360.00,1360.00,Credit Card,Delivered,2
+ORD-10196,CUST-2253,Manish Reddy,manish.reddy253@yahoo.com,null,2025-02-10,2026-09-03,Jaipur,India,Grocery,2,970.00,1940.00,UPI,Shipped,
+ORD-10197,CUST-2167,Tanvi Menon,tanvi.menon167@rediffmail.com,+91 85653 86872,2024-08-27,2026-04-13,Delhi,India,Books,1,290.00,290.00,Net Banking,Delivered,4
+ORD-10198,CUST-2115,Ananya Verma,ananya.verma115@outlook.com,+91 62202 36281,2024-08-14,15/03/2026,Calcutta,India,Beauty,1,2280.00,2280.00,Net Banking,Delivered,2
+ORD-10199,CUST-2188,Sanjay Iyer,sanjay.iyer188@gmail.com,+91 80811 78617,2023-02-15,2026-05-19,Mumbai,India,Clothing,5,460.00,Rs. 2300,net-banking,Shipped,
+ORD-10200,CUST-2224,Sanjay Gupta,sanjay.gupta224@yahoo.com,+91 86589 64118,2023-09-16,09/02/2026,Gurugram,India,Beauty,1,630.00,630.00,UPI,delivered,4
+ORD-10201,CUST-2086,?,aditya.pillai86@outlook.com,+91 96869 39344,2025-03-26,2026-03-07,Chennai,India,Electronics,Unknown,31290.00,156450.00,Net Banking,Delivered,5
+ORD-10202,CUST-2062,Gurpreet Chopra,gurpreet.chopra62@hotmail.com,+971 70992 96439,20 Apr 2023,2025-10-13,Dubai ,United Arab Emirates,Clothing,02,2570.00,5140.00,Cash on Delivery,Cancelled,
+ORD-10203,CUST-2303,Isha Desai,isha.desai303@gmail.com,+91 64323 08834,05-12-2024,2026-02-14,NULL,India,Home & Kitchen,3,8040.00,24120.00,Net Banking,Delivered,5
+ORD-10204,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,2026-04-11,Gurugram,India,Beauty,1,1620.00,1620.00,Net Banking,Delivered,3
+ORD-10205,CUST-2118,Aditya Desai,aditya.desai118@gmail.com,+91 61039 53164,2023-02-16,2025-02-24,Mumbai,India,Sports,1,3250.00,3250.00,UPI ,Returned,4
+ORD-10206,CUST-2091,Harsh Iyer,harsh.iyer91@rediffmail.com,+91 96317 99906,2024-01-06,2025-06-06,Mumbai,India,Books,2,920.00,1840.00,upi,Delivered,4
+ORD-10207,CUST-2338,Anjali Chopra,anjali.chopra338@rediffmail.com,+91 96884 76873,2024-08-31,2026-04-23,Jaipur,India,Grocery,3,1380.00,4140.00,Net Banking,Delivered,5
+ORD-10208,CUST-2258,Manish Gupta,manish.gupta258@rediffmail.com,+65 67154 38632,2024-06-27,2026-07-08,Singapore,Singapore,Home & Kitchen,1,5850.00,5850.00,UPI,Delivered,5
+ORD-10209,CUST-2220,Faisal Menon,faisal.menon220@hotmail.com,+916923773760,2023-08-05,21 Jan 2026,Pune,India,Electronics,1,32920.00,32920.00,Credit Card,Delivered,1
+ORD-10210,CUST-2285,Sanjay Menon,sanjay.menon285@outlook.com,+91 78951 75666,2023-09-02,2025-06-18,Mumbai,India,Sports,4,6700.00,26800.00,NetBanking,Delivered,3
+ORD-10348,CUST-2027,Ritu Pillai,ritu.pillai27@yahoo.com,+91 63276 34657,2024-11-05,2026/05/03,nan,India,Beauty,1,2870.00,2870.00,Cash on Delivery,Delivered,1
+ORD-10211,CUST-2249,Manish Singh,manish.singh249@yahoo.com,+1 65098 45915,2023-04-17,2026-05-18,San Jose,USA,Grocery,2,330.00,660.00,Cash on Delivery,Shipped,
+ORD-10212,CUST-2292,Siddharth Menon,siddharth.menon292@rediffmail.com,+971 84992 25074,2023-02-03,10 Jun 2025,Abu Dhabi,United Arab Emirates,Books,2,750.00,1500.00,Net banking,Delivered,4
+ORD-10213,CUST-2302,Zoya Menon,zoya.menon302@rediffmail.com,851955478,2023-11-14,2025-10-19,Kolkata,India,Books,2,930.00,1860.00,UPI,Delivered,1
+ORD-10214,CUST-2065,Priya Pillai,priya.pillai65@yahoo.com,+91 70271 15959,2023-09-21,2026-08-21,Ahmedabad, India,Grocery,1,980.00,Rs. 980,Debit Card,Delivered,5
+ORD-10215,CUST-2194,Kavya Kulkarni,kavya.kulkarni194gmail.com,+91 89383 42917,2023-06-09,2026-01-01,Delhi,India,Electronics,1,36570.00,36570.00,Credit Card,Deliverd,2
+ORD-10216,CUST-2126,Vikram Reddy,vikram.reddy126@gmail.com,+91 72656 04717,2024-07-17,2025-03-28,Bangalore,India,Clothing,1,3710.00,3710.00,UPI,Pending,
+ORD-10217,CUST-2156,Zoya Khan,zoya.khan156@outlook.com,+91 93099 95131,2023-10-02,2026-07-06,Ahmedabad,India,Electronics,1,29150.00,29150.00,Net Banking,Delivered,4
+ORD-10218,CUST-2290,Anjali Mehta,anjali.mehta290@outlook.com,(+91) 8251791722,31-07-2023,26 Apr 2026,Hyderabad,India,Beauty,1,2350.00,2350.00,Net Banking,Delivered,
+ORD-10219,CUST-2292,Siddharth Menon,siddharth.menon292@rediffmail.com,+971 84992 25074,2023-02-03,2026-05-16,Abu Dhabi,United Arab Emirates,Books,2,560.00,1120.00,Debit Card,Delivered,5
+ORD-10220,CUST-2254,Priya Das,priya.das254@gmail.com,+91 66652 63576,2024-01-26,2025-11-03,Pune,India,Beauty,1,"1,930",1930.00,Net Banking,Deliverd,4
+ORD-10221,CUST-2325,NIKHIL AGARWAL,NIKHIL.AGARWAL325@YAHOO.COM,+91 92310 50305,2025-02-19,2026-08-21,Bengaluru,India,Groceries,3,240.00,720.00,Debit Card,Delivered,3
+ORD-10222,CUST-2293,Karan Shetty,karan.shetty293@outlook.com,+91 99646 02536,2023-07-11,"April 05, 2025",Jaipur,India,Books,1,1170.00,1170.00,Cash on Delivery,Shipped,
+ORD-10223,CUST-2048,Harsh Kulkarni,harsh.kulkarni48@yahoo.com,+91 90227 58112,30/09/2023,04/08/2026,Bengaluru,India,Beauty,1,1920.00,2112.00,Net Banking,Cancelled,
+ORD-10223,CUST-2048,Hash Kulkarni,harsh.kulkarni48@yahoo.com,+91 90227 58112,30/09/2023,04/08/2026,Bengaluru,India,Beauty,1,1920.00,2112.00,Net Banking,Cancelled,
+ORD-10224,CUST-2218,Vikram Singh,vikram.singh218@rediffmail.com,NA,2024/04/29,2025/11/06,Mumbai,India,Clothing,3,2170.00,6510.00,Cash on Delivery,DELIVERED,4
+ORD-10225,CUST-2160,Aarav Rao,aarav.rao160@yahoo.com,+91 74268 74462,02 Jan 2025,2026-06-13,Pune,India,Clothing,1,2520.00,2520.00,Credit Card,Delivered,5
+ORD-10226,CUST-2009,Anjali Das,anjali.das9@hotmail.com,+91 82250 78951,2024-07-16,14-08-2026,Bangalore,India,Sports,3,11070.00,33210.00,Net banking,Delivered,5
+ORD-10227,CUST-2137,Divya Khan,divya.khan137@yahoo.com,+91 78794 74324,2023-10-10,2026-03-21,Hyderabad,India,Sports,3,11410.00,34230.00,U.P.I,Pending,
+ORD-10228,CUST-2267,Rahul Reddy,rahul.reddy267@outlook.com,+91 99362 20143,2024-12-11,2025-09-04,Gurugram,india,Clothing,1,2260.00,2260.00,Debit Card,Delivered,5
+ORD-10229,CUST-2222,Faisal Patel,none,9031343962,2024-08-31,2025-03-07,Ahmedabad,India,Books,3,550.00,1650.00,Net Banking,Shipped,
+ORD-10230,CUST-2136,Neha Mehta,neha.mehta136@outlook.com,+91 93849 30981,2023-05-02,2025-09-20,Bengaluru,India,grocery,2,780.00,1560.00,Credit Card,Shipped,
+ORD-10231,CUST-2207,Shreya Sharma,shreya.sharma207@hotmail.com,+65 98751 38661,2023-05-25,2025-01-29,Singapore,Singapore,Clothing,1,980,980.00,NetBanking,Delivered,5
+ORD-10232,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,07/02/2025,Gurugram,India,Beauty,1,2430.00,2430.00,UPI,Delivered,3
+ORD-10233,CUST-2132,ANJALI MALHOTRA,anjali.malhotra132@rediffmail.com,+91 66932 94493,"April 27, 2024",2025-06-30,Jaipur,India,Grocery,2,760.00,1520.00,UPI,Shipped,
+ORD-10234,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,2025-03-27,Gurugram,India,Grocery,1,100.00,100.00,UPI,Delivered,4
+ORD-10235,CUST-2208,Shreya Iyer,shreya.iyer208@gmail.com,+91 81807 68422,2023-12-25,2025-04-03,Chennai,India,Home & Kitchen,2,7170.00,14340.00,Credit Card,Delivered,5
+ORD-10236,CUST-2120,Faisal Agarwal,faisal.agarwal120@rediffmail.com,+91 84031 43886,2024-04-30,2026-06-19,Unknown,India,Electronics,4,42480.00,169920.00,Cash on Delivery,Shipped,
+ORD-10237,CUST-2268,Vikram Pillai,vikram.pillai268@outlook.com,+91 89137 76236,2025-06-17,2025-10-16,Ahmedabad,India,Home & Kitchen,4,5380.00,21520.00,Debit Card,Delivered,5
+ORD-10238,CUST-2168,Tanvi Singh,tanvi.singh168@yahoo.com,+91 73165 41316,2024-07-22,2025-08-30,Bengaluru,India,Grocery,3,1040.00,3120.00,Credit Card,Pending,
+ORD-10239,CUST-2073,Manish Reddy,manish.reddy73@outlook.com,+91 94354 26796,2024-04-14,2025-10-09,Mumbai,India,Electronics,1,15840.00,15840.00,Cash on Delivery,Delivered,3
+ORD-10258,CUST-2307,Kavya Iyer,kavya.iyer307@yahoo.com,+91 92474 36007,27 Feb 2023,2025-07-13,Chennai,India,Clothing,2,"1,840",3680.00,Credit Card,Delivered,4
+ORD-10240,CUST-2028,Meera Agarwal,Unknown,+91 80923 81096,2024-04-11,2025-04-26,Pune,India,Books,1,830.00,830.00,Credit Card,Delivered,4
+ORD-10241,CUST-2142,Neha Desai,neha.desai142@rediffmail.com,+91 92269 80712,2024-09-09,2026-01-12,Mumbai,INDIA,Grocery,1,420.00,420.00,Cash on Delivery,Returned,1
+ORD-10242,CUST-2017,Siddharth Joshi,siddharth.joshi17@gmail.com,+91 82362 37049,2023-03-17,2025-09-03,Jaipur,India,Grocery,2,180.00,360.00,Debit Card,Delivered,4
+ORD-10243,CUST-2062,Gurpreet Chopra,gurpreet.chopra62@hotmail.com,+971 70992 96439,2023-04-20,2026-02-02,Dubai,United Arab Emirates,Beauty,3,1410.00,4230.00,DC,Delivered,5
+ORD-10244,CUST-2154,Neha Mehta,neha.mehta154@outlook.com,09067701767,2024-01-05,2025-06-14,Delhi,India,Electronics,1,20780.00,20780.00,Debit Card,PENDING,
+ORD-10245,CUST-2329,Arjun Rao,arjun.rao329@rediffmail.com,+91 75756 96639,2023-02-14,"March 24, 2025",Chennai,IN,Books,1,Unknown,1160.00,Net Banking,Returned,5
+ORD-10246,CUST-2211,Ritu Menon,ritu.menon211@rediffmail.com,991811216,2023-09-29,13 Apr 2025,Chennai,India,Grocery,2,900.00,1800.00,Cash on Delivery,Returned,5
+ORD-10247,CUST-2033,Zoya Pillai,nan,+91 69238 85778,2023-08-13,2026-07-15,Chennai,India,Home & Kitchen,2,4600.00,9200.00,Net Banking,SHIPPED,
+ORD-10248,CUST-2014,Sanjay Desai,sanjay.desai14@outlook.com,+91 69814 24039,2025-03-13,2025-09-17,Ahmedabad,India,Grocery,2,180.00,360.00,Credit Card,Shipped,
+ORD-10093,CUST-2170,NehaMalhotra,neha.malhotra170@hotmail.com,+91 91572 02275,2024-07-16,2025-09-29,Jaipur,India,Electronics,5,22650.00,"113,250",Credit Card,Delivered,2
+ORD-10249,CUST-2001,Arjun Malhotra,arjun.malhotra1@outlook.com,+91 92580 86319,2023-04-15,18/11/2025,Delhi,India,Books,-2,400.00,800.00,Credit Card,Delivered,2
+ORD-10250,CUST-2264,Faisal Shetty,faisal.shetty264@outlook.com,+91 75137 59169,2023-01-12,2026-02-25,Jaipur,India,Sports,3,3160.00,9480.00,DC,Cancelled,
+ORD-10251,CUST-2231,Gurpreet Chopra,gurpreet.chopra231@yahoo.com,+91 77461 60271,16/05/2024,2025-06-27,Delhi,India,Books,1,1090.00,1090.00,Debit Card,Shipped,
+ORD-10252,CUST-2144,Harsh Nair,harsh.nair144@hotmail.com,null,2025-02-18,"August 23, 2025",Kolkata,India,Clothing,1,83000.00,830.00,Cash on Delivery,Delivered,4
+ORD-10253,CUST-2114,Rohan Malhotra,rohan.malhotra114@outlook.com,+91 94431 83933,2024-06-11,2026-09-19,Jaipur,India,Electronics,4,3380.00,13520.00,UPI,Shipped,
+ORD-10254,CUST-2236,Neha Chopra,neha.chopra236@yahoo.com,+91 84166 36626,2025-09-10,2025-06-22,Delhi,India,Clothing,2,Unknown,3480.00,Cash on Delivery,Delivered,7
+ORD-10255,CUST-2133,Lakshmi Shetty,-,+91 76575 53918,2023-07-27,24 Jun 2025,Gurugram,India,Clothing,5,850.00,4250.00,UPI,Pending,
+ORD-10256,CUST-2007,Divya Sharma,divya.sharma7@outlook.com,+91 66526 14498,2024-05-27,2026-04-10,Bengaluru,India,Sports,1,11260.00,11260.00,Credit Card,Returned,4
+ORD-10257,CUST-2104,Rohan Bose,rohan.bose104@gmail.com,+91 75306 36463,2025-01-14,2026-06-04,Kolkata,India,CLOTHING,1,1760.00,1760.00,Credit Card,Delivered,4
+ORD-10258,CUST-2307,Kavya Iyer,kavya.iyer307@yahoo.com,+91 92474 36007,27 Feb 2023,2025-07-13,Chennai,India,Clothing,2,"1,840",3680.00,Credit Card,Delivered,4
+ORD-10259,CUST-2014,Sanjay Desai,Unknown,6981424039,2025-03-13,2026-06-17,Ahmedabad,India,Home & Kitchen,1,2980.00,2980.00,Debit Card,Pending,
+ORD-10260,CUST-2298,Gurpreet Iyer,gurpreet.iyer298@gmail.com,+91 84986 94649,2023-06-15,2026/04/26,Kolkata,India,Sports,1,9880.00,9880.00,net-banking,Delivered,4
+ORD-10261,CUST-2108,Vikram Iyer,vikram.iyer108@yahoo.com,998996752,2024-12-29,04-09-2026,Bengaluru,India,Sports,2,8350.00,16700.00,UPI,Delivered,2
+ORD-10262,CUST-2026,Rohan Shetty,rohan.shetty26@hotmail.com,+65 86195 63651,2024-11-24,2025-12-29,Singapore,Singapore,Home & Kitchen,1,2700.00,2700.00,Cash on Delivery,Pending,
+ORD-10263,CUST-2023,Rahul Mehta,rahul.mehta23@yahoo.com,+91 63041 93882,2024-02-13,2026-01-26,Kolkata,India,Electronics,2,22270.00,44540.00,DC,Delivered,4
+ORD-10264,CUST-2067,Lakshmi Khan,lakshmi.khan67@rediffmail.com,+91 64665 89120,2023-12-02,2025-09-24,Gurugram,India,Beauty,2,410.00,820.00,Debit Card,Delivered,4
+ORD-10265,CUST-2239,Aditya Kulkarni,aditya.kulkarni239@gmail.com,+91 60102 83707,2023-01-10,2026/06/28,Bengaluru,India,clothing,1,850.00,850.00,Debit Card,Delivered,3
+ORD-10266,CUST-2022,Gurpreet Bose,gurpreet.bose22@hotmail.com,+1 79217 14197,2025-04-01,2026-01-13,New York,United States,Clothing,4,Rs. 2950,11800.00,Net Banking,Cancelled,
+ORD-10267,CUST-2144,Harsh Nair,harsh.nair144@hotmail.com,+91 75735 32540,2025-02-18,2025-11-15,null,India,Home & Kitchen,3,6570.00,19710.00,Credit Card,Delivered,4
+ORD-10268,CUST-2161,Lakshmi Khan,lakshmi.khan161@rediffmail.com,+91 95598 40978,15-10-2024,2025-06-04,Delhi,India,Sports ,3,10560.00,31680.00,Net Banking,Delivered,5
+ORD-10269,CUST-2027,Ritu Pillai,ritu.pillai27@yahoo.com,+91 63276 34657,2024-11-05,2025-07-07,Delhi,India,Clothing,1,1160.00,1160.00,Net Banking,Delivered,null
+ORD-10270,CUST-2223,Sneha Menon,sneha.menon223@yahoo.com,+91 83828 00087,2025-05-27,2025-11-25,Hyderabad,India,Electronics,1,42040.00,42040.00,Cash on Delivery,Pending,
+ORD-10271,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,2025-06-01,Gurugram,india,Books,-,780.00,780.00,Debit Card,Delivered,2
+ORD-10272,CUST-2092,POOJA KULKARNI,pooja.kulkarni92@rediffmail.com,+91 73719 12755,2023-02-08,07 Oct 2025,Kolkata,India,Grocery,2,Rs. 480,960.00,Credit Card,Delivered,5
+ORD-10273,CUST-2298,Gurpreet Iyer,gurpreet.iyer298@gmail.com,(+91) 8498694649,2023-06-15,2025-07-04,Kolkata,India,Electronics,3,44590.00,133770.00,Net Banking,Delivered,
+ORD-10274,CUST-2048,HARSH KULKARNI,harsh.kulkarni48@yahoo.com,+91 90227 58112,2023-09-30,"May 05, 2025",Bengaluru,India,Home & Kitchen,1,Rs. 560,560.00,UPI,Delivered,4
+ORD-10275,CUST-2165,Tanvi Mehta,tanvi.mehta165@hotmail.com,+65 75534 47616,2023-01-30,2026-05-07,Singapore,Singapore,Clothing,1,540.00,540.00,Cash on Delivery,Deliverd,5
+ORD-10276,CUST-2336,Ananya Singh,ananya.singh336@hotmail.com,+91 86652 00718,2024-12-30,2026-09-30,null,India,Electronics,5,28480.00,142400.00 INR,Debit Card,Pending,
+ORD-10277,CUST-2291,ARJUN GUPTA,?,+91 81196 66750,2024-01-16,17/10/2025,Gurugram,India,Clothing,3,1480.00,4440.00,UPI,Delivered,2
+ORD-10278,CUST-2280,Lakshmi Khan,lakshmi.khan280@gmail.com,+91 64279 05520,2024/08/14,2025-09-19,Jaipur,India,Beauty,1,2150.00,2150.00,Net Banking,Delivered,5
+ORD-10279,CUST-2045,Nikhil Kulkarni,nikhil.kulkarni45@yahoo.com,+91 93928 10456,2023-06-02,2026-02-17,Gurugram,India,Electronics,1,18550.00,18550.00 INR,Credit Card,Delivered,5
+ORD-10280,CUST-2061,Manish Bose,manish.bose61@outlook.com,+917108629142,2024-11-13,2025-11-14,Mumbai,India,Home & Kitchen,3,Rs. 5320,15960.00,Cash on Delivery,Pending,
+ORD-10281,CUST-2067,Lakshmi Khan,null,+91 64665 89120,2023-12-02,2026-01-12,Gurugram,India,Home & Kitchen,1,7110.00,7110.00,Net Banking,Delivered,4
+ORD-10282,CUST-2243,Kavya Shetty,kavya.shetty243@gmail.com,+91 64746 61886,2024-10-20,2025-04-03,Bengaluru,India,Home & Kitchen,2,6060.00,12120.00,Debit Card,Cancelled,
+ORD-10283,CUST-2314,Faisal Joshi,faisal.joshi314@rediffmail.com,+91 90631 08727,2025-04-18,22/07/2025,Pune,India,Clothing,2,2620.00,5240.00,Net Banking,Delivered,
+ORD-10284,CUST-2114,Rohan Malhotra,ROHAN.MALHOTRA114@OUTLOOK.COM,+91 94431 83933,11/06/2024,2026-06-24,Jaipur,India,Sports,4,3670.00,14680.00,Cash on Delivery,Shipped,
+ORD-10285,CUST-2042,Sanjay Malhotra,sanjay.malhotra42@outlook.com,+91 60263 54547,2023/12/27,2026-05-05,Ahmedabad,India,Home & Kitchen,1,5090.00 INR,5090.00,Debit Card,Delivered,5
+ORD-10286,CUST-2127,Neha Banerjee,neha.banerjee127@gmail.com,+65 94193 69055,2023-06-29,18 Feb 2025,Singapore,Singapore,Beauty,1,2380.00,2380.00,Cash on Delivery,Delivered,5
+ORD-10287,CUST-2055,Neha Menon,neha.menon55@outlook.com,+1 74115 71078,2025-03-17,2026-07-05,San Jose,United States,Beauty,1,2370.00,"₹2,370.00",Cash on Delivery,Shipped,
+ORD-10288,CUST-2129,Aditya Banerjee,aditya.banerjee129@gmail.com,N/A,2025-01-24,2026-06-23,Kolkata,India,Home & Kitchen,2,2900.00,5800.00,NetBanking,DELIVERED,5
+ORD-10289,CUST-2091,Harsh Iyer,harsh.iyer91@rediffmail.com,+91 96317 99906,2024-01-06,2025-02-16,Bombay,India,Grocery,3,510.00,1530.00,Debit Card,Delivered,5
+ORD-10290,CUST-2160,Aarav Rao,aarav.rao160@yahoo.com,+91 74268 74462,2025-01-02,2026-04-07,Pune,India,Beauty,3,2520.00,7560.00,Debit Card,Shipped,
+ORD-10291,CUST-2174,Anjali Patel,anjali.patel174@hotmail.com,+1 77113 28316,2024-01-20,2025-03-22,San Jose,United States,Grocery,1,520.00,520.00,Cash on Delivery,Cancelled,
+ORD-10292,CUST-2132,Anjali Malhotra,anjali.malhotra132@rediffmail.com,+91 66932 94493,2024-04-27,2025-01-19,Jaipur,India ,Grocery,1,320.00,320.00,credit card,Delivered,2
+ORD-10293,CUST-2335,Anjali Mehta,N/A,+91 61810 39937,2023-06-05,2026-09-09,Hyderabad,India,Books,2,730.00,1314.00,Debit Card,shipped,
+ORD-10294,CUST-2316,Arjun Reddy,ARJUN.REDDY316@HOTMAIL.COM,+91 96572 36092,2025-06-30,2026-06-18,Delhi,India,Grocery,2,,1940.00,Debit Card,Shipped,
+ORD-10295,CUST-2044,Ananya Nair,ananya.nair44@hotmail.com,NULL,16-04-2023,2025-04-25,Mumbai,India,Clothing,1,Rs. 1090,1090.00,Credit Card,Cancelled,
+ORD-10296,CUST-2013,Shreya Verma,shreya.verma13@rediffmail.com,+91 62144 22948,2023-04-11,2025-09-05,Mumbai,India,Clothing,2,2860.00,5720.00,Cash on Delivery,Delivered,4
+ORD-10297,CUST-2097,Kavya Sharma,kavya.sharma97@hotmail.com,+91 68671 28617,2024-09-22,2025-06-01,Mumbai,India,Electronics,3,26150.00,78450.00,Credit Card,Delivered,1
+ORD-10298,CUST-2078,Arjun Singh,arjun.singh78@rediffmail.com,+91 78351 22457,2024-09-20,2026-04-28,Jaipur,India,Sports,-1,9610.00,48050.00,Credit Card,Delivered,4
+ORD-10299,CUST-2103,Rahul Reddy,rahul.reddy103@gmail.com,+91 98783 94495,2025-01-14,2026-02-19,Pune,India,Home & Kitchen,3,6130.00,18390.00,Net Banking,Delivered,1
+ORD-10300,CUST-2212,Meera Gupta,meera.gupta212@gmail.com,+91 95813 42661,2023-07-31,2026-09-03,Bengaluru,India,Grocery,2,1310.00,2620.00,Debit Card,Shipped,
+ORD-10301,CUST-2018,Arjun Agarwal,arjun.agarwal18@gmail.com,+91 88831 87696,2024-11-14,2026-08-29,Jaipur,India,Books,1,660.00,660.00,Net Banking,Shipped,
+ORD-10302,CUST-2118,Aditya Desai,aditya.desai118@gmail.com,+91 61039 53164,2023-02-16,2026-03-09,Mumbai,India,Sports,2,"₹1,740.00",3480.00,Debit Card,Delivered,4
+ORD-10303,CUST-2331,Manish Malhotra,manish.malhotra331@outlook.com,8450195709,2023-12-08,30 Sep 2026,nan,India,Books,1,750.00 INR,750.00,Debit Card,Pending,
+ORD-10304,CUST-2229,Deepak Mehta,deepak.mehta229@gmail.com,+65 86228 48354,2024-04-26,22-10-2025,Singapore,Singapore,Sports,1,9430.00,9430.00,Net Banking,Shipped,
+ORD-10305,CUST-2176,Sanjay Shetty,sanjay.shetty176@hotmail.com,+91 67398 43251,2025-03-18,28 Feb 2026,Kolkata,india,Books,2,440.00,880.00,Net Banking,Pending,
+ORD-10306,CUST-2067,Lakshmi Khan,lakshmi.khan67@rediffmail.com,+91 64665 89120,2023-12-02,"March 03, 2026",Gurugram,India,Home & Kitchen,2,7700.00,15400.00,Debit Card,returned,5
+ORD-10307,CUST-2241,Lakshmi Bose,lakshmi.bose241@yahoo.com,+91 71609 14586,2024-09-17,31/04/2025,Pune,India,Grocery,2,460.00,920.00,UPI,Shipped,
+ORD-10308,CUST-2247,Deepak Shetty,deepak.shetty247@hotmail.com,,2023-04-20,2026-09-13,Chennai,India,Clothing,1,1280.00,1280.00,Net Banking,Delivered,5
+ORD-10309,CUST-2155,Rohan Sharma,rohan.sharma155@gmail.com,+65 93211 45403,2024-09-03,2025-01-19,Unknown,Singapore,Clothing,2,1470.00,2940.00,Credit Card,Delivered,3
+ORD-10310,CUST-2089,Priya Gupta,priya.gupta89@outlook.com,+91 95639 37606,2023-03-09,2025/03/07,Kolkata,India,Grocery,1,1330.00,1330.00,Credit Card,Delivered,2
+ORD-10224,CUST-2218,Vikram iSngh,vikram.singh218@rediffmail.com,NA,2024/04/29,2025/11/06,Mumbai,India,Clothing,3,2170.00,6510.00,Cash on Delivery,DELIVERED,4
+ORD-10311,CUST-2061,Manish Bose,manish.bose61@outlook.com,+91 71086 29142,2024-11-13,2025-12-15,Mumbai,India,Beauty,1,1340.00,1340.00,UPI,Cancelled,
+ORD-10312,CUST-2285,Sanjay Menon,sanjay.menon285@outlook.com,+91 78951 75666,2023-09-02,2026-06-12,Mumbai,India,Home and Kitchen,three,1840.00,5520.00,UPI,Delivered,2
+ORD-10184,CUST-2267,Rahul R. Reddy,RAHUL.REDDY267@OUTLOOK.COM,+91 99362 20143,2024-12-11,2025-11-08,Gurugram,India,Grocery,1,920.00,920.00,Credit Card,Delivered,5
+ORD-10313,CUST-2224,Sanjay Gupta,sanjay.gupta224@yahoo.com,+91 86589 64118,2023-09-16,2025/04/24,Gurugram,India,Grocery,5,1220.00,6100.00,Cash on Delivery,Pending,
+ORD-10314,CUST-2312,  Lakshmi Reddy ,lakshmi.reddy312@outlook.com,+91 73563 87037,"February 10, 2023",12/02/2025,Ahmedabad,India,Grocery,3,310.00,930.00,UPI,Delivered,3
+ORD-10315,CUST-2105,  Ritu Bose ,ritu.bose105@gmail.com,+91 60638 69167,2023-05-10,29 Mar 2026,Delhi,India,Home & Kitchen,2,1900.00,3800.00,Net Banking,Cancelled,
+ORD-10316,CUST-2050,Priya Bose,priya.bose50@yahoo.com,+91 80268 50785,26/04/2024,2025-05-22,Jaipur,India,Clothing,1,3710.00,3710.00,Net Banking,Delivered,3
+ORD-10317,CUST-2003,Harsh Iyer,harsh.iyer3@outlook.com,+91 77988 34813,2024-12-19,2026/06/02,Delhi,India,Clothing,1,2820.00,2820.00,Net Banking,Delivered,3
+ORD-10318,CUST-2184,Deepak Menon,deepak.menon184@hotmail.com,+65 60020 07565,2024-03-09,2026-06-27,Singapore,Singapore,Sports,1,5520.00,5520.00,net-banking,Delivered,3
+ORD-10009,CUST-2157,Vikram Iyer,vikram.iyer157@outlook.com,+91 84402 26511,2023-01-07,2026-04-02,Pune,India,Home & Kitchen,3,7770.00,23310.00,Credit Card,Delivered,-
+ORD-10319,CUST-2211,Ritu Menon,ritu.menon211@rediffmail.com,+91 99181 12167,2023-09-29,2026-06-13,chennai,India,Books,5,730.00,3650.00,Debit Card,Cancelled,
+ORD-10320,CUST-2015,Meera Bose,meera.bose15@rediffmail.com,+91 91295 57055,2023-06-11,14 Jun 2026,Mumbai,India,books,3,330.00,990.00,Upi,Pending,
+ORD-10321,CUST-2173,Lakshmi Patel,lakshmi.patel173@yahoo.com,+91 85192 59598,2025-02-07,25/07/2025,Pune,India,home & kitchen,5,4410.00,22050.00,UPI,Delivered,4
+ORD-10322,CUST-2338,Anjali Chopra,anjali.chopra338@rediffmail.com,+91 96884 76873,31 Aug 2024,2025-03-01,jaipur,India,Sports,4,3590.00,14360.00,Cash on Delivery,Pending,
+ORD-10323,CUST-2151,Kavya Nair,kavya.nair151@yahoo.com,+971 92962 56180,2024-08-24,2026-07-21,Dubai,United Arab Emirates,Books,4,660.00,2640.00,Debit Card,Returned,5
+ORD-10324,CUST-2176,Sanjay Shetty,sanjay.shetty176@hotmail.com,+91 67398 43251,2025-03-18,2025-08-15,Kolkata,India,Electronics,4,N/A,97640.00,Net Banking,Shipped,
+ORD-10325,CUST-2329,Arjun Rao,arjun.rao329@rediffmail.com,N/A,2023-02-14,2026-09-26,Chennai,India,Clothing,2,3180.00,6360.00,Debit Card,Shipped,
+ORD-10326,CUST-2332,Karan Rao,karan.rao332@gmail.com,+91 86339 92023,2024-07-22,2025-11-05,Chennai,India,Books,1,1140.00,1140.00,Net Banking,Delivered,4
+ORD-10327,CUST-2064,Faisal Kulkarni,faisal.kulkarni64@gmail.com,+91 76366 67686,2023-11-13,"April 06, 2025",Ahmedabad,India,Beauty,1,2960.00,2960.00,Debit Card,Delivered,4
+ORD-10328,CUST-2325,Nikhil Agarwal,nikhil.agarwal325@yahoo.com,+91 92310 50305,"February 19, 2025",2026-08-25,Bengaluru,India,Clothing,1,510.00,510.00,Debit Card,Delivered,3
+ORD-10329,CUST-2216,Tanvi Kapoor,tanvi.kapoor216@yahoo.com,NULL,2025-05-04,20 May 2026,Gurugram,India,Beauty,2,760.00,1520.00,UPI,Delivered,4
+ORD-10330,CUST-2024,Rahul Iyer,rahul.iyer24@outlook.com,NA,2023-02-09,2026-08-10,New York,United States,Grocery,1,360.00,360.00,NetBanking,Shipped,
+ORD-10331,CUST-2173,Lakshmi Patel,lakshmi.patel173@yahoo.com,85192 59598,2025-02-07,2026-08-07,Pune,India ,Clothing,2,3370.00,6740.00,Debit Card,Returned,
+ORD-10332,CUST-2145,Anjali Nair,anjali.nair145@yahoo.com,(+91) 9087055721,2024-01-24,2026-06-17,Gurugram,India,Sports,2,3360.00,6720.00,UPI,Shipped,
+ORD-10333,CUST-2167,Tanvi Menon,tanvi.menon167@rediffmail.com,+91 85653 86872,2024-08-27,2026-01-05,Delhi,India,Beauty,3,1180.00,3540.00,net-banking,Delivered,3
+ORD-10334,CUST-2210,Sneha Chopra,sneha.chopra210@gmail.com,+91 62390 13758,2023-12-13,2025/05/14,Gurugram,India,ELECTRONICS,1,9050.00,9050.00,Debit Card,Delivered,4
+ORD-10335,CUST-2269,Aditya Chopra,aditya.chopra269@gmail.com,,2025-01-14,2026-02-22,Delhi,India,BOOKS,2,900.00,Rs. 1800,Net Banking,Returned,4
+ORD-10155,CUST-2176,Sanjay Shetty,,+91 67398 43251,2025-03-18,2025-08-31,Kolkata,India,Clothing,1,"2,300",2300.00,UPI,Delivered,2
+ORD-10336,CUST-2225,Lakshmi Kulkarni,lakshmi.kulkarni225@rediffmail.com,+91 84332 46831,2024-11-09,2026-03-03,Kolkata,India,Sports,2,10520.00,21040.00,Credit Card,Returned,3
+ORD-10337,CUST-2248,Ritu Nair,RITU.NAIR248@HOTMAIL.COM,+91 92813 70661,2024-04-13,10 Jun 2026,Gurugram,India,Sports,1,9870.00,9870.00,Credit Card,Returned,2
+ORD-10338,CUST-2233,-,sanjay.rao233@rediffmail.com,+91 83153 00945,2023-12-12,2027-02-17,Pune,India,Books,2,19000.00,380.00,Cash on Delivery,Delivered,5
+ORD-10339,CUST-2209,Lakshmi Reddy,lakshmi.reddy209@rediffmail,+91 63798 43514,2024-10-28,2025-10-24,Hyderabad,India,Electronics,1,11400.00,11400.00,Debit Card,Delivered,3
+ORD-10340,CUST-2156,Zoya Khan,,930999513,2023-10-02,2025-01-29,,India,Home & Kitchen,1,3400.00,3400.00,Credit Card,Cancelled,
+ORD-10341,CUST-2301,Ananya Joshi,ananya.joshi301outlook.com,+91 66832 26180,2025-05-31,03 Nov 2025,Kolkata,India,Books,4,210.00,840.00,Net Banking,Returned,none
+ORD-10342,CUST-2001,Arjun Malhotra,arjun.malhotra1@outlook.com,+91 92580 86319,15/04/2023,2025-02-15,Delhi,India,Electronics,1,30060.00,30060.00,Cash on Delivery,delivered,4
+ORD-10343,CUST-2231,GURPREET CHOPRA,gurpreet.chopra231@yahoo.com,+91 77461 60271,2024-05-16,2026-09-13,DELHI,India,Home & Kitchen,1,8300.00,8300.00,Net Banking,Delivered,3
+ORD-10344,CUST-2230,Zoya Banerjee,zoya.banerjee230@outlook.com,+91 64116 54819,2024-02-24,30-11-2025,Gurugram,India,Sports,1,Rs. 9690,9690.00,Cash on Delivery,Delivered,4
+ORD-10179,CUST-2138,ANJALI RAO,anjali.rao138@gmail.com,+91 68478 02105,08 Sep 2023,17 Aug 2026,Mumbai,India,Sports,1,7920.00,7920.00,Credit Card,DELIVERED,3
+ORD-10345,CUST-2209,Lakshmi Reddy,-,+91 63798 43514,2024-10-28,2025-12-14,Hyderabad,India,Books,4,440.00,1760.00,Net Banking,Delivered,5
+ORD-10346,CUST-2142,Neha Desai,neha.desai142@rediffmail.com,9226980712,2024-09-09,2025-01-26,Bombay,India,Sports,3,"2,310",6930.00,Debit Card,Delivered,5
+ORD-10347,CUST-2287,Faisal Joshi,faisal.joshi287@rediffmail.com,+91 74401 55531,2023-09-21,2025/03/29,Jaipur,India,Sports,2,3030.00 INR,6060.00,Cash on Delivery,Delivered,4
+ORD-10348,CUST-2027,Ritu Pillai,ritu.pillai27@yahoo.com,+91 63276 34657,2024-11-05,2026/05/03,nan,India,Beauty,1,2870.00,2870.00,Cash on Delivery,Delivered,1
+ORD-10349,CUST-2092,Pooja Kulkarni,pooja.kulkarni92@rediffmail.com,+91 73719 12755,2023-02-08,2025-09-09,Kolkata,India,Electronic,3,24020.00,72060.00,cod,Returned,5
+ORD-10350,CUST-2227,manish gupta,manish.gupta227@rediffmail.com,+971 96676 92430,2025-04-15,2025-05-31,DUBAI,United Arab Emirates,Electronics,1,27740.00,27740.00,Debit_Card,Delivered,5
+ORD-10351,CUST-2223,Sneha Menon,sneha.menon223@yahoo.com,+91 83828 00087,2025-05-27,2026-02-21,Hyderabad,India,Clothing,1,2520.00,2520.00,UPI,Delivered,3
+ORD-10352,CUST-2050,Priya Bose,priya.bose50@yahoo.com,+91 80268 50785,2024-04-26,2025-07-07,Jaipur,India,Beauty,1,1060.00,1060.00,Debit Card,Delivered,2
+ORD-10353,CUST-2208,Shreya Iyer,shreya.iyer208@gmail.com,+91 81807 68422,2023-12-25,2025/11/30,Chennai,India,Sports,1,3960.00,3960.00,Debit Card,Deliverd,5
+ORD-10354,CUST-2199,Karan Shetty,karan.shetty199@rediffmail.com,+91 82128 06224,05/05/2024,2025-02-30,Mumbai,India,Electronics,1,27710.00,27710.00,UPI,Delivered,5
+ORD-10355,CUST-2026,rohan shetty,rohan.shetty26@hotmail.com,,2024-11-24,2026-08-24,Singapore,Singapore,Clothing,3,1620.00,4860.00,Cash on Delivery,delivered,4
+ORD-10356,CUST-2197,Aditya Reddy,aditya.reddy197@rediffmail.com,+91 71072 14690,2023-09-23,2026/04/21,Delhi,India ,Electronics,1,23560.00,23560.00,UPI,Delivered,2
+ORD-10357,CUST-2208,Shreya Iyer,shreya.iyer208@gmail.com,+91 81807 68422,25/12/2023,20-01-2025,Chennai,India,Sports,NA,5280.00,21120.00,UPI,Deliverd,5
+ORD-10358,CUST-2126,Vikram Reddy,vikram.reddy126@gmail.com,+91 72656 04717,17/07/2024,2025-05-09,Bengaluru, India,Grocery,2,1470.00,"₹2,940.00",UPI,Delivered,4
+ORD-10359,CUST-2325,Nikhil Agarwal,nikhil.agarwal325@yahoo.com,+91 92310 50305,2025-02-19,2025-07-14,Bengaluru,India,Beauty,3,1240.00,3720.00,CREDIT CARD,Delivered,4.5
+ORD-10360,CUST-2275,Arjun Singh,arjun.singh275@hotmail.com,+91 86864 31645,2023-01-23,2025-01-02,Hyderabad,India,Books,1,860.00,860.00,Cash on Delivery,Cancelled,
+ORD-10361,CUST-2148,Sanjay Shetty,sanjay.shetty148@hotmail.com,+65 96054 07525,2025/04/05,2026-08-11,Singapore,Singapore,Sports,0,,3920.00,Net Banking,Delivered,3
+ORD-10362,CUST-2179,Isha Iyer,isha.iyer179@gmail.com,+91 75403 18642,2025-01-18,2026-06-24,Delhi,India,Grocery,2,NA,1180.00,Cash on Delivery,Delivered,3
+ORD-10363,CUST-2288,Faisal Pillai,faisal.pillai288@gmail.com,+91 99577 94450,2023-09-22,2025-05-06,Delhi,India,Electronics,1,26120.00,26120.00,Debit Card,Returned,
+ORD-10364,CUST-2221,SHREYA MENON,shreya.menon221@yahoo.com,+91 88513 51880,2025-06-15,,Hyderabad,India,Clothing,2,3520.00,7040.00,Debit Card,Delivered,5
+ORD-10365,CUST-2325,Nikhil Agarwal,nikhil.agarwal325@yahoo.com,+91 92310 50305,2025-02-19,2025-11-25,Bengaluru,India,Home & Kitchen,2,8000.00,16000.00,Debit Card,Delivered,5
+ORD-10366,CUST-2107,Kavya Reddy,kavya.reddy107@hotmail.com,+91 74352 24929,2023-07-24,17-05-2025,Delhi,India,Books,1,910.00,1001.00,UPI,Shipped,
+ORD-10367,CUST-2311,Nikhil Malhotra,nan,+91 73010 69960,2024-12-19,2025-06-27,Jaipur,India,Books,4,150,600.00,Net Banking,Delivered,5
+ORD-10368,CUST-2201,Pooja Pillai,pooja.pillai201@rediffmail.com,NULL,2023-08-27,2025-03-21,Bengaluru,India,beauty,3,610.00,1830.00,Net Banking,Delivered,5
+ORD-10369,CUST-2063,Karan Pillai,karan.pillai63@rediffmail.com,+91 89296 25670,02 Feb 2025,03/02/2026,Ahmedabad,India,Home & Kitchen,1,862000.00,8620.00,UPI,Delivered,5
+ORD-10370,CUST-2063,Karan Pillai,karan.pillai63@rediffmail.com,+91 89296 25670,2025-02-02,2026/05/03,Ahmedabad,india,Books,4,620.00,2480.00,Debit Card,Delivered,5
+ORD-10371,CUST-2183,Isha Khan,isha.khan183@rediffmail.com,+91 96080 33384,2024-11-30,2025-11-07,Bengaluru,India,Clothing,3,860.00,2580.00,Credit Card,CANCELLED,
+ORD-10372,CUST-2119,Vikram Malhotra,vikram.malhotra119@rediffmail.com,N/A,2023-12-11,"May 20, 2026",Jaipur,India,Books,1,610.00,610.00,Cash on Delivery,Pending,
+ORD-10373,CUST-2107,,KAVYA.REDDY107@HOTMAIL.COM,+91 74352 24929,"July 24, 2023",2026-02-10,Delhi,India,Electronics,,17560.00,87800.00,Cash on Delivery,Delivered,3
+ORD-10374,CUST-2252,Manish Desai,manish.desai252@hotmail.com,+91 87755 97685,2025-04-07,2025-10-03,Mumbai,India,Cloths,1,3220.00,3220.00,UPI,Delivered,2
+ORD-10375,CUST-2065,Priya Pillai,priya.pillai65@yahoo.com,+91 70271 15959,2023-09-21,2026-06-20,Ahmedabad,India,Home & Kitchen,3,6130.00,18390.00,Debit Card,Shipped,
+ORD-10187,CUST-2100,Manish Desai,manish.desai100@gmail.com,(+91) 6346920737,2025-03-01,08-08-2026,N/A,India,Electronics,3,4180.00,12540.00,debit card,Delivered,4
+ORD-10376,CUST-2098,Gurpreet Iyer,gurpreet.iyer98@rediffmail.com,+91 78575 12304,2024-04-13,2026-06-30,Delhi,India,Grocery,5,100.00,500.00,Net Banking,Delivered,5
+ORD-10377,CUST-2001,Arjun Malhotra,ARJUN.MALHOTRA1@OUTLOOK.COM,,2023-04-15,2025-02-23,Delhi,India,Books,2,970.00,1940.00,Net Banking,Returned,4
+ORD-10378,CUST-2140,Gurpreet Singh,gurpreet.singh140@outlook.com,+1 74255 71650,2024-10-20,2026-01-06,San Jose,United States,Electronics,1,43950.00,43950.00,Credit Card,Delivered,1
+ORD-10484,CUST-2073,Manish Rddy,manish.reddy73@outlook.com,+91 94354 26796,2024-04-14,2026-02-12,Mumbai,India,Home & Kitchen,1,7960.00,7960.00,UPI,Shipped,
+ORD-10379,CUST-2024,Rahul Iyer,rahul.iyer24@outlook.com,+1 83568 30825,2023-02-09,2025-11-20,New York,United States,Home & Kitchen,2,4600.00,9200.00,UPI,Delivered,3
+ORD-10380,CUST-2292,Siddharth Menon,siddharth.menon292@rediffmail.com,+971 84992 25074,2023-02-03,2025-08-20,Abu Dhabi,United Arab Emirates,Grocery,5,110.00,550.00,Net banking,Pending,
+ORD-10381,CUST-2038,Rohan Pillai,rohan.pillai38@outlook.com,Unknown,2023-03-12,2025/11/15,Jaipur,IN,Clothing,1,1400.00,1400.00 INR,UPI,Delivered,4
+ORD-10382,CUST-2245,Aditya Iyer,aditya.iyer245@rediffmail.com,+91 93970 40587,2024-10-14,2025-12-09,Chennai,India,Books,1,1180.00,1180.00,Net Banking,Returned,3
+ORD-10383,CUST-2122,Aditya Verma,aditya.verma122@outlook.com,+91 96479 87012,09/11/2024,2025-12-08,Ahmedabad,India,Home & Kitchen,1,8820.00,8820.00,UPI,Delivered,3
+ORD-10234,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,2025-03-27,Gurugram,India,Grocery,1,100.00,100.00,UPI,Delivered,4
+ORD-10384,CUST-2307,kavya iyer,KAVYA.IYER307@YAHOO.COM,+91 92474 36007,2023-02-27,2026-04-03,Chennai,Ind,Beauty,3,2440.00,7320.00,UPI,Delivered,2
+ORD-10385,CUST-2017,Siddharth Joshi,siddharth.joshi17@gmail.com,+91 82362 37049,2023-03-17,2025/03/08,Jaipur,India,Books,4,550.00,2200.00,UPI,Cancelled,
+ORD-10386,CUST-2226,Divya Banerjee,divya.banerjee226@outlook.com,+91 82109 68278,2023-07-12,2026-03-19,Bengaluru,India,Electronics,2,26190.00,52380.00,Cash on Delivery,delivered,5
+ORD-10387,CUST-2026,Rohan Shetty,rohan.shetty26@hotmail.com,+65 86195 63651,2024-11-24,2027-07-14,Singapore,Singapore,Home & Kitchen,1,9000.00,9000.00,Cash on Delivery,Delivered,4
+ORD-10420,CUST-2278,Nikhil Iyer,nikhil.iyer278@rediffmail.com,+91 91059 68619,2023-02-09,2025-10-16,Jaipur,India,Home & Kitchen,two,380.00,1140.00,Net Banking,Returned,5
+ORD-10064,CUST-2217,Rahul Verma,rahul.verma217@hotmail.com,+971 60558 59075,2026-03-18,2026-03-11,Abu Dhabi,United Arab Emirates,Beauty,1,1120.00 INR,1120.00,debit card,Delivered,4
+ORD-10388,CUST-2337,Sneha Khan,sneha.khan337@yahoo.com,+91 71249 99262,2023-03-09,2026-04-21,Bengaluru,India,Beauty,N/A,250.00,250.00,Cash on Delivery,Cancelled,
+ORD-10389,CUST-2317,aditya banerjee,aditya.banerjee317@rediffmail.com,+91 98706 57802,2023-04-10,2025-01-27,Delhi,India,Electronics,250,29320.00,58640.00,Credit Card,Delivered,4
+ORD-10390,CUST-2055,Neha Menon,neha.menon55@outlook.com,+1 74115 71078,2025-03-17,25-05-2025,San Jose,United States,Electronics,2,2500.00,5000.00,Cash on Delivery,Delivered,5
+ORD-10391,CUST-2064,Faisal Kulkarni,faisal.kulkarni64@gmail.com,(+91) 7636667686,2023-11-13,2026-03-08,Ahmedabad,India,Sports,1,10920.00,10920.00,CC,Delivered,4
+ORD-10392,CUST-2124,Meera Gupta,MEERA.GUPTA124@REDIFFMAIL.COM,+65 87764 45972,2024-11-23,2025-11-16,Singapore,singapore,Clothing,1,620.00,620.00,Debit Card,Delivered,4
+ORD-10215,CUST-2194,Kavya F. Kulkarni,kavya.kulkarni194gmail.com,+91 89383 42917,2023-06-09,2026-01-01,Delhi,India,Electronics,1,36570.00,36570.00,Credit Card,Deliverd,2
+ORD-10393,CUST-2159,Meera Rao,meera.rao159@yahoo.com,N/A,2024-11-29,2025-05-31,Jaipur,India,Beauty,3,2970.00,8910.00,Debit Card,Delivered,4
+ORD-10394,CUST-2188,Sanjay Iyer,sanjay.iyer188@gmail.com,+91 80811 78617,2023-02-15,2025-05-29,Mumbai,India,electronics,2,43900.00,87800.00,Cash on Delivery,Delivered,4
+ORD-10395,CUST-2027,Ritu Pillai,ritu.pillai27@yahoo.com,+91 63276 34657,05/11/2024,2025-07-25,null,India,Books,1,590.00,590.00,Credit Card,Shipped,
+ORD-10396,CUST-2035,Vikram Chopra,vikram.chopra35@gmail.com,+91 83237 37820,2025-02-06,2026-05-30,Jaipur,India,Home & Kitchen,2,2230.00,4460.00,Cash on Delivery,Delivered,4
+ORD-10417,CUST-2150,Sanjay Banerjee,sanjay.banerjee150@gmail.com,+91 64346 70863,2024-06-24,2025-03-22,Mumbai ,INDIA,Grocery,2,1330.00,Rs. 2660,Credit Card,Cancelled,
+ORD-10397,CUST-2289,karan banerjee,karan.banerjee289@outlook.com,+91 76239 50820,2023-03-19,2025-12-03,Jaipur,India,Home & Kitchen,1,6600.00,6600.00,UPI,Delivered,4
+ORD-10398,CUST-2253,Manish Reddy,manish.reddy253@yahoo.com,+91 70027 96107,2025-02-10,"October 03, 2025",Jaipur,India,Clothing,2,Rs. 410,820.00,Net Banking,Delivered,3
+ORD-10399,CUST-2169,Isha Kulkarni,isha.kulkarni169@hotmail.com,+91 88689 41356,2024-12-02,2025-07-08,Ahmedabad,India,Grocery,1,1010.00,1010.00,UPI,Returned,1
+ORD-10400,CUST-2037,Harsh Joshi,harsh.joshi37@hotmail.com,07697713595,2024-02-11,2025-05-26,Hyderabad,India,Home & Kitchen,2,600.00,1200.00,Cash on Delivery,Delivered,3
+ORD-10401,CUST-2184,Deepak Menon,deepak.menon184@hotmail.com,+65 60020 07565,2024-03-09,"October 18, 2025",Singapore,SINGAPORE,Electronics,1,3930.00,3930.00,Credit Card,Deliverd,5
+ORD-10402,CUST-2173,Lakshmi Patel,N/A,?,2025-02-07,2025-08-26,Pune,India,Grocery,1,1460.00,1460.00,UPI,delivered,5
+ORD-10403,CUST-2010,Rahul Agarwal,rahul.agarwal10@hotmail.com,+91 99976 73638,2023-05-04,2025-04-24,Hyderabad,India,grocery,1,400.00,400.00,Net Banking,Delivered,3
+ORD-10404,CUST-2122,Aditya Verma,aditya.verma122@outlook.com,+91 96479 87012,2024-11-09,"June 25, 2025",Ahmedabad ,India,Home & Kitchen,1,8580.00,8580.00,Cash on Delivery,Pending,
+ORD-10405,CUST-2222,Faisal Patel,faisal.patel222@hotmail.com,+91 90313 43962,2024-08-31,2025/05/14,Ahmedabad,India,Sports,1,1830.00,1830.00,Credit_Card,Cancelled,
+ORD-10406,CUST-2272,Sneha Mehta,sneha.mehta272@outlook.com,+91 77432 40302,2024-02-02,2026-09-06,Ahmedabad,India,Books,1,1030.00,1030.00,UPI,Delivered,5
+ORD-10407,CUST-2315,Arjun Agarwal,arjun.agarwal315@yahoo.com,+91 76361 50818,2023-04-20,2025-10-29,Ahmedabad,India,Beauty,3,1160.00,3480.00 INR,Debit Card,Cancelled,
+ORD-10408,CUST-2126,Vikram Reddy,Unknown,null,2024-07-17,05 Jun 2026,,India,Electronics,4,24440.00,97760.00,Net Banking,Pending,
+ORD-10409,CUST-2107,Kavya Reddy,kavya.reddy107@hotmail.com,+91 74352 24929,2023-07-24,22 Sep 2026,none,India,Sports,3,2160.00,"6,480",Cash on Delivery,Delivered,4
+ORD-10410,CUST-2191,Pooja Nair,POOJA.NAIR191@YAHOO.COM,+91 87239 97757,2023-01-07,2025-11-26,Pune,India,Books,1,810.00,810.00,Cash on Delivery,Shipped,
+ORD-10411,CUST-2247,Deepak Shetty,deepak.shetty247@hotmail.com,+91 83675 31848,2023-04-20,2026-08-19,Chennai,India,Sports,1,10630.00,10630.00,Cash on Delivery,Delivered,5
+ORD-10338,CUST-2126,Vikram Reddy,Unknown,null,2024-07-17,05 Jun 2026,,India,Electronics,4,24440.00,97760.00,Net Banking,Pending,
+ORD-10412,CUST-2332,Karan Rao,karan.rao332@gmail.com,+91 86339 92023,"July 22, 2024",2025-07-27,Chennai,India,Electronics,1,18470.00,18470.00,Credit Card,Delivered,3
+ORD-10413,CUST-2156,Zoya Khan,zoya.khan156@outlook.com,+91 93099 95131,2023-10-02,none,Ahmedabad,India,Books,2,630.00 INR,1260.00,UPI,Delivered,2
+ORD-10414,CUST-2151,Kavya Nair,kavya.nair151@@yahoo.com,+971 92962 56180,2024-08-24,2026-08-21,Dubai,United Arab Emirates,Books ,1,810.00,810.00,Debit Card,Delivered,4
+ORD-10415,CUST-2218,Vikram Singh,vikram.singh218@rediffmail.com,+91 69512 53434,2024-04-29,2026-01-12,Mumbai,India,Books,1,740.00,740.00,Debit Card,Cancelled,
+ORD-10416,CUST-2139,Karan Chopra,karan.chopra139@outlook.com,+91 77719 29557,2023-08-31,28 Aug 2025,Chennai,India,Books,1,180.00,180.00,UPI,Delivered,2
+ORD-10417,CUST-2150,Sanjay Banerjee,sanjay.banerjee150@gmail.com,+91 64346 70863,2024-06-24,2025-03-22,Mumbai ,INDIA,Grocery,2,1330.00,Rs. 2660,Credit Card,Cancelled,
+ORD-10418,CUST-2050,NA,priya.bose50@yahoo.com,+91 80268 50785,2024-04-26,2026-07-14,Jaipur,India,Electronics,1,7340.00,7340.00,Debit Card,Delivered,3
+ORD-10419,CUST-2128,Gurpreet Mehta,gurpreet.mehta128@gmail.com,+65 69349 99805,2023-12-10,2025-10-09,Singapore,Singapore,Home & Kitchen,3,7930.00,23790.00,Credit Card,Delivered,4
+ORD-10420,CUST-2278,Nikhil Iyer,nikhil.iyer278@rediffmail.com,+91 91059 68619,2023-02-09,2025-10-16,Jaipur,India,Home & Kitchen,two,380.00,1140.00,Net Banking,Returned,5
+ORD-10421,CUST-2207,Shreya Sharma,shreya.sharma207@hotmail.com,+65 98751 38661,2023-05-25,2026-06-09,Singapore,Singapore,Grocery,1,80.00,80.00,CC,Pending,
+ORD-10256,CUST-2007,Divya Sharma,divya.sharma7@outlook.com,+91 66526 14498,2024-05-27,2026-04-10,Bengaluru,India,Sports,1,11260.00,11260.00,Credit Card,Returned,4
+ORD-10422,CUST-2203,Nikhil Verma,nikhil.verma203@hotmail.com,+91 89079 55198,2024-07-09,2025-08-03,Chennai,India,Clothing,2,1560.00,3120.00,Cash on Delivery,Deliverd,4
+ORD-10282,CUST-2243,Kavya D. Shetty,kavya.shetty243@gmail.com,+91 64746 61886,2024-10-20,2025-04-03,Bengaluru,India,Home & Kitchen,2,6060.00,12120.00,Debit Card,Cancelled,
+ORD-10423,CUST-2239,Aditya Kulkarni,aditya.kulkarni239@gmail.com,+91 60102 83707,2023-01-10,2025-03-29,Bengaluru,India,Sports,1,9940.00,9940.00,Net Banking,Delivered,3
+ORD-10424,CUST-2107,Kavya Reddy,kavya.reddy107@hotmail.com,+91 74352 24929,24 Jul 2023,31-01-2025,Delhi,India,Books,3,720.00,2160.00,Credit Card,Delivered,4
+ORD-10425,CUST-2156,Zoya Khan,zoya.khan156@outlook.com,+91 93099 95131,02 Oct 2023,2025-12-30,Ahmedabad,India,Sports,1,Unknown,690.00,Net Banking,Delivered,4
+ORD-10426,CUST-2275,Arjun Singh,arjun.singh275@hotmail.com,+91 86864 31645,2023-01-23,05-08-2026,Hyderabad,India ,Home & Kitchen,2,3630.00,7260.00,Credit Card,CANCELLED,
+ORD-10427,CUST-2078,Arjun Singh,NA,+91 78351 22457,2024-09-20,2026-09-10,Jaipur,India,Home & Kitchen,2,6110.00,12220.00,Cash on Delivery,Pending,
+ORD-10158,CUST-2242,Deepak Das,deepak.das242@rediffmail.com,+91 74484 06085,2025-01-11,"August 21, 2026",Gurugram,India,Home & Kitchen,5,8020.00,40100.00,Cash on Delivery,Shipped,
+ORD-10428,CUST-2200,rohan joshi,rohan.joshi200@rediffmail.com,+91 91856 87973,11-03-2025,2025-05-15,Ahmedabad,India,Books,4,410.00,1640.00,UPI,Delivered,nan
+ORD-10429,CUST-2168,Tanvi Singh,tanvi.singh168@yahoo.com,+91 73165 41316,22 Jul 2024,2025-11-08,Bengaluru,India ,Beauty,2,2510.00,5020.00,Cash on Delivery,Delivered,2
+ORD-10430,CUST-2090,Ananya Desai,ananya.desai90@hotmail.com,+91 82896 10693,2023-05-13,23-07-2025,GURUGRAM,India,Electronics,1,41520.00,41520.00,Debit Card,Delivered,5
+ORD-10431,CUST-2105,Ritu Bose,ritu.bose105@gmail.com,+91 60638 69167,2023-05-10,"March 13, 2025",Delhi,India,Clothing,2,1890.00,3780.00,UPI,Delivered,4
+ORD-10432,CUST-2087,Nikhil Patel,nikhil.patel87@hotmail.com,+91 63408 08865,2024-08-17,2025-04-24,Jaipur,India,Home & Kitchen,1,4500.00,4500.00,UPI,Delivered,4
+ORD-10433,CUST-2199,Karan Shetty,karan.shetty199@rediffmail.com,+91 82128 06224,2024-05-05,30-07-2025,Mumbai,India,Grocery,1,570.00,570.00,Net banking,Delivered,5
+ORD-10434,CUST-2081,Isha Kapoor,isha.kapoor81@rediffmail.com,+91 82531 65532,2023-02-26,30/05/2026,Mumbai,India,Beauty,2,1780.00,3560.00,Net Banking,Shipped,
+ORD-10435,CUST-2141,none,lakshmi.agarwal141@gmail.com,+91 94215 22814,2024/07/29,2026-04-02,Pune,India,Clothing,5,,2150.00,Credit Card,Delivered,4
+ORD-10436,CUST-2269,Aditya Chopra,aditya.chopra269@gmail.com,+91 84160 28817,2025-01-14,,Delhi,India,Home & Kitchen,4,6120.00,24480.00,UPI,Delivered,1
+ORD-10437,CUST-2147,Sanjay Patel,sanjay.patel147@outlook.com,+91 69674 82705,2023-03-03,2025-11-01,?,India,Sports,1,9840.00,9840.00,Credit_Card,Delivered,five
+ORD-10438,CUST-2212,Meera Gupta,meera.gupta212@gmail.com,+91 95813 42661,2023-07-31,2026-03-19,Bengaluru,India,Clothing,4,1310.00,5240.00,CREDIT CARD,Delivered,5
+ORD-10439,CUST-2291,Arjun Gupta,,-,2024-01-16,2025/02/14,Gurugram,India,electronics,2,33730.00,67460.00,DC,Delivered,5
+ORD-10440,CUST-2321,Manish Singh,manish.singh321@rediffmail.com,+1 80923 79895,2024-08-08,2025-03-10,New York,United States,Beauty,2,1690.00,3380.00,CREDIT CARD,Shipped,
+ORD-10441,CUST-2252,Manish Desai,manish.desai252@hotmail.com,+91 87755 97685,2025-04-07,2026-04-19,Mumbai,India,Books,2,1120.00,2240.00,Debit Card,Delivered,2
+ORD-10442,CUST-2209,Lakshmi Reddy,lakshmi.reddy209@rediffmail.com,+91 63798 43514,2024-10-28,03/06/2026,Hyderabad,India,Books,1,360.00,360.00,Net Banking,Delivered,1
+ORD-10443,CUST-2195,Sneha Chopra,sneha.chopra195@rediffmail.com,+91 91374 48083,"February 11, 2023",19 Jul 2025,HYDERABAD,India,Home & Kitchen,1,7930.00,7930.00,UPI,Delivered,1
+ORD-10444,CUST-2069,Pooja Shetty,pooja.shetty69@yahoo.com,+65 95786 86926,2024-03-30,null,Singapore,Singapore,Home & Kitchen,2,7160.00,14320.00,Credit Card,Delivered,2
+ORD-10445,CUST-2224,Sanjay Gupta,sanjay.gupta224@yahoo.com,+91 86589 64118,2023-09-16,2025-06-15,Gurugram,India,Clothing,3,2810.00,8430.00,UPI,Delivered,1
+ORD-10446,CUST-2090,Ananya Desai,ananya.desai90@hotmail.com,+91 82896 10693,2023-05-13,2026-02-05,Gurugram,India ,Home & Kitchen,2,1570.00,3140.00,UPI,Delivered,5
+ORD-10447,CUST-2139,Karan Chopra,karan.chopra139@outlook.com,,2023-08-31,2025-08-10,Chennai,India,Clothing,1,2650.00,2650.00,Cash on Delivery,Shipped,
+ORD-10448,CUST-2110,Karan Malhotra,N/A,+91 97809 64638,2024-10-17,2026-06-20,Gurugram,India,Books,1,1040.00,1040.00,UPI,Shipped,
+ORD-10449,CUST-2199,Karan Shetty,N/A,82128-06224,2024-05-05,2026-09-05,Mumbai,India,Sports,1,6810.00,6810.00,CREDIT CARD,Delivered,5
+ORD-10450,CUST-2127,Neha Banerjee,neha.banerjee127@gmail.com,+65 94193 69055,2023-06-29,2025-01-17,Singapore,Singapore,Home & Kitchen,1,Rs. 2740,2740.00,DC,Delivered,5
+ORD-10451,CUST-2098,Gurpreet Iyer,gurpreet.iyer98@rediffmail.com,+91 78575 12304,"April 13, 2024",09/04/2025,Delhi,India,Sports,1,1790.00,1790.00,Credit Card,Cancelled,
+ORD-10452,CUST-2085,Manish Agarwal,manish.agarwal85@gmail.com,+91 83961 12117,2023-07-01,2025-12-01,Ahmedabad,India,Electronics,2,35550.00,71100.00,Cash on Delivery,Delivered,4
+ORD-10453,CUST-2106,Kavya Banerjee,kavya.banerjee106@outlook.com,+91 99014 34013,2024-10-27,2025-05-04,chennai,India,beauty,4,2220.00,Rs. 8880,Debit Card,Delivered,2
+ORD-10454,CUST-2088,Lakshmi Rao,lakshmi.rao88@gmail.com,+971 99516 59488,2024-05-31,13-01-2025,Dubai,United Arab Emirates,Electronic,2,34440.00,68880.00,UPI,Delivered,4
+ORD-10455,CUST-2336,Ananya Singh,ananya.singh336@hotmail.com,+91 86652 00718,2024-12-30,2026-01-13,Kolkata,India,Grocery,2,760.00,1520.00,Net Banking,Delivered,5
+ORD-10456,CUST-2154,Neha Mehta,neha.mehta154outlook.com,+91 90677 01767,2024-01-05,15 Apr 2025,Delhi,India,Grocery,5,1320.00,6600.00,Cash on Delivery,Shipped,
+ORD-10457,CUST-2087,Nikhil Patel,nikhil.patel87@hotmail.com,+91 63408 08865,"August 17, 2024",2026-02-02,Jaipur,India,Home&Kitchen,2,1270.00,"2,540",Credit Card,Shipped,
+ORD-10098,CUST-2244,Manish Menon,manish.menon244@hotmail.com,07042902642,"March 30, 2024",13-03-2025,Gurugram,India,Books,3,660.00,1980.00,Net Banking,Delivered,1
+ORD-10458,CUST-2170,NEHA MALHOTRA,neha.malhotra170@hotmail.com,+91 91572 02275,2024-07-16,2025-11-22,Jaipur,India,Clothing,3,3650.00,10950.00,Net Banking,Pendng,
+ORD-10459,CUST-2034,neha menon,nan,+91 86778 99595,2023-03-27,2026-08-23,Pune,India,Home & Kitchen,2,480.00,960.00,Credit Card,Deliverd,4
+ORD-10460,CUST-2257,Aarav Verma,aarav.verma257@gmail.com,+91 70957 68375,13-03-2025,2025-07-18,Kolkata,India,Beauty,1,260.00,260.00,Credit Card,Delivered,5
+ORD-10461,CUST-2317,Aditya Banerjee,ADITYA.BANERJEE317@REDIFFMAIL.COM,+919870657802,10 Apr 2023,"May 26, 2026",Delhi,India,Electronics,1,6400.00,6400.00,Credit Card,Delivered,3
+ORD-10498,CUST-2326,Isha Desai,isha.desai326@gmail.com,96167 20739,2023/04/26,2026-01-04,Pune,India,Grocery,1,870.00,870.00,debit card,Returned,5
+ORD-10462,CUST-2328,Vikram Rao,vikram.rao328@hotmail.com,+91 67261 82383,2023-01-24,05-09-2026,Kolkata,India,Electronics,4,21000.00,84000.00,Net Banking,Pendng,
+ORD-10463,CUST-2168,Tanvi Singh,tanvi.singh168@yahoo.com,+91 73165 41316,2024/07/22,2025-02-10,Bengaluru,India,Clothing,1,1820.00,1820.00,Debit Card,Delivered,5
+ORD-10464,CUST-2012,Vikram Rao,vikram.rao12@gmail,+65 92440 63480,2023-03-04,"July 30, 2025",Singapore,Singapore,Clothing,1,2090.00,2090.00,Credit Card,Delivered,5
+ORD-10465,CUST-2113,Rohan Patel,rohan.patel113@hotmail.com,+65 86746 46294,01-11-2023,2025-07-07,Singapore,Singapore,Beauty,2,2150.00,4300.00,Net Banking,Delivered,1
+ORD-10466,CUST-2035,Vikram Chopra,vikram.chopra35@gmail.com,+91 83237 37820,2025-02-06,2025-06-30,Jaipur,India,Clothing,2,660.00,1320.00,Credit Card,Pending,
+ORD-10467,CUST-2046,Meera Iyer,meera.iyer46@hotmail.com,-,2023-11-09,"July 29, 2025",New York,United States,Clothing,2,3430.00,6860.00,Net Banking,Delivered,2
+ORD-10468,CUST-2159,nan,meera.rao159@yahoo.com,+91 99732 73919,2024-11-29,2025-06-30,Jaipur,India,Clothing,1,1410.00,1410.00,Cash on Delivery,Deliverd,11
+ORD-10469,CUST-2229,Deepak Mehta,deepak.mehta229@gmail.com,+65 86228 48354,26-04-2024,2026-05-08,Singapore,Singapore,Sports,1,4620.00,4620.00,Net Banking,Delivered,5
+ORD-10470,CUST-2193,Rohan Patel,rohan.patel193@hotmail.com,+65 97390 01805,2024-11-09,"June 02, 2026",Singapore,Singapore,Clothing,1,2810.00,2810.00,CREDIT CARD,Delivered,4
+ORD-10471,CUST-2246,Gurpreet Agarwal,gurpreet.agarwal246@hotmail.com,+91 99302 45646,2023-04-27,27/03/2025,Delhi,India,Electronics,1,32740.00,32740.00,Debit Card,Cancelled,
+ORD-10472,CUST-2304,Deepak Menon,deepak.menon304@hotmail.com,+91 97575 18427,2025-04-28,"October 24, 2025",Pune,India,Beauty,2,980.00,1960.00,Net Banking,Delivered,4
+ORD-10473,CUST-2145,Anjali Nair,anjali.nair145@yahoo.com,+91 90870 55721,2024-01-24,15/03/2025,Gurugram,India,Books,NULL,860.00,1720.00,Credit Card,Delivered,5
+ORD-10474,CUST-2079,Aarav Kapoor,aarav.kapoor79@gmail.com,Unknown,2023-04-04,2026/05/28,Singapore,Singapore,Clothing,1,420.00,420,Debit_Card,Shipped,
+ORD-10475,CUST-2251,Ritu Malhotra,ritu.malhotra251@yahoo.com,+971 88537 52276,2024-12-28,"January 18, 2026",Dubai,United Arab Emirates,Books,4,680.00,2720.00,Cash on Delivery,Delivered,4
+ORD-10476,CUST-2036,Priya Das,priya.das36@rediffmail.com,+91 67679 10116,2023-08-12,2025-05-08,Ahmedabad,India,Books,5,190.00,950.00,Credit Card,Delivered,4
+ORD-10477,CUST-2223,Sneha Menon,sneha.menon223@yahoo.com,+91 83828 00087,2025-05-27,2026-05-31,Hyderabad,India,Home and Kitchen,4,8190.00,32760.00,Debit Card,Delivered,5
+ORD-10478,CUST-2029,Gurpreet Banerjee,gurpreet.banerjee29@rediffmail.com,Unknown,2024-04-20,2025-09-10,Mumbai,India,Sports,4,"₹8,390.00",33560.00,Debit Card,Delivered,1
+ORD-10479,CUST-2323,Sneha Menon,sneha.menon323@hotmail.com,+91 65375 00738,2025-06-07,NULL,none,India,Sports,2,1070.00,2140.00,Credit Card,Delivered,NULL
+ORD-10480,CUST-2130,lakshmi kulkarni,lakshmi.kulkarni130@outlook.com,+91 71888 50611,2023-09-12,2025-06-15,Mumbai,India,Clothing,2,3480.00,6960.00,Net Banking,Delivered,5
+ORD-10481,CUST-2203,Nikhil Verma,nikhil.verma203@hotmail.com,+91 89079 55198,2024-07-09,2025-07-13,Chennai,India,Sports,2,2140.00,4280.00,Net Banking,Returned,3
+ORD-10482,CUST-2129,Aditya Banerjee,aditya.banerjee129@gmail.com,+91 98152 83767,24 Jan 2025,23/07/2026,Kolkata,India,sports,2,6680.00,13360.00 INR,Net banking,Shipped,
+ORD-10483,CUST-2300,Vikram Rao,vikram.rao300@hotmail.com,+91 89701 10850,2024-06-20,2025-04-02,Delhi,India,Home & Kitchen,1,7810.00,7810.00,Debit Card,delivered,4
+ORD-10484,CUST-2073,Manish Reddy,manish.reddy73@outlook.com,+91 94354 26796,2024-04-14,2026-02-12,Mumbai,India,Home & Kitchen,1,7960.00,7960.00,UPI,Shipped,
+ORD-10175,CUST-2191,Pooja B. Nair,pooja.nair191@yahoo.com,+91 87239 97757,07 Jan 2023,"June 16, 2025",Pune,India,BEAUTY,3,280.00,840.00,Net Banking,Delivered,3
+ORD-10485,CUST-2086,aditya pillai,aditya.pillai86@outlook.com,+91-9686939344,26 Mar 2025,2025-06-05,Chennai,India,Grocery,1,1300.00,1300.00,Net Banking,Cancelled,
+ORD-10486,CUST-2268,Vikram Pillai,vikram.pillai268@outlook.com,(+91) 8913776236,2025-06-17,2026-01-23,ahmedabad,india,Books,1,980.00,980.00,Credit Card,Delivered,4
+ORD-10487,CUST-2101,Shreya Verma,shreya.verma101@hotmail.com,85817 46680,07-02-2023,23/04/2025,Chennai,India,Books,2,380.00,760.00,Credit Card,Delivered,5
+ORD-10488,CUST-2102,Arjun Patel,arjun.patel102@gmail.com,+91 63338 40628,2025-06-05,11/09/2025,Kolkata,India,electronics,3,16460.00,49380.00,NetBanking,Delivered,5
+ORD-10489,CUST-2225,Lakshmi Kulkarni,nan,+91 84332 46831,2024-11-09,2025-06-20,Kolkata,India,Sports,3,2730.00,8190.00,UPI,Delivered,2
+ORD-10490,CUST-2141,Lakshmi Agarwal,lakshmi.agarwal141@gmail.com,9421522814,2024-07-29,2025-08-29,Pune,India,Electronics,1,29520.00,29520.00,UPI,Delivered,5
+ORD-10491,CUST-2004,Ritu Banerjee,ritu.banerjee4@gmail.com,+91 71396 56872,2025-04-04,"April 11, 2025",Kolkata,India,Electronics,3,23290.00,69870.00,UPI,Shipped,
+ORD-10492,CUST-2049,rohan patel,ROHAN.PATEL49@HOTMAIL.COM,+91 85894 43425,2023-03-24,20 Jan 2026,Gurugram,India,Clothing,3,3070.00,9210.00,Debit Card,Delivered,5
+ORD-10493,CUST-2248,Ritu Nair,ritu.nair248@hotmail.com,+91 92813 70661,2024-04-13,2026-03-16,Gurugram,India,Books,1,1110.00,1110.00,Debit Card,Delivered,5
+ORD-10494,CUST-2161,Lakshmi Khan,lakshmi.khan161@rediffmail.com,+91 95598 40978,2024-10-15,13 Feb 2026,Delhi,India,GROCERY,4,660.00,2640.00,Debit Card,delivered,2
+ORD-10495,CUST-2169,isha kulkarni,isha.kulkarni169@hotmail.com,-,"December 02, 2024",2026-13-05,Ahmedabad,India,Grocery,1,,300.00,Credit Card,shipped,
+ORD-10496,CUST-2013,Shreya Verma,shreya.verma13@rediffmail.com,+91 62144 22948,2023-04-11,14 Oct 2025,Mumbai,India,Beauty,3,820.00,"2,460",Credit Card,Pending,
+ORD-10497,CUST-2188,Sanjay Iyer,sanjay.iyer188@gmail.com,+91 80811 78617,2023/02/15,2026-05-02,Mumbai,India,Books,2,940.00,1880.00,UPI,Delivered,5
+ORD-10498,CUST-2326,Isha Desai,isha.desai326@gmail.com,96167 20739,2023/04/26,2026-01-04,Pune,India,Grocery,1,870.00,870.00,debit card,Returned,5
+ORD-10499,CUST-2227,Manish Gupta,manish.gupta227@rediffmail.com,+971 96676 92430,2025-04-15,2025-07-07,Dubai,United Arab Emirates,Clothing,1,Rs. 3500,3500.00,Net Banking,Delivered,-
+ORD-10500,CUST-2337,Sneha Khan,sneha.khan337@yahoo.com,+91 71249 99262,2023-03-09,2025-10-28,Bengaluru,India,Grocery,2,Rs. 300,600.00,Cash on Delivery,Delivered,5

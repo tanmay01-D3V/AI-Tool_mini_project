@@ -1,0 +1,849 @@
+data_row,order_id,column,issue_type,clean_value,dirty_value,note
+1,ORD-10001,unit_price,format_inconsistency,4800.00,"4,800",currency/format variant
+1,ORD-10001,order_date,format_inconsistency,2025-11-08,2025/11/08,non-ISO date (DD/MM convention)
+1,ORD-10001,signup_date,format_inconsistency,2024-09-22,22 Sep 2024,non-ISO date (DD/MM convention)
+2,ORD-10002,phone,format_inconsistency,+91 84166 36626,84166-36626,phone format variant
+3,ORD-10488,*row*,exact_duplicate,,,identical copy of another row (source ORD-10488)
+4,ORD-10003,phone,format_inconsistency,+91 81111 25272,8111125272,phone format variant
+5,ORD-10004,email,format_inconsistency,pooja.shetty69@yahoo.com,POOJA.SHETTY69@YAHOO.COM,uppercase email
+5,ORD-10004,phone,format_inconsistency,+65 95786 86926,09578686926,phone format variant
+6,ORD-10005,city,missing_value,Mumbai,NA,placeholder: NA
+6,ORD-10005,phone,format_inconsistency,+91 94930 13038,94930-13038,phone format variant
+6,ORD-10005,order_date,format_inconsistency,2025-06-17,17-06-2025,non-ISO date (DD/MM convention)
+6,ORD-10005,signup_date,format_inconsistency,2023-01-19,2023/01/19,non-ISO date (DD/MM convention)
+6,ORD-10005,payment_method,format_inconsistency,UPI,Upi,payment label variant
+7,ORD-10006,signup_date,logical_inconsistency,2023-11-09,2025-06-24,signup_date is after order_date
+7,ORD-10006,rating,invalid_value,4,-1,rating outside 1-5 or not an integer
+7,ORD-10006,total_amount,format_inconsistency,76620.00,"₹76,620.00",currency/format variant
+7,ORD-10006,status,format_inconsistency,Delivered,delivered,status variant / typo
+8,ORD-10490,*row*,exact_duplicate,,,identical copy of another row (source ORD-10490)
+9,ORD-10007,order_date,format_inconsistency,2025-02-14,14-02-2025,non-ISO date (DD/MM convention)
+9,ORD-10007,country,format_inconsistency,India,INDIA,country spelling variant
+9,ORD-10007,city,format_inconsistency,Chennai,Madras,alias / old name
+10,ORD-10008,email,format_inconsistency,karan.banerjee289@outlook.com,KARAN.BANERJEE289@OUTLOOK.COM,uppercase email
+10,ORD-10008,signup_date,format_inconsistency,2023-03-19,19/03/2023,non-ISO date (DD/MM convention)
+11,ORD-10009,rating,missing_value,3,-,placeholder: -
+12,ORD-10136,order_id,duplicate_key_conflict,ORD-10466,ORD-10136,order_id reused with different content (source ORD-10136)
+13,ORD-10010,order_date,format_inconsistency,2026-06-07,07/06/2026,non-ISO date (DD/MM convention)
+15,ORD-10008,*row*,exact_duplicate,,,identical copy of another row (source ORD-10008)
+16,ORD-10012,signup_date,format_inconsistency,2023-02-27,27 Feb 2023,non-ISO date (DD/MM convention)
+18,ORD-10014,signup_date,format_inconsistency,2025-01-25,25/01/2025,non-ISO date (DD/MM convention)
+20,ORD-10296,*row*,exact_duplicate,,,identical copy of another row (source ORD-10296)
+21,ORD-10016,country,format_inconsistency,Singapore,SG,country spelling variant
+21,ORD-10016,city,format_inconsistency,Singapore,Singapore ,casing / whitespace
+22,ORD-10017,email,missing_value,kavya.banerjee68@yahoo.com,,blank
+23,ORD-10018,unit_price,format_inconsistency,44830.00,Rs. 44830,currency/format variant
+24,ORD-10019,phone,invalid_phone,+91 69674 82705,696748270,9 digits only
+25,ORD-10020,order_date,format_inconsistency,2026-05-25,25 May 2026,non-ISO date (DD/MM convention)
+26,ORD-10021,unit_price,format_inconsistency,6440.00,6440.00 INR,currency/format variant
+26,ORD-10021,order_date,format_inconsistency,2025-01-02,02/01/2025,non-ISO date (DD/MM convention)
+26,ORD-10021,product_category,format_inconsistency,Sports,Sports ,category variant
+26,ORD-10021,payment_method,format_inconsistency,UPI,U.P.I,payment label variant
+27,ORD-10022,customer_name,format_inconsistency,Kavya Banerjee,KAVYA BANERJEE,casing / stray whitespace
+27,ORD-10022,order_date,format_inconsistency,2025-12-08,08/12/2025,non-ISO date (DD/MM convention)
+27,ORD-10022,payment_method,format_inconsistency,Credit Card,CREDIT CARD,payment label variant
+28,ORD-10451,order_id,duplicate_key_conflict,ORD-10463,ORD-10451,order_id reused with different content (source ORD-10451)
+30,ORD-10024,unit_price,format_inconsistency,1850.00,"1,850",currency/format variant
+30,ORD-10024,signup_date,format_inconsistency,2024-07-20,2024/07/20,non-ISO date (DD/MM convention)
+31,ORD-10025,order_date,format_inconsistency,2025-07-18,18-07-2025,non-ISO date (DD/MM convention)
+33,ORD-10027,order_date,format_inconsistency,2025-02-27,"February 27, 2025",non-ISO date (DD/MM convention)
+34,ORD-10028,order_date,missing_value,2026-02-05,nan,placeholder: nan
+34,ORD-10028,status,format_inconsistency,Cancelled,cancelled,status variant / typo
+35,ORD-10029,city,format_inconsistency,Chennai,Madras,alias / old name
+36,ORD-10030,phone,format_inconsistency,+971 64144 08727,+971-6414408727,phone format variant
+36,ORD-10030,signup_date,format_inconsistency,2024-06-06,"June 06, 2024",non-ISO date (DD/MM convention)
+36,ORD-10030,payment_method,format_inconsistency,Debit Card,debit card,payment label variant
+37,ORD-10031,country,format_inconsistency,India,Ind,country spelling variant
+39,ORD-10033,total_amount,calculation_mismatch,790.00,711.00,total_amount != quantity * unit_price
+39,ORD-10033,order_date,format_inconsistency,2026-05-10,10-05-2026,non-ISO date (DD/MM convention)
+40,ORD-10034,phone,missing_value,+91 68671 28617,NULL,placeholder: NULL
+41,ORD-10035,total_amount,format_inconsistency,3210.00,3210.00 INR,currency/format variant
+41,ORD-10035,city,format_inconsistency,Jaipur,jaipur,casing / whitespace
+43,ORD-10037,quantity,missing_value,1,?,placeholder: ?
+44,ORD-10038,country,format_inconsistency,India, India,country spelling variant
+44,ORD-10038,payment_method,format_inconsistency,UPI,U.P.I,payment label variant
+46,ORD-10040,order_date,format_inconsistency,2026-07-17,2026/07/17,non-ISO date (DD/MM convention)
+46,ORD-10040,country,format_inconsistency,India, India,country spelling variant
+46,ORD-10040,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+47,ORD-10041,total_amount,format_inconsistency,1270.00,"1,270",currency/format variant
+47,ORD-10041,email,invalid_email,karan.shetty293@outlook.com,karan.shetty293@outlook.con,malformed email
+47,ORD-10041,signup_date,format_inconsistency,2023-07-11,2023/07/11,non-ISO date (DD/MM convention)
+47,ORD-10041,country,format_inconsistency,India,Ind,country spelling variant
+47,ORD-10041,city,format_inconsistency,Jaipur,jaipur,casing / whitespace
+48,ORD-10042,rating,missing_value,2,-,placeholder: -
+48,ORD-10042,email,invalid_email,lakshmi.kulkarni66@rediffmail.com,lakshmi.kulkarni66@rediffmail.con,malformed email
+49,ORD-10043,payment_method,format_inconsistency,Credit Card,CC,payment label variant
+50,ORD-10044,signup_date,logical_inconsistency,2024-01-10,2025-05-09,signup_date is after order_date
+50,ORD-10044,unit_price,format_inconsistency,39640.00,39640.00 INR,currency/format variant
+50,ORD-10044,order_date,format_inconsistency,2025-04-06,06 Apr 2025,non-ISO date (DD/MM convention)
+51,ORD-10045,email,missing_value,rohan.patel49@hotmail.com,,blank
+51,ORD-10045,unit_price,format_inconsistency,540.00,Rs. 540,currency/format variant
+51,ORD-10045,phone,format_inconsistency,+91 85894 43425,(+91) 8589443425,phone format variant
+52,ORD-10046,order_date,format_inconsistency,2025-12-05,05 Dec 2025,non-ISO date (DD/MM convention)
+52,ORD-10046,signup_date,format_inconsistency,2023-04-20,2023/04/20,non-ISO date (DD/MM convention)
+53,ORD-10047,phone,missing_value,+91 94930 13038,,blank
+53,ORD-10047,total_amount,format_inconsistency,180.00,180.00 INR,currency/format variant
+53,ORD-10047,email,invalid_email,vikram.kapoor232@yahoo.com,vikram.kapoor232yahoo.com,malformed email
+54,ORD-10048,order_date,format_inconsistency,2025-06-28,28 Jun 2025,non-ISO date (DD/MM convention)
+54,ORD-10048,product_category,format_inconsistency,Grocery,GROCERY,category variant
+54,ORD-10048,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+55,ORD-10359,*row*,exact_duplicate,,,identical copy of another row (source ORD-10359)
+56,ORD-10049,email,invalid_email,aditya.pillai166@hotmail.com,aditya.pillai166@hotmail.con,malformed email
+57,ORD-10050,quantity,invalid_quantity,1,999,"negative, zero or absurd quantity"
+58,ORD-10051,total_amount,calculation_mismatch,2320.00,4640.00,total_amount != quantity * unit_price
+58,ORD-10051,order_date,format_inconsistency,2025-12-17,17/12/2025,non-ISO date (DD/MM convention)
+59,ORD-10052,order_date,format_inconsistency,2026-09-03,2026/09/03,non-ISO date (DD/MM convention)
+60,ORD-10053,total_amount,format_inconsistency,4450.00,4450.00 INR,currency/format variant
+60,ORD-10053,order_date,format_inconsistency,2025-04-22,22-04-2025,non-ISO date (DD/MM convention)
+61,ORD-10054,phone,format_inconsistency,+91 89383 42917,89383 42917,phone format variant
+61,ORD-10054,order_date,format_inconsistency,2025-03-04,04 Mar 2025,non-ISO date (DD/MM convention)
+61,ORD-10054,payment_method,format_inconsistency,Cash on Delivery,COD,payment label variant
+62,ORD-10055,city,missing_value,Bengaluru,,blank
+62,ORD-10055,signup_date,format_inconsistency,2025-02-19,2025/02/19,non-ISO date (DD/MM convention)
+63,ORD-10056,total_amount,format_inconsistency,400.00,Rs. 400,currency/format variant
+63,ORD-10056,order_date,format_inconsistency,2025-11-21,21/11/2025,non-ISO date (DD/MM convention)
+63,ORD-10056,city,format_inconsistency,Kolkata,Calcutta,alias / old name
+64,ORD-10057,phone,format_inconsistency,+91 90313 43962,9031343962,phone format variant
+64,ORD-10057,signup_date,format_inconsistency,2024-08-31,"August 31, 2024",non-ISO date (DD/MM convention)
+64,ORD-10057,country,format_inconsistency,India, India,country spelling variant
+64,ORD-10057,city,format_inconsistency,Ahmedabad,ahmedabad,casing / whitespace
+65,ORD-10058,order_date,format_inconsistency,2026-07-17,"July 17, 2026",non-ISO date (DD/MM convention)
+65,ORD-10058,city,format_inconsistency,Ahmedabad,AHMEDABAD,casing / whitespace
+66,ORD-10059,total_amount,format_inconsistency,960.00,960.00 INR,currency/format variant
+66,ORD-10059,order_date,format_inconsistency,2025-10-16,2025/10/16,non-ISO date (DD/MM convention)
+66,ORD-10059,signup_date,format_inconsistency,2023-12-23,23/12/2023,non-ISO date (DD/MM convention)
+67,ORD-10060,email,missing_value,pooja.pillai201@rediffmail.com,,blank
+67,ORD-10060,order_date,format_inconsistency,2026-02-20,2026/02/20,non-ISO date (DD/MM convention)
+67,ORD-10060,signup_date,format_inconsistency,2023-08-27,2023/08/27,non-ISO date (DD/MM convention)
+68,ORD-10061,signup_date,logical_inconsistency,2024-10-20,2026-03-15,signup_date is after order_date
+70,ORD-10063,signup_date,logical_inconsistency,2024-12-30,2026-05-31,signup_date is after order_date
+70,ORD-10063,order_date,format_inconsistency,2026-03-02,02-03-2026,non-ISO date (DD/MM convention)
+71,ORD-10064,signup_date,logical_inconsistency,2023-04-26,2026-03-18,signup_date is after order_date
+71,ORD-10064,unit_price,format_inconsistency,1120.00,1120.00 INR,currency/format variant
+71,ORD-10064,payment_method,format_inconsistency,Debit Card,debit card,payment label variant
+72,ORD-10065,city,missing_value,Kolkata,NULL,placeholder: NULL
+72,ORD-10065,total_amount,calculation_mismatch,5140.00,10280.00,total_amount != quantity * unit_price
+73,ORD-10066,email,missing_value,divya.khan137@yahoo.com,,blank
+73,ORD-10066,unit_price,format_inconsistency,840.00,Rs. 840,currency/format variant
+73,ORD-10066,phone,format_inconsistency,+91 78794 74324,78794 74324,phone format variant
+73,ORD-10066,order_date,format_inconsistency,2025-02-04,04/02/2025,non-ISO date (DD/MM convention)
+73,ORD-10066,signup_date,format_inconsistency,2023-10-10,2023/10/10,non-ISO date (DD/MM convention)
+74,ORD-10067,total_amount,format_inconsistency,8040.00,8040.00 INR,currency/format variant
+74,ORD-10067,payment_method,format_inconsistency,UPI,U.P.I,payment label variant
+75,ORD-10068,order_date,format_inconsistency,2025-11-11,11 Nov 2025,non-ISO date (DD/MM convention)
+75,ORD-10068,product_category,format_inconsistency,Sports,Sports ,category variant
+76,ORD-10069,order_date,format_inconsistency,2025-03-21,21/03/2025,non-ISO date (DD/MM convention)
+76,ORD-10069,signup_date,format_inconsistency,2023-06-02,"June 02, 2023",non-ISO date (DD/MM convention)
+78,ORD-10071,rating,missing_value,5,none,placeholder: none
+79,ORD-10072,unit_price,format_inconsistency,580.00,Rs. 580,currency/format variant
+79,ORD-10072,email,format_inconsistency,sanjay.shetty148@hotmail.com,SANJAY.SHETTY148@HOTMAIL.COM,uppercase email
+79,ORD-10072,country,format_inconsistency,Singapore,SINGAPORE,country spelling variant
+79,ORD-10072,payment_method,format_inconsistency,Cash on Delivery,cash on delivery,payment label variant
+80,ORD-10073,country,format_inconsistency,India, India,country spelling variant
+80,ORD-10073,product_category,format_inconsistency,Electronics,electronics,category variant
+82,ORD-10190,*row*,exact_duplicate,,,identical copy of another row (source ORD-10190)
+83,ORD-10075,city,missing_value,Gurugram,null,placeholder: null
+83,ORD-10075,rating,missing_value,2,Unknown,placeholder: Unknown
+84,ORD-10076,order_date,format_inconsistency,2026-01-14,14 Jan 2026,non-ISO date (DD/MM convention)
+84,ORD-10076,country,format_inconsistency,India,Ind,country spelling variant
+85,ORD-10077,signup_date,format_inconsistency,2024-04-30,2024/04/30,non-ISO date (DD/MM convention)
+85,ORD-10077,country,format_inconsistency,India,india,country spelling variant
+86,ORD-10078,total_amount,format_inconsistency,1320.00,Rs. 1320,currency/format variant
+86,ORD-10078,order_date,format_inconsistency,2026-06-24,"June 24, 2026",non-ISO date (DD/MM convention)
+86,ORD-10078,signup_date,format_inconsistency,2025-04-28,28-04-2025,non-ISO date (DD/MM convention)
+87,ORD-10079,signup_date,format_inconsistency,2024-08-31,"August 31, 2024",non-ISO date (DD/MM convention)
+88,ORD-10080,order_date,format_inconsistency,2025-02-23,23 Feb 2025,non-ISO date (DD/MM convention)
+88,ORD-10080,country,format_inconsistency,India,Ind,country spelling variant
+88,ORD-10080,payment_method,format_inconsistency,Debit Card,debit card,payment label variant
+89,ORD-10081,phone,format_inconsistency,+91 64746 61886,6474661886,phone format variant
+89,ORD-10081,order_date,format_inconsistency,2026-02-04,04 Feb 2026,non-ISO date (DD/MM convention)
+89,ORD-10081,signup_date,format_inconsistency,2024-10-20,20-10-2024,non-ISO date (DD/MM convention)
+89,ORD-10081,country,format_inconsistency,India,india,country spelling variant
+90,ORD-10082,customer_name,missing_value,Pooja Gupta,NA,placeholder: NA
+90,ORD-10082,phone,format_inconsistency,+1 75001 67403,+1-7500167403,phone format variant
+90,ORD-10082,signup_date,format_inconsistency,2024-06-25,25-06-2024,non-ISO date (DD/MM convention)
+90,ORD-10082,payment_method,format_inconsistency,UPI,upi,payment label variant
+91,ORD-10083,unit_price,format_inconsistency,2010.00,"₹2,010.00",currency/format variant
+91,ORD-10083,signup_date,format_inconsistency,2023-03-24,24 Mar 2023,non-ISO date (DD/MM convention)
+91,ORD-10083,product_category,format_inconsistency,Beauty,beauty,category variant
+91,ORD-10083,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+93,ORD-10085,signup_date,format_inconsistency,2024-03-04,2024/03/04,non-ISO date (DD/MM convention)
+93,ORD-10085,status,format_inconsistency,Cancelled,canceled,status variant / typo
+95,ORD-10087,email,missing_value,pooja.gupta6@hotmail.com,null,placeholder: null
+96,ORD-10088,unit_price,format_inconsistency,3440.00,3440.00 INR,currency/format variant
+96,ORD-10088,customer_name,format_inconsistency,Gurpreet Iyer,gurpreet iyer,casing / stray whitespace
+96,ORD-10088,city,format_inconsistency,Delhi,DELHI,casing / whitespace
+97,ORD-10089,signup_date,format_inconsistency,2025-01-14,14/01/2025,non-ISO date (DD/MM convention)
+97,ORD-10089,city,format_inconsistency,Mumbai,Bombay,alias / old name
+98,ORD-10138,order_id,duplicate_key_conflict,ORD-10430,ORD-10138,order_id reused with different content (source ORD-10138)
+99,ORD-10288,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10288)"
+100,ORD-10090,order_date,invalid_date,2025-07-09,00/00/0000,calendar-impossible date
+102,ORD-10092,signup_date,format_inconsistency,2024-04-29,29/04/2024,non-ISO date (DD/MM convention)
+103,ORD-10093,total_amount,format_inconsistency,113250.00,"113,250",currency/format variant
+104,ORD-10094,country,format_inconsistency,India,india,country spelling variant
+105,ORD-10095,quantity,format_inconsistency,4,3 pcs,quantity not a clean integer
+105,ORD-10095,rating,invalid_value,2,0,rating outside 1-5 or not an integer
+105,ORD-10095,order_date,format_inconsistency,2026-01-08,08-01-2026,non-ISO date (DD/MM convention)
+105,ORD-10095,status,format_inconsistency,Delivered,delivered,status variant / typo
+106,ORD-10272,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10272)"
+107,ORD-10096,order_date,format_inconsistency,2026-05-25,25-05-2026,non-ISO date (DD/MM convention)
+108,ORD-10097,rating,invalid_value,4,0,rating outside 1-5 or not an integer
+108,ORD-10097,order_date,format_inconsistency,2026-02-05,05 Feb 2026,non-ISO date (DD/MM convention)
+108,ORD-10097,signup_date,format_inconsistency,2024-05-05,05/05/2024,non-ISO date (DD/MM convention)
+109,ORD-10098,phone,format_inconsistency,+91 70429 02642,07042902642,phone format variant
+109,ORD-10098,order_date,format_inconsistency,2025-03-13,13-03-2025,non-ISO date (DD/MM convention)
+109,ORD-10098,signup_date,format_inconsistency,2024-03-30,"March 30, 2024",non-ISO date (DD/MM convention)
+110,ORD-10099,order_date,format_inconsistency,2026-01-03,03-01-2026,non-ISO date (DD/MM convention)
+111,ORD-10100,order_date,format_inconsistency,2026-08-17,17/08/2026,non-ISO date (DD/MM convention)
+112,ORD-10101,order_date,format_inconsistency,2025-06-30,30-06-2025,non-ISO date (DD/MM convention)
+113,ORD-10102,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+115,ORD-10104,phone,invalid_phone,+91 75756 96639,757569663,9 digits only
+115,ORD-10104,order_date,format_inconsistency,2026-04-06,06 Apr 2026,non-ISO date (DD/MM convention)
+115,ORD-10104,city,format_inconsistency,Chennai,chennai,casing / whitespace
+116,ORD-10105,order_date,format_inconsistency,2025-02-13,"February 13, 2025",non-ISO date (DD/MM convention)
+117,ORD-10106,unit_price,format_inconsistency,11480.00,"₹11,480.00",currency/format variant
+117,ORD-10106,order_date,format_inconsistency,2026-09-06,06 Sep 2026,non-ISO date (DD/MM convention)
+118,ORD-10107,rating,missing_value,5,,blank
+118,ORD-10107,email,format_inconsistency,tanvi.kapoor250@yahoo.com,TANVI.KAPOOR250@YAHOO.COM,uppercase email
+119,ORD-10108,rating,missing_value,2,N/A,placeholder: N/A
+120,ORD-10109,signup_date,format_inconsistency,2024-08-17,2024/08/17,non-ISO date (DD/MM convention)
+121,ORD-10110,order_date,format_inconsistency,2026-02-16,16-02-2026,non-ISO date (DD/MM convention)
+122,ORD-10111,unit_price,missing_value,2040.00,N/A,placeholder: N/A
+122,ORD-10111,order_date,format_inconsistency,2025-08-07,2025/08/07,non-ISO date (DD/MM convention)
+122,ORD-10111,product_category,format_inconsistency,Clothing,clothing,category variant
+124,ORD-10113,city,format_inconsistency,Delhi,New Delhi,alias / old name
+125,ORD-10114,city,missing_value,Chennai,Unknown,placeholder: Unknown
+125,ORD-10114,phone,format_inconsistency,+91 69068 71524,69068-71524,phone format variant
+126,ORD-10060,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10060)"
+127,ORD-10115,phone,missing_value,+91 96039 66221,NA,placeholder: NA
+127,ORD-10115,payment_method,format_inconsistency,Credit Card,Credit_Card,payment label variant
+128,ORD-10116,order_date,format_inconsistency,2026-02-26,26-02-2026,non-ISO date (DD/MM convention)
+129,ORD-10117,total_amount,format_inconsistency,5900.00,"5,900",currency/format variant
+131,ORD-10119,total_amount,format_inconsistency,40450.00,"40,450",currency/format variant
+131,ORD-10119,product_category,format_inconsistency,Home & Kitchen,home & kitchen,category variant
+132,ORD-10120,order_date,format_inconsistency,2025-06-02,"June 02, 2025",non-ISO date (DD/MM convention)
+132,ORD-10120,signup_date,format_inconsistency,2024-07-29,2024/07/29,non-ISO date (DD/MM convention)
+133,ORD-10121,order_date,format_inconsistency,2025-02-14,"February 14, 2025",non-ISO date (DD/MM convention)
+133,ORD-10121,signup_date,format_inconsistency,2024-01-26,"January 26, 2024",non-ISO date (DD/MM convention)
+134,ORD-10122,signup_date,format_inconsistency,2024-08-31,31-08-2024,non-ISO date (DD/MM convention)
+135,ORD-10398,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10398)"
+137,ORD-10108,*row*,exact_duplicate,,,identical copy of another row (source ORD-10108)
+138,ORD-10124,rating,missing_value,2,N/A,placeholder: N/A
+138,ORD-10124,order_date,format_inconsistency,2025-11-30,"November 30, 2025",non-ISO date (DD/MM convention)
+139,ORD-10333,*row*,exact_duplicate,,,identical copy of another row (source ORD-10333)
+141,ORD-10126,country,format_inconsistency,India,India ,country spelling variant
+141,ORD-10126,payment_method,format_inconsistency,Credit Card,credit card,payment label variant
+142,ORD-10127,customer_name,format_inconsistency,Gurpreet Shetty,  Gurpreet Shetty ,casing / stray whitespace
+143,ORD-10128,city,format_inconsistency,Abu Dhabi,Abu Dhabi ,casing / whitespace
+144,ORD-10129,unit_price,format_inconsistency,6480.00,"₹6,480.00",currency/format variant
+144,ORD-10129,order_date,format_inconsistency,2026-09-19,19-09-2026,non-ISO date (DD/MM convention)
+145,ORD-10130,order_date,format_inconsistency,2026-09-05,05-09-2026,non-ISO date (DD/MM convention)
+145,ORD-10130,signup_date,format_inconsistency,2025-04-23,"April 23, 2025",non-ISO date (DD/MM convention)
+147,ORD-10132,order_date,format_inconsistency,2026-03-04,2026/03/04,non-ISO date (DD/MM convention)
+147,ORD-10132,payment_method,format_inconsistency,UPI,upi,payment label variant
+148,ORD-10133,unit_price,format_inconsistency,10820.00,10820.00 INR,currency/format variant
+148,ORD-10133,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+150,ORD-10135,payment_method,format_inconsistency,Credit Card,credit card,payment label variant
+152,ORD-10137,order_date,format_inconsistency,2025-03-08,2025/03/08,non-ISO date (DD/MM convention)
+155,ORD-10140,order_date,format_inconsistency,2025-04-24,24/04/2025,non-ISO date (DD/MM convention)
+157,ORD-10158,order_id,duplicate_key_conflict,ORD-10213,ORD-10158,order_id reused with different content (source ORD-10158)
+158,ORD-10142,quantity,invalid_quantity,1,0,"negative, zero or absurd quantity"
+158,ORD-10142,total_amount,format_inconsistency,3160.00,"₹3,160.00",currency/format variant
+158,ORD-10142,signup_date,format_inconsistency,2024-04-05,2024/04/05,non-ISO date (DD/MM convention)
+159,ORD-10143,total_amount,format_inconsistency,620.00,₹620.00,currency/format variant
+159,ORD-10143,order_date,format_inconsistency,2025-10-01,01/10/2025,non-ISO date (DD/MM convention)
+160,ORD-10144,rating,invalid_value,2,6,rating outside 1-5 or not an integer
+160,ORD-10144,total_amount,format_inconsistency,3830.00,3830.00 INR,currency/format variant
+160,ORD-10144,order_date,format_inconsistency,2026-05-29,2026/05/29,non-ISO date (DD/MM convention)
+160,ORD-10144,city,format_inconsistency,Mumbai,Mumbai ,casing / whitespace
+161,ORD-10145,quantity,missing_value,2,,blank
+161,ORD-10145,rating,missing_value,5,NA,placeholder: NA
+162,ORD-10146,order_date,format_inconsistency,2025-03-20,20/03/2025,non-ISO date (DD/MM convention)
+163,ORD-10147,order_date,format_inconsistency,2025-01-24,24-01-2025,non-ISO date (DD/MM convention)
+163,ORD-10147,country,format_inconsistency,India,IN,country spelling variant
+163,ORD-10147,payment_method,format_inconsistency,Cash on Delivery,Cash On Delivery,payment label variant
+165,ORD-10149,order_date,format_inconsistency,2025-12-18,18 Dec 2025,non-ISO date (DD/MM convention)
+165,ORD-10149,product_category,format_inconsistency,Sports,Sports ,category variant
+165,ORD-10149,payment_method,format_inconsistency,Debit Card,DC,payment label variant
+166,ORD-10150,unit_price,missing_value,2910.00,Unknown,placeholder: Unknown
+166,ORD-10150,signup_date,format_inconsistency,2024-04-13,13 Apr 2024,non-ISO date (DD/MM convention)
+166,ORD-10150,city,format_inconsistency,Gurugram,Gurgaon,alias / old name
+167,ORD-10151,order_date,format_inconsistency,2026-01-16,16 Jan 2026,non-ISO date (DD/MM convention)
+168,ORD-10239,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10239)"
+169,ORD-10152,signup_date,format_inconsistency,2024-02-28,28 Feb 2024,non-ISO date (DD/MM convention)
+170,ORD-10153,total_amount,calculation_mismatch,3870.00,7740.00,total_amount != quantity * unit_price
+170,ORD-10153,unit_price,format_inconsistency,1290.00,Rs. 1290,currency/format variant
+170,ORD-10153,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+171,ORD-10154,customer_name,missing_value,Rahul Gupta,-,placeholder: -
+171,ORD-10154,rating,missing_value,5,?,placeholder: ?
+171,ORD-10154,country,format_inconsistency,India,Ind,country spelling variant
+172,ORD-10432,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10432)"
+173,ORD-10155,email,missing_value,sanjay.shetty176@hotmail.com,,blank
+173,ORD-10155,unit_price,format_inconsistency,2300.00,"2,300",currency/format variant
+174,ORD-10156,unit_price,format_inconsistency,1130.00,1130.00 INR,currency/format variant
+174,ORD-10156,phone,format_inconsistency,+65 98751 38661,+65-9875138661,phone format variant
+175,ORD-10157,order_date,format_inconsistency,2025-12-06,06/12/2025,non-ISO date (DD/MM convention)
+175,ORD-10157,signup_date,format_inconsistency,2024-08-14,2024/08/14,non-ISO date (DD/MM convention)
+176,ORD-10158,order_date,format_inconsistency,2026-08-21,"August 21, 2026",non-ISO date (DD/MM convention)
+177,ORD-10159,order_date,format_inconsistency,2026-05-06,06-05-2026,non-ISO date (DD/MM convention)
+178,ORD-10160,phone,format_inconsistency,+91 91549 57318,+919154957318,phone format variant
+179,ORD-10161,total_amount,format_inconsistency,8980.00,Rs. 8980,currency/format variant
+179,ORD-10161,payment_method,format_inconsistency,Debit Card,debit card,payment label variant
+180,ORD-10162,city,missing_value,Gurugram,,blank
+181,ORD-10163,unit_price,format_inconsistency,390.00,₹390.00,currency/format variant
+181,ORD-10163,email,invalid_email,harsh.verma262@gmail.com,harsh.verma262@gmail,malformed email
+181,ORD-10163,signup_date,format_inconsistency,2024-02-03,"February 03, 2024",non-ISO date (DD/MM convention)
+182,ORD-10164,rating,missing_value,4,nan,placeholder: nan
+183,ORD-10165,city,format_inconsistency,Jaipur,JAIPUR,casing / whitespace
+184,ORD-10166,order_date,format_inconsistency,2026-03-11,11/03/2026,non-ISO date (DD/MM convention)
+185,ORD-10167,total_amount,calculation_mismatch,270.00,243.00,total_amount != quantity * unit_price
+185,ORD-10167,email,invalid_email,lakshmi.verma71@rediffmail.com,lakshmi.verma71@rediffmail.con,malformed email
+185,ORD-10167,order_date,format_inconsistency,2025-11-07,07 Nov 2025,non-ISO date (DD/MM convention)
+185,ORD-10167,city,format_inconsistency,Chennai,Madras,alias / old name
+187,ORD-10460,*row*,exact_duplicate,,,identical copy of another row (source ORD-10460)
+188,ORD-10212,*row*,exact_duplicate,,,identical copy of another row (source ORD-10212)
+191,ORD-10171,phone,missing_value,+65 93211 45403,,blank
+192,ORD-10172,order_date,format_inconsistency,2025-10-22,22 Oct 2025,non-ISO date (DD/MM convention)
+193,ORD-10173,phone,format_inconsistency,+91 69814 24039,69814-24039,phone format variant
+193,ORD-10173,country,format_inconsistency,India,Ind,country spelling variant
+194,ORD-10174,total_amount,format_inconsistency,960.00,960,currency/format variant
+194,ORD-10174,order_date,format_inconsistency,2026-05-03,"May 03, 2026",non-ISO date (DD/MM convention)
+194,ORD-10174,product_category,format_inconsistency,Books,Books ,category variant
+195,ORD-10175,order_date,format_inconsistency,2025-06-16,"June 16, 2025",non-ISO date (DD/MM convention)
+195,ORD-10175,signup_date,format_inconsistency,2023-01-07,07 Jan 2023,non-ISO date (DD/MM convention)
+195,ORD-10175,product_category,format_inconsistency,Beauty,BEAUTY,category variant
+196,ORD-10176,phone,missing_value,+65 95786 86926,,blank
+196,ORD-10176,total_amount,format_inconsistency,1970.00,Rs. 1970,currency/format variant
+196,ORD-10176,signup_date,format_inconsistency,2024-03-30,30-03-2024,non-ISO date (DD/MM convention)
+196,ORD-10176,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+197,ORD-10177,signup_date,format_inconsistency,2023-02-09,09/02/2023,non-ISO date (DD/MM convention)
+198,ORD-10178,order_date,format_inconsistency,2025-11-20,2025/11/20,non-ISO date (DD/MM convention)
+198,ORD-10178,city,format_inconsistency,Bengaluru,Bangalore,alias / old name
+199,ORD-10179,customer_name,format_inconsistency,Anjali Rao,ANJALI RAO,casing / stray whitespace
+199,ORD-10179,order_date,format_inconsistency,2026-08-17,17 Aug 2026,non-ISO date (DD/MM convention)
+199,ORD-10179,signup_date,format_inconsistency,2023-09-08,08 Sep 2023,non-ISO date (DD/MM convention)
+199,ORD-10179,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+202,ORD-10182,order_date,format_inconsistency,2025-08-12,12 Aug 2025,non-ISO date (DD/MM convention)
+202,ORD-10182,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+205,ORD-10185,phone,format_inconsistency,+91 70271 15959,+917027115959,phone format variant
+205,ORD-10185,product_category,format_inconsistency,Grocery,GROCERY,category variant
+206,ORD-10186,signup_date,format_inconsistency,2023-04-26,26 Apr 2023,non-ISO date (DD/MM convention)
+207,ORD-10187,city,missing_value,Gurugram,N/A,placeholder: N/A
+207,ORD-10187,phone,format_inconsistency,+91 63469 20737,(+91) 6346920737,phone format variant
+207,ORD-10187,order_date,format_inconsistency,2026-08-08,08-08-2026,non-ISO date (DD/MM convention)
+207,ORD-10187,payment_method,format_inconsistency,Debit Card,debit card,payment label variant
+208,ORD-10188,phone,format_inconsistency,+1 79217 14197,+17921714197,phone format variant
+208,ORD-10188,order_date,format_inconsistency,2025-07-08,2025/07/08,non-ISO date (DD/MM convention)
+208,ORD-10188,signup_date,format_inconsistency,2025-04-01,"April 01, 2025",non-ISO date (DD/MM convention)
+208,ORD-10188,country,format_inconsistency,United States,U.S.A.,country spelling variant
+208,ORD-10188,payment_method,format_inconsistency,Cash on Delivery,Cash On Delivery,payment label variant
+209,ORD-10189,unit_price,format_inconsistency,1220.00,"₹1,220.00",currency/format variant
+209,ORD-10189,order_date,format_inconsistency,2025-12-26,26/12/2025,non-ISO date (DD/MM convention)
+210,ORD-10190,signup_date,format_inconsistency,2024-07-24,24 Jul 2024,non-ISO date (DD/MM convention)
+211,ORD-10445,*row*,exact_duplicate,,,identical copy of another row (source ORD-10445)
+212,ORD-10191,total_amount,format_inconsistency,540.00,540,currency/format variant
+213,ORD-10192,payment_method,format_inconsistency,Cash on Delivery,cod,payment label variant
+214,ORD-10195,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10195)"
+215,ORD-10193,unit_price,missing_value,2520.00,none,placeholder: none
+215,ORD-10193,order_date,format_inconsistency,2026-06-01,"June 01, 2026",non-ISO date (DD/MM convention)
+215,ORD-10193,city,format_inconsistency,Hyderabad,Hyderabad ,casing / whitespace
+215,ORD-10193,payment_method,format_inconsistency,Cash on Delivery,cash on delivery,payment label variant
+216,ORD-10194,phone,missing_value,+91 75384 83994,NA,placeholder: NA
+217,ORD-10195,order_date,future_date,2025-11-18,2027-08-15,order date after today
+218,ORD-10196,phone,missing_value,+91 70027 96107,null,placeholder: null
+220,ORD-10198,order_date,format_inconsistency,2026-03-15,15/03/2026,non-ISO date (DD/MM convention)
+220,ORD-10198,city,format_inconsistency,Kolkata,Calcutta,alias / old name
+221,ORD-10199,total_amount,format_inconsistency,2300.00,Rs. 2300,currency/format variant
+221,ORD-10199,payment_method,format_inconsistency,Net Banking,net-banking,payment label variant
+222,ORD-10200,order_date,format_inconsistency,2026-02-09,09/02/2026,non-ISO date (DD/MM convention)
+222,ORD-10200,status,format_inconsistency,Delivered,delivered,status variant / typo
+223,ORD-10201,customer_name,missing_value,Aditya Pillai,?,placeholder: ?
+223,ORD-10201,quantity,missing_value,5,Unknown,placeholder: Unknown
+224,ORD-10202,quantity,format_inconsistency,2,02,quantity not a clean integer
+224,ORD-10202,signup_date,format_inconsistency,2023-04-20,20 Apr 2023,non-ISO date (DD/MM convention)
+224,ORD-10202,city,format_inconsistency,Dubai,Dubai ,casing / whitespace
+225,ORD-10203,city,missing_value,Ahmedabad,NULL,placeholder: NULL
+225,ORD-10203,signup_date,format_inconsistency,2024-12-05,05-12-2024,non-ISO date (DD/MM convention)
+227,ORD-10205,payment_method,format_inconsistency,UPI,UPI ,payment label variant
+228,ORD-10206,payment_method,format_inconsistency,UPI,upi,payment label variant
+231,ORD-10209,phone,format_inconsistency,+91 69237 73760,+916923773760,phone format variant
+231,ORD-10209,order_date,format_inconsistency,2026-01-21,21 Jan 2026,non-ISO date (DD/MM convention)
+232,ORD-10210,payment_method,format_inconsistency,Net Banking,NetBanking,payment label variant
+233,ORD-10348,*row*,exact_duplicate,,,identical copy of another row (source ORD-10348)
+234,ORD-10211,country,format_inconsistency,United States,USA,country spelling variant
+235,ORD-10212,order_date,format_inconsistency,2025-06-10,10 Jun 2025,non-ISO date (DD/MM convention)
+235,ORD-10212,payment_method,format_inconsistency,Net Banking,Net banking,payment label variant
+236,ORD-10213,phone,invalid_phone,+91 85195 54784,851955478,9 digits only
+237,ORD-10214,total_amount,format_inconsistency,980.00,Rs. 980,currency/format variant
+237,ORD-10214,country,format_inconsistency,India, India,country spelling variant
+238,ORD-10215,email,invalid_email,kavya.kulkarni194@gmail.com,kavya.kulkarni194gmail.com,malformed email
+238,ORD-10215,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+239,ORD-10216,city,format_inconsistency,Bengaluru,Bangalore,alias / old name
+241,ORD-10218,rating,missing_value,5,,blank
+241,ORD-10218,phone,format_inconsistency,+91 82517 91722,(+91) 8251791722,phone format variant
+241,ORD-10218,order_date,format_inconsistency,2026-04-26,26 Apr 2026,non-ISO date (DD/MM convention)
+241,ORD-10218,signup_date,format_inconsistency,2023-07-31,31-07-2023,non-ISO date (DD/MM convention)
+243,ORD-10220,unit_price,format_inconsistency,1930.00,"1,930",currency/format variant
+243,ORD-10220,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+244,ORD-10221,email,format_inconsistency,nikhil.agarwal325@yahoo.com,NIKHIL.AGARWAL325@YAHOO.COM,uppercase email
+244,ORD-10221,customer_name,format_inconsistency,Nikhil Agarwal,NIKHIL AGARWAL,casing / stray whitespace
+244,ORD-10221,product_category,format_inconsistency,Grocery,Groceries,category variant
+245,ORD-10222,order_date,format_inconsistency,2025-04-05,"April 05, 2025",non-ISO date (DD/MM convention)
+246,ORD-10223,total_amount,calculation_mismatch,1920.00,2112.00,total_amount != quantity * unit_price
+246,ORD-10223,order_date,format_inconsistency,2026-08-04,04/08/2026,non-ISO date (DD/MM convention)
+246,ORD-10223,signup_date,format_inconsistency,2023-09-30,30/09/2023,non-ISO date (DD/MM convention)
+247,ORD-10223,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10223)"
+248,ORD-10224,phone,missing_value,+91 69512 53434,NA,placeholder: NA
+248,ORD-10224,order_date,format_inconsistency,2025-11-06,2025/11/06,non-ISO date (DD/MM convention)
+248,ORD-10224,signup_date,format_inconsistency,2024-04-29,2024/04/29,non-ISO date (DD/MM convention)
+248,ORD-10224,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+249,ORD-10225,signup_date,format_inconsistency,2025-01-02,02 Jan 2025,non-ISO date (DD/MM convention)
+250,ORD-10226,order_date,format_inconsistency,2026-08-14,14-08-2026,non-ISO date (DD/MM convention)
+250,ORD-10226,city,format_inconsistency,Bengaluru,Bangalore,alias / old name
+250,ORD-10226,payment_method,format_inconsistency,Net Banking,Net banking,payment label variant
+251,ORD-10227,payment_method,format_inconsistency,UPI,U.P.I,payment label variant
+252,ORD-10228,country,format_inconsistency,India,india,country spelling variant
+253,ORD-10229,email,missing_value,faisal.patel222@hotmail.com,none,placeholder: none
+253,ORD-10229,phone,format_inconsistency,+91 90313 43962,9031343962,phone format variant
+254,ORD-10230,product_category,format_inconsistency,Grocery,grocery,category variant
+255,ORD-10231,unit_price,format_inconsistency,980.00,980,currency/format variant
+255,ORD-10231,payment_method,format_inconsistency,Net Banking,NetBanking,payment label variant
+256,ORD-10232,order_date,format_inconsistency,2025-02-07,07/02/2025,non-ISO date (DD/MM convention)
+257,ORD-10233,customer_name,format_inconsistency,Anjali Malhotra,ANJALI MALHOTRA,casing / stray whitespace
+257,ORD-10233,signup_date,format_inconsistency,2024-04-27,"April 27, 2024",non-ISO date (DD/MM convention)
+260,ORD-10236,city,missing_value,Chennai,Unknown,placeholder: Unknown
+264,ORD-10258,*row*,exact_duplicate,,,identical copy of another row (source ORD-10258)
+265,ORD-10240,email,missing_value,meera.agarwal28@gmail.com,Unknown,placeholder: Unknown
+266,ORD-10241,country,format_inconsistency,India,INDIA,country spelling variant
+268,ORD-10243,payment_method,format_inconsistency,Debit Card,DC,payment label variant
+269,ORD-10244,phone,format_inconsistency,+91 90677 01767,09067701767,phone format variant
+269,ORD-10244,status,format_inconsistency,Pending,PENDING,status variant / typo
+270,ORD-10245,unit_price,missing_value,1160.00,Unknown,placeholder: Unknown
+270,ORD-10245,order_date,format_inconsistency,2025-03-24,"March 24, 2025",non-ISO date (DD/MM convention)
+270,ORD-10245,country,format_inconsistency,India,IN,country spelling variant
+271,ORD-10246,phone,invalid_phone,+91 99181 12167,991811216,9 digits only
+271,ORD-10246,order_date,format_inconsistency,2025-04-13,13 Apr 2025,non-ISO date (DD/MM convention)
+272,ORD-10247,email,missing_value,zoya.pillai33@hotmail.com,nan,placeholder: nan
+272,ORD-10247,status,format_inconsistency,Shipped,SHIPPED,status variant / typo
+274,ORD-10093,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10093)"
+275,ORD-10249,quantity,invalid_quantity,2,-2,"negative, zero or absurd quantity"
+275,ORD-10249,order_date,format_inconsistency,2025-11-18,18/11/2025,non-ISO date (DD/MM convention)
+276,ORD-10250,payment_method,format_inconsistency,Debit Card,DC,payment label variant
+277,ORD-10251,signup_date,format_inconsistency,2024-05-16,16/05/2024,non-ISO date (DD/MM convention)
+278,ORD-10252,phone,missing_value,+91 75735 32540,null,placeholder: null
+278,ORD-10252,unit_price,outlier,830.00,83000.00,x100 price outlier
+278,ORD-10252,order_date,format_inconsistency,2025-08-23,"August 23, 2025",non-ISO date (DD/MM convention)
+280,ORD-10254,unit_price,missing_value,1740.00,Unknown,placeholder: Unknown
+280,ORD-10254,signup_date,logical_inconsistency,2024-03-04,2025-09-10,signup_date is after order_date
+280,ORD-10254,rating,invalid_value,4,7,rating outside 1-5 or not an integer
+281,ORD-10255,email,missing_value,lakshmi.shetty133@rediffmail.com,-,placeholder: -
+281,ORD-10255,order_date,format_inconsistency,2025-06-24,24 Jun 2025,non-ISO date (DD/MM convention)
+283,ORD-10257,product_category,format_inconsistency,Clothing,CLOTHING,category variant
+284,ORD-10258,unit_price,format_inconsistency,1840.00,"1,840",currency/format variant
+284,ORD-10258,signup_date,format_inconsistency,2023-02-27,27 Feb 2023,non-ISO date (DD/MM convention)
+285,ORD-10259,email,missing_value,sanjay.desai14@outlook.com,Unknown,placeholder: Unknown
+285,ORD-10259,phone,format_inconsistency,+91 69814 24039,6981424039,phone format variant
+286,ORD-10260,order_date,format_inconsistency,2026-04-26,2026/04/26,non-ISO date (DD/MM convention)
+286,ORD-10260,payment_method,format_inconsistency,Net Banking,net-banking,payment label variant
+287,ORD-10261,phone,invalid_phone,+91 99899 67522,998996752,9 digits only
+287,ORD-10261,order_date,format_inconsistency,2026-09-04,04-09-2026,non-ISO date (DD/MM convention)
+289,ORD-10263,payment_method,format_inconsistency,Debit Card,DC,payment label variant
+291,ORD-10265,order_date,format_inconsistency,2026-06-28,2026/06/28,non-ISO date (DD/MM convention)
+291,ORD-10265,product_category,format_inconsistency,Clothing,clothing,category variant
+292,ORD-10266,unit_price,format_inconsistency,2950.00,Rs. 2950,currency/format variant
+293,ORD-10267,city,missing_value,Kolkata,null,placeholder: null
+294,ORD-10268,signup_date,format_inconsistency,2024-10-15,15-10-2024,non-ISO date (DD/MM convention)
+294,ORD-10268,product_category,format_inconsistency,Sports,Sports ,category variant
+295,ORD-10269,rating,missing_value,3,null,placeholder: null
+297,ORD-10271,quantity,missing_value,1,-,placeholder: -
+297,ORD-10271,country,format_inconsistency,India,india,country spelling variant
+298,ORD-10272,unit_price,format_inconsistency,480.00,Rs. 480,currency/format variant
+298,ORD-10272,customer_name,format_inconsistency,Pooja Kulkarni,POOJA KULKARNI,casing / stray whitespace
+298,ORD-10272,order_date,format_inconsistency,2025-10-07,07 Oct 2025,non-ISO date (DD/MM convention)
+299,ORD-10273,rating,missing_value,2,,blank
+299,ORD-10273,phone,format_inconsistency,+91 84986 94649,(+91) 8498694649,phone format variant
+300,ORD-10274,unit_price,format_inconsistency,560.00,Rs. 560,currency/format variant
+300,ORD-10274,customer_name,format_inconsistency,Harsh Kulkarni,HARSH KULKARNI,casing / stray whitespace
+300,ORD-10274,order_date,format_inconsistency,2025-05-05,"May 05, 2025",non-ISO date (DD/MM convention)
+301,ORD-10275,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+302,ORD-10276,city,missing_value,Kolkata,null,placeholder: null
+302,ORD-10276,total_amount,format_inconsistency,142400.00,142400.00 INR,currency/format variant
+303,ORD-10277,email,missing_value,arjun.gupta291@hotmail.com,?,placeholder: ?
+303,ORD-10277,customer_name,format_inconsistency,Arjun Gupta,ARJUN GUPTA,casing / stray whitespace
+303,ORD-10277,order_date,format_inconsistency,2025-10-17,17/10/2025,non-ISO date (DD/MM convention)
+304,ORD-10278,signup_date,format_inconsistency,2024-08-14,2024/08/14,non-ISO date (DD/MM convention)
+305,ORD-10279,total_amount,format_inconsistency,18550.00,18550.00 INR,currency/format variant
+306,ORD-10280,unit_price,format_inconsistency,5320.00,Rs. 5320,currency/format variant
+306,ORD-10280,phone,format_inconsistency,+91 71086 29142,+917108629142,phone format variant
+307,ORD-10281,email,missing_value,lakshmi.khan67@rediffmail.com,null,placeholder: null
+309,ORD-10283,rating,missing_value,4,,blank
+309,ORD-10283,order_date,format_inconsistency,2025-07-22,22/07/2025,non-ISO date (DD/MM convention)
+310,ORD-10284,email,format_inconsistency,rohan.malhotra114@outlook.com,ROHAN.MALHOTRA114@OUTLOOK.COM,uppercase email
+310,ORD-10284,signup_date,format_inconsistency,2024-06-11,11/06/2024,non-ISO date (DD/MM convention)
+311,ORD-10285,unit_price,format_inconsistency,5090.00,5090.00 INR,currency/format variant
+311,ORD-10285,signup_date,format_inconsistency,2023-12-27,2023/12/27,non-ISO date (DD/MM convention)
+312,ORD-10286,order_date,format_inconsistency,2025-02-18,18 Feb 2025,non-ISO date (DD/MM convention)
+313,ORD-10287,total_amount,format_inconsistency,2370.00,"₹2,370.00",currency/format variant
+314,ORD-10288,phone,missing_value,+91 98152 83767,N/A,placeholder: N/A
+314,ORD-10288,payment_method,format_inconsistency,Net Banking,NetBanking,payment label variant
+314,ORD-10288,status,format_inconsistency,Delivered,DELIVERED,status variant / typo
+315,ORD-10289,city,format_inconsistency,Mumbai,Bombay,alias / old name
+318,ORD-10292,country,format_inconsistency,India,India ,country spelling variant
+318,ORD-10292,payment_method,format_inconsistency,Credit Card,credit card,payment label variant
+319,ORD-10293,email,missing_value,anjali.mehta335@outlook.com,N/A,placeholder: N/A
+319,ORD-10293,total_amount,calculation_mismatch,1460.00,1314.00,total_amount != quantity * unit_price
+319,ORD-10293,status,format_inconsistency,Shipped,shipped,status variant / typo
+320,ORD-10294,unit_price,missing_value,970.00,,blank
+320,ORD-10294,email,format_inconsistency,arjun.reddy316@hotmail.com,ARJUN.REDDY316@HOTMAIL.COM,uppercase email
+321,ORD-10295,phone,missing_value,+91 81052 95618,NULL,placeholder: NULL
+321,ORD-10295,unit_price,format_inconsistency,1090.00,Rs. 1090,currency/format variant
+321,ORD-10295,signup_date,format_inconsistency,2023-04-16,16-04-2023,non-ISO date (DD/MM convention)
+324,ORD-10298,quantity,invalid_quantity,5,-1,"negative, zero or absurd quantity"
+328,ORD-10302,unit_price,format_inconsistency,1740.00,"₹1,740.00",currency/format variant
+329,ORD-10303,city,missing_value,Ahmedabad,nan,placeholder: nan
+329,ORD-10303,unit_price,format_inconsistency,750.00,750.00 INR,currency/format variant
+329,ORD-10303,phone,format_inconsistency,+91 84501 95709,8450195709,phone format variant
+329,ORD-10303,order_date,format_inconsistency,2026-09-30,30 Sep 2026,non-ISO date (DD/MM convention)
+330,ORD-10304,order_date,format_inconsistency,2025-10-22,22-10-2025,non-ISO date (DD/MM convention)
+331,ORD-10305,order_date,format_inconsistency,2026-02-28,28 Feb 2026,non-ISO date (DD/MM convention)
+331,ORD-10305,country,format_inconsistency,India,india,country spelling variant
+332,ORD-10306,order_date,format_inconsistency,2026-03-03,"March 03, 2026",non-ISO date (DD/MM convention)
+332,ORD-10306,status,format_inconsistency,Returned,returned,status variant / typo
+333,ORD-10307,order_date,invalid_date,2025-10-17,31/04/2025,calendar-impossible date
+334,ORD-10308,phone,missing_value,+91 83675 31848,,blank
+335,ORD-10309,city,missing_value,Singapore,Unknown,placeholder: Unknown
+336,ORD-10310,order_date,format_inconsistency,2025-03-07,2025/03/07,non-ISO date (DD/MM convention)
+337,ORD-10224,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10224)"
+339,ORD-10312,quantity,format_inconsistency,3,three,quantity not a clean integer
+339,ORD-10312,product_category,format_inconsistency,Home & Kitchen,Home and Kitchen,category variant
+340,ORD-10184,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10184)"
+341,ORD-10313,order_date,format_inconsistency,2025-04-24,2025/04/24,non-ISO date (DD/MM convention)
+342,ORD-10314,customer_name,format_inconsistency,Lakshmi Reddy,  Lakshmi Reddy ,casing / stray whitespace
+342,ORD-10314,order_date,format_inconsistency,2025-02-12,12/02/2025,non-ISO date (DD/MM convention)
+342,ORD-10314,signup_date,format_inconsistency,2023-02-10,"February 10, 2023",non-ISO date (DD/MM convention)
+343,ORD-10315,customer_name,format_inconsistency,Ritu Bose,  Ritu Bose ,casing / stray whitespace
+343,ORD-10315,order_date,format_inconsistency,2026-03-29,29 Mar 2026,non-ISO date (DD/MM convention)
+344,ORD-10316,signup_date,format_inconsistency,2024-04-26,26/04/2024,non-ISO date (DD/MM convention)
+345,ORD-10317,order_date,format_inconsistency,2026-06-02,2026/06/02,non-ISO date (DD/MM convention)
+346,ORD-10318,payment_method,format_inconsistency,Net Banking,net-banking,payment label variant
+347,ORD-10009,*row*,exact_duplicate,,,identical copy of another row (source ORD-10009)
+348,ORD-10319,city,format_inconsistency,Chennai,chennai,casing / whitespace
+349,ORD-10320,order_date,format_inconsistency,2026-06-14,14 Jun 2026,non-ISO date (DD/MM convention)
+349,ORD-10320,product_category,format_inconsistency,Books,books,category variant
+349,ORD-10320,payment_method,format_inconsistency,UPI,Upi,payment label variant
+350,ORD-10321,order_date,format_inconsistency,2025-07-25,25/07/2025,non-ISO date (DD/MM convention)
+350,ORD-10321,product_category,format_inconsistency,Home & Kitchen,home & kitchen,category variant
+351,ORD-10322,signup_date,format_inconsistency,2024-08-31,31 Aug 2024,non-ISO date (DD/MM convention)
+351,ORD-10322,city,format_inconsistency,Jaipur,jaipur,casing / whitespace
+353,ORD-10324,unit_price,missing_value,24410.00,N/A,placeholder: N/A
+354,ORD-10325,phone,missing_value,+91 75756 96639,N/A,placeholder: N/A
+356,ORD-10327,order_date,format_inconsistency,2025-04-06,"April 06, 2025",non-ISO date (DD/MM convention)
+357,ORD-10328,signup_date,format_inconsistency,2025-02-19,"February 19, 2025",non-ISO date (DD/MM convention)
+358,ORD-10329,phone,missing_value,+91 91998 14949,NULL,placeholder: NULL
+358,ORD-10329,order_date,format_inconsistency,2026-05-20,20 May 2026,non-ISO date (DD/MM convention)
+359,ORD-10330,phone,missing_value,+1 83568 30825,NA,placeholder: NA
+359,ORD-10330,payment_method,format_inconsistency,Net Banking,NetBanking,payment label variant
+360,ORD-10331,rating,missing_value,3,,blank
+360,ORD-10331,phone,format_inconsistency,+91 85192 59598,85192 59598,phone format variant
+360,ORD-10331,country,format_inconsistency,India,India ,country spelling variant
+361,ORD-10332,phone,format_inconsistency,+91 90870 55721,(+91) 9087055721,phone format variant
+362,ORD-10333,payment_method,format_inconsistency,Net Banking,net-banking,payment label variant
+363,ORD-10334,order_date,format_inconsistency,2025-05-14,2025/05/14,non-ISO date (DD/MM convention)
+363,ORD-10334,product_category,format_inconsistency,Electronics,ELECTRONICS,category variant
+364,ORD-10335,phone,missing_value,+91 84160 28817,,blank
+364,ORD-10335,total_amount,format_inconsistency,1800.00,Rs. 1800,currency/format variant
+364,ORD-10335,product_category,format_inconsistency,Books,BOOKS,category variant
+365,ORD-10155,*row*,exact_duplicate,,,identical copy of another row (source ORD-10155)
+367,ORD-10337,email,format_inconsistency,ritu.nair248@hotmail.com,RITU.NAIR248@HOTMAIL.COM,uppercase email
+367,ORD-10337,order_date,format_inconsistency,2026-06-10,10 Jun 2026,non-ISO date (DD/MM convention)
+368,ORD-10338,customer_name,missing_value,Sanjay Rao,-,placeholder: -
+368,ORD-10338,order_date,future_date,2026-07-27,2027-02-17,order date after today
+368,ORD-10338,unit_price,outlier,190.00,19000.00,x100 price outlier
+369,ORD-10339,email,invalid_email,lakshmi.reddy209@rediffmail.com,lakshmi.reddy209@rediffmail,malformed email
+370,ORD-10340,email,missing_value,zoya.khan156@outlook.com,,blank
+370,ORD-10340,city,missing_value,Ahmedabad,,blank
+370,ORD-10340,phone,invalid_phone,+91 93099 95131,930999513,9 digits only
+371,ORD-10341,rating,missing_value,3,none,placeholder: none
+371,ORD-10341,email,invalid_email,ananya.joshi301@outlook.com,ananya.joshi301outlook.com,malformed email
+371,ORD-10341,order_date,format_inconsistency,2025-11-03,03 Nov 2025,non-ISO date (DD/MM convention)
+372,ORD-10342,signup_date,format_inconsistency,2023-04-15,15/04/2023,non-ISO date (DD/MM convention)
+372,ORD-10342,status,format_inconsistency,Delivered,delivered,status variant / typo
+373,ORD-10343,customer_name,format_inconsistency,Gurpreet Chopra,GURPREET CHOPRA,casing / stray whitespace
+373,ORD-10343,city,format_inconsistency,Delhi,DELHI,casing / whitespace
+374,ORD-10344,unit_price,format_inconsistency,9690.00,Rs. 9690,currency/format variant
+374,ORD-10344,order_date,format_inconsistency,2025-11-30,30-11-2025,non-ISO date (DD/MM convention)
+375,ORD-10179,*row*,exact_duplicate,,,identical copy of another row (source ORD-10179)
+376,ORD-10345,email,missing_value,lakshmi.reddy209@rediffmail.com,-,placeholder: -
+377,ORD-10346,unit_price,format_inconsistency,2310.00,"2,310",currency/format variant
+377,ORD-10346,phone,format_inconsistency,+91 92269 80712,9226980712,phone format variant
+377,ORD-10346,city,format_inconsistency,Mumbai,Bombay,alias / old name
+378,ORD-10347,unit_price,format_inconsistency,3030.00,3030.00 INR,currency/format variant
+378,ORD-10347,order_date,format_inconsistency,2025-03-29,2025/03/29,non-ISO date (DD/MM convention)
+379,ORD-10348,city,missing_value,Delhi,nan,placeholder: nan
+379,ORD-10348,order_date,format_inconsistency,2026-05-03,2026/05/03,non-ISO date (DD/MM convention)
+380,ORD-10349,product_category,format_inconsistency,Electronics,Electronic,category variant
+380,ORD-10349,payment_method,format_inconsistency,Cash on Delivery,cod,payment label variant
+381,ORD-10350,customer_name,format_inconsistency,Manish Gupta,manish gupta,casing / stray whitespace
+381,ORD-10350,city,format_inconsistency,Dubai,DUBAI,casing / whitespace
+381,ORD-10350,payment_method,format_inconsistency,Debit Card,Debit_Card,payment label variant
+384,ORD-10353,order_date,format_inconsistency,2025-11-30,2025/11/30,non-ISO date (DD/MM convention)
+384,ORD-10353,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+385,ORD-10354,order_date,invalid_date,2025-11-28,2025-02-30,calendar-impossible date
+385,ORD-10354,signup_date,format_inconsistency,2024-05-05,05/05/2024,non-ISO date (DD/MM convention)
+386,ORD-10355,phone,missing_value,+65 86195 63651,,blank
+386,ORD-10355,customer_name,format_inconsistency,Rohan Shetty,rohan shetty,casing / stray whitespace
+386,ORD-10355,status,format_inconsistency,Delivered,delivered,status variant / typo
+387,ORD-10356,order_date,format_inconsistency,2026-04-21,2026/04/21,non-ISO date (DD/MM convention)
+387,ORD-10356,country,format_inconsistency,India,India ,country spelling variant
+388,ORD-10357,quantity,missing_value,4,NA,placeholder: NA
+388,ORD-10357,order_date,format_inconsistency,2025-01-20,20-01-2025,non-ISO date (DD/MM convention)
+388,ORD-10357,signup_date,format_inconsistency,2023-12-25,25/12/2023,non-ISO date (DD/MM convention)
+388,ORD-10357,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+389,ORD-10358,total_amount,format_inconsistency,2940.00,"₹2,940.00",currency/format variant
+389,ORD-10358,signup_date,format_inconsistency,2024-07-17,17/07/2024,non-ISO date (DD/MM convention)
+389,ORD-10358,country,format_inconsistency,India, India,country spelling variant
+390,ORD-10359,rating,invalid_value,5,4.5,rating outside 1-5 or not an integer
+390,ORD-10359,payment_method,format_inconsistency,Credit Card,CREDIT CARD,payment label variant
+392,ORD-10361,unit_price,missing_value,3920.00,,blank
+392,ORD-10361,quantity,invalid_quantity,1,0,"negative, zero or absurd quantity"
+392,ORD-10361,signup_date,format_inconsistency,2025-04-05,2025/04/05,non-ISO date (DD/MM convention)
+393,ORD-10362,unit_price,missing_value,590.00,NA,placeholder: NA
+394,ORD-10363,rating,missing_value,5,,blank
+395,ORD-10364,order_date,missing_value,2026-07-30,,blank
+395,ORD-10364,customer_name,format_inconsistency,Shreya Menon,SHREYA MENON,casing / stray whitespace
+397,ORD-10366,total_amount,calculation_mismatch,910.00,1001.00,total_amount != quantity * unit_price
+397,ORD-10366,order_date,format_inconsistency,2025-05-17,17-05-2025,non-ISO date (DD/MM convention)
+398,ORD-10367,email,missing_value,nikhil.malhotra311@yahoo.com,nan,placeholder: nan
+398,ORD-10367,unit_price,format_inconsistency,150.00,150,currency/format variant
+399,ORD-10368,phone,missing_value,+91 92050 82843,NULL,placeholder: NULL
+399,ORD-10368,product_category,format_inconsistency,Beauty,beauty,category variant
+400,ORD-10369,unit_price,outlier,8620.00,862000.00,x100 price outlier
+400,ORD-10369,order_date,format_inconsistency,2026-02-03,03/02/2026,non-ISO date (DD/MM convention)
+400,ORD-10369,signup_date,format_inconsistency,2025-02-02,02 Feb 2025,non-ISO date (DD/MM convention)
+401,ORD-10370,order_date,format_inconsistency,2026-05-03,2026/05/03,non-ISO date (DD/MM convention)
+401,ORD-10370,country,format_inconsistency,India,india,country spelling variant
+402,ORD-10371,status,format_inconsistency,Cancelled,CANCELLED,status variant / typo
+403,ORD-10372,phone,missing_value,+91 95181 93368,N/A,placeholder: N/A
+403,ORD-10372,order_date,format_inconsistency,2026-05-20,"May 20, 2026",non-ISO date (DD/MM convention)
+404,ORD-10373,customer_name,missing_value,Kavya Reddy,,blank
+404,ORD-10373,quantity,missing_value,5,,blank
+404,ORD-10373,email,format_inconsistency,kavya.reddy107@hotmail.com,KAVYA.REDDY107@HOTMAIL.COM,uppercase email
+404,ORD-10373,signup_date,format_inconsistency,2023-07-24,"July 24, 2023",non-ISO date (DD/MM convention)
+405,ORD-10374,product_category,format_inconsistency,Clothing,Cloths,category variant
+407,ORD-10187,*row*,exact_duplicate,,,identical copy of another row (source ORD-10187)
+409,ORD-10377,phone,missing_value,+91 92580 86319,,blank
+409,ORD-10377,email,format_inconsistency,arjun.malhotra1@outlook.com,ARJUN.MALHOTRA1@OUTLOOK.COM,uppercase email
+411,ORD-10484,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10484)"
+413,ORD-10380,payment_method,format_inconsistency,Net Banking,Net banking,payment label variant
+414,ORD-10381,phone,missing_value,+91 71786 19734,Unknown,placeholder: Unknown
+414,ORD-10381,total_amount,format_inconsistency,1400.00,1400.00 INR,currency/format variant
+414,ORD-10381,order_date,format_inconsistency,2025-11-15,2025/11/15,non-ISO date (DD/MM convention)
+414,ORD-10381,country,format_inconsistency,India,IN,country spelling variant
+416,ORD-10383,signup_date,format_inconsistency,2024-11-09,09/11/2024,non-ISO date (DD/MM convention)
+417,ORD-10234,*row*,exact_duplicate,,,identical copy of another row (source ORD-10234)
+418,ORD-10384,email,format_inconsistency,kavya.iyer307@yahoo.com,KAVYA.IYER307@YAHOO.COM,uppercase email
+418,ORD-10384,customer_name,format_inconsistency,Kavya Iyer,kavya iyer,casing / stray whitespace
+418,ORD-10384,country,format_inconsistency,India,Ind,country spelling variant
+419,ORD-10385,order_date,format_inconsistency,2025-03-08,2025/03/08,non-ISO date (DD/MM convention)
+420,ORD-10386,status,format_inconsistency,Delivered,delivered,status variant / typo
+421,ORD-10387,order_date,future_date,2025-04-09,2027-07-14,order date after today
+422,ORD-10420,*row*,exact_duplicate,,,identical copy of another row (source ORD-10420)
+423,ORD-10064,*row*,exact_duplicate,,,identical copy of another row (source ORD-10064)
+424,ORD-10388,quantity,missing_value,1,N/A,placeholder: N/A
+425,ORD-10389,quantity,invalid_quantity,2,250,"negative, zero or absurd quantity"
+425,ORD-10389,customer_name,format_inconsistency,Aditya Banerjee,aditya banerjee,casing / stray whitespace
+426,ORD-10390,order_date,format_inconsistency,2025-05-25,25-05-2025,non-ISO date (DD/MM convention)
+427,ORD-10391,phone,format_inconsistency,+91 76366 67686,(+91) 7636667686,phone format variant
+427,ORD-10391,payment_method,format_inconsistency,Credit Card,CC,payment label variant
+428,ORD-10392,email,format_inconsistency,meera.gupta124@rediffmail.com,MEERA.GUPTA124@REDIFFMAIL.COM,uppercase email
+428,ORD-10392,country,format_inconsistency,Singapore,singapore,country spelling variant
+429,ORD-10215,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10215)"
+430,ORD-10393,phone,missing_value,+91 99732 73919,N/A,placeholder: N/A
+431,ORD-10394,product_category,format_inconsistency,Electronics,electronics,category variant
+432,ORD-10395,city,missing_value,Delhi,null,placeholder: null
+432,ORD-10395,signup_date,format_inconsistency,2024-11-05,05/11/2024,non-ISO date (DD/MM convention)
+434,ORD-10417,*row*,exact_duplicate,,,identical copy of another row (source ORD-10417)
+435,ORD-10397,customer_name,format_inconsistency,Karan Banerjee,karan banerjee,casing / stray whitespace
+436,ORD-10398,unit_price,format_inconsistency,410.00,Rs. 410,currency/format variant
+436,ORD-10398,order_date,format_inconsistency,2025-10-03,"October 03, 2025",non-ISO date (DD/MM convention)
+438,ORD-10400,phone,format_inconsistency,+91 76977 13595,07697713595,phone format variant
+439,ORD-10401,order_date,format_inconsistency,2025-10-18,"October 18, 2025",non-ISO date (DD/MM convention)
+439,ORD-10401,country,format_inconsistency,Singapore,SINGAPORE,country spelling variant
+439,ORD-10401,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+440,ORD-10402,email,missing_value,lakshmi.patel173@yahoo.com,N/A,placeholder: N/A
+440,ORD-10402,phone,missing_value,+91 85192 59598,?,placeholder: ?
+440,ORD-10402,status,format_inconsistency,Delivered,delivered,status variant / typo
+441,ORD-10403,product_category,format_inconsistency,Grocery,grocery,category variant
+442,ORD-10404,order_date,format_inconsistency,2025-06-25,"June 25, 2025",non-ISO date (DD/MM convention)
+442,ORD-10404,city,format_inconsistency,Ahmedabad,Ahmedabad ,casing / whitespace
+443,ORD-10405,order_date,format_inconsistency,2025-05-14,2025/05/14,non-ISO date (DD/MM convention)
+443,ORD-10405,payment_method,format_inconsistency,Credit Card,Credit_Card,payment label variant
+445,ORD-10407,total_amount,format_inconsistency,3480.00,3480.00 INR,currency/format variant
+446,ORD-10408,email,missing_value,vikram.reddy126@gmail.com,Unknown,placeholder: Unknown
+446,ORD-10408,phone,missing_value,+91 72656 04717,null,placeholder: null
+446,ORD-10408,city,missing_value,Bengaluru,,blank
+446,ORD-10408,order_date,format_inconsistency,2026-06-05,05 Jun 2026,non-ISO date (DD/MM convention)
+447,ORD-10409,city,missing_value,Delhi,none,placeholder: none
+447,ORD-10409,total_amount,format_inconsistency,6480.00,"6,480",currency/format variant
+447,ORD-10409,order_date,format_inconsistency,2026-09-22,22 Sep 2026,non-ISO date (DD/MM convention)
+448,ORD-10410,email,format_inconsistency,pooja.nair191@yahoo.com,POOJA.NAIR191@YAHOO.COM,uppercase email
+450,ORD-10338,order_id,duplicate_key_conflict,ORD-10408,ORD-10338,order_id reused with different content (source ORD-10338)
+451,ORD-10412,signup_date,format_inconsistency,2024-07-22,"July 22, 2024",non-ISO date (DD/MM convention)
+452,ORD-10413,order_date,missing_value,2026-01-19,none,placeholder: none
+452,ORD-10413,unit_price,format_inconsistency,630.00,630.00 INR,currency/format variant
+453,ORD-10414,email,invalid_email,kavya.nair151@yahoo.com,kavya.nair151@@yahoo.com,malformed email
+453,ORD-10414,product_category,format_inconsistency,Books,Books ,category variant
+455,ORD-10416,order_date,format_inconsistency,2025-08-28,28 Aug 2025,non-ISO date (DD/MM convention)
+456,ORD-10417,total_amount,format_inconsistency,2660.00,Rs. 2660,currency/format variant
+456,ORD-10417,country,format_inconsistency,India,INDIA,country spelling variant
+456,ORD-10417,city,format_inconsistency,Mumbai,Mumbai ,casing / whitespace
+457,ORD-10418,customer_name,missing_value,Priya Bose,NA,placeholder: NA
+459,ORD-10420,quantity,format_inconsistency,3,two,quantity not a clean integer
+460,ORD-10421,payment_method,format_inconsistency,Credit Card,CC,payment label variant
+461,ORD-10256,*row*,exact_duplicate,,,identical copy of another row (source ORD-10256)
+462,ORD-10422,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+463,ORD-10282,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10282)"
+465,ORD-10424,order_date,format_inconsistency,2025-01-31,31-01-2025,non-ISO date (DD/MM convention)
+465,ORD-10424,signup_date,format_inconsistency,2023-07-24,24 Jul 2023,non-ISO date (DD/MM convention)
+466,ORD-10425,unit_price,missing_value,690.00,Unknown,placeholder: Unknown
+466,ORD-10425,signup_date,format_inconsistency,2023-10-02,02 Oct 2023,non-ISO date (DD/MM convention)
+467,ORD-10426,order_date,format_inconsistency,2026-08-05,05-08-2026,non-ISO date (DD/MM convention)
+467,ORD-10426,country,format_inconsistency,India,India ,country spelling variant
+467,ORD-10426,status,format_inconsistency,Cancelled,CANCELLED,status variant / typo
+468,ORD-10427,email,missing_value,arjun.singh78@rediffmail.com,NA,placeholder: NA
+469,ORD-10158,*row*,exact_duplicate,,,identical copy of another row (source ORD-10158)
+470,ORD-10428,rating,missing_value,3,nan,placeholder: nan
+470,ORD-10428,customer_name,format_inconsistency,Rohan Joshi,rohan joshi,casing / stray whitespace
+470,ORD-10428,signup_date,format_inconsistency,2025-03-11,11-03-2025,non-ISO date (DD/MM convention)
+471,ORD-10429,signup_date,format_inconsistency,2024-07-22,22 Jul 2024,non-ISO date (DD/MM convention)
+471,ORD-10429,country,format_inconsistency,India,India ,country spelling variant
+472,ORD-10430,order_date,format_inconsistency,2025-07-23,23-07-2025,non-ISO date (DD/MM convention)
+472,ORD-10430,city,format_inconsistency,Gurugram,GURUGRAM,casing / whitespace
+473,ORD-10431,order_date,format_inconsistency,2025-03-13,"March 13, 2025",non-ISO date (DD/MM convention)
+475,ORD-10433,order_date,format_inconsistency,2025-07-30,30-07-2025,non-ISO date (DD/MM convention)
+475,ORD-10433,payment_method,format_inconsistency,Net Banking,Net banking,payment label variant
+476,ORD-10434,order_date,format_inconsistency,2026-05-30,30/05/2026,non-ISO date (DD/MM convention)
+477,ORD-10435,unit_price,missing_value,430.00,,blank
+477,ORD-10435,customer_name,missing_value,Lakshmi Agarwal,none,placeholder: none
+477,ORD-10435,signup_date,format_inconsistency,2024-07-29,2024/07/29,non-ISO date (DD/MM convention)
+478,ORD-10436,order_date,missing_value,2026-04-30,,blank
+479,ORD-10437,city,missing_value,Gurugram,?,placeholder: ?
+479,ORD-10437,rating,invalid_value,5,five,rating outside 1-5 or not an integer
+479,ORD-10437,payment_method,format_inconsistency,Credit Card,Credit_Card,payment label variant
+480,ORD-10438,payment_method,format_inconsistency,Credit Card,CREDIT CARD,payment label variant
+481,ORD-10439,email,missing_value,arjun.gupta291@hotmail.com,,blank
+481,ORD-10439,phone,missing_value,+91 81196 66750,-,placeholder: -
+481,ORD-10439,order_date,format_inconsistency,2025-02-14,2025/02/14,non-ISO date (DD/MM convention)
+481,ORD-10439,product_category,format_inconsistency,Electronics,electronics,category variant
+481,ORD-10439,payment_method,format_inconsistency,Debit Card,DC,payment label variant
+482,ORD-10440,payment_method,format_inconsistency,Credit Card,CREDIT CARD,payment label variant
+484,ORD-10442,order_date,format_inconsistency,2026-06-03,03/06/2026,non-ISO date (DD/MM convention)
+485,ORD-10443,order_date,format_inconsistency,2025-07-19,19 Jul 2025,non-ISO date (DD/MM convention)
+485,ORD-10443,signup_date,format_inconsistency,2023-02-11,"February 11, 2023",non-ISO date (DD/MM convention)
+485,ORD-10443,city,format_inconsistency,Hyderabad,HYDERABAD,casing / whitespace
+486,ORD-10444,order_date,missing_value,2026-05-12,null,placeholder: null
+488,ORD-10446,country,format_inconsistency,India,India ,country spelling variant
+489,ORD-10447,phone,missing_value,+91 77719 29557,,blank
+490,ORD-10448,email,missing_value,karan.malhotra110@rediffmail.com,N/A,placeholder: N/A
+491,ORD-10449,email,missing_value,karan.shetty199@rediffmail.com,N/A,placeholder: N/A
+491,ORD-10449,phone,format_inconsistency,+91 82128 06224,82128-06224,phone format variant
+491,ORD-10449,payment_method,format_inconsistency,Credit Card,CREDIT CARD,payment label variant
+492,ORD-10450,unit_price,format_inconsistency,2740.00,Rs. 2740,currency/format variant
+492,ORD-10450,payment_method,format_inconsistency,Debit Card,DC,payment label variant
+493,ORD-10451,order_date,format_inconsistency,2025-04-09,09/04/2025,non-ISO date (DD/MM convention)
+493,ORD-10451,signup_date,format_inconsistency,2024-04-13,"April 13, 2024",non-ISO date (DD/MM convention)
+495,ORD-10453,total_amount,format_inconsistency,8880.00,Rs. 8880,currency/format variant
+495,ORD-10453,city,format_inconsistency,Chennai,chennai,casing / whitespace
+495,ORD-10453,product_category,format_inconsistency,Beauty,beauty,category variant
+496,ORD-10454,order_date,format_inconsistency,2025-01-13,13-01-2025,non-ISO date (DD/MM convention)
+496,ORD-10454,product_category,format_inconsistency,Electronics,Electronic,category variant
+498,ORD-10456,email,invalid_email,neha.mehta154@outlook.com,neha.mehta154outlook.com,malformed email
+498,ORD-10456,order_date,format_inconsistency,2025-04-15,15 Apr 2025,non-ISO date (DD/MM convention)
+499,ORD-10457,total_amount,format_inconsistency,2540.00,"2,540",currency/format variant
+499,ORD-10457,signup_date,format_inconsistency,2024-08-17,"August 17, 2024",non-ISO date (DD/MM convention)
+499,ORD-10457,product_category,format_inconsistency,Home & Kitchen,Home&Kitchen,category variant
+500,ORD-10098,*row*,exact_duplicate,,,identical copy of another row (source ORD-10098)
+501,ORD-10458,customer_name,format_inconsistency,Neha Malhotra,NEHA MALHOTRA,casing / stray whitespace
+501,ORD-10458,status,format_inconsistency,Pending,Pendng,status variant / typo
+502,ORD-10459,email,missing_value,neha.menon34@gmail.com,nan,placeholder: nan
+502,ORD-10459,customer_name,format_inconsistency,Neha Menon,neha menon,casing / stray whitespace
+502,ORD-10459,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+503,ORD-10460,signup_date,format_inconsistency,2025-03-13,13-03-2025,non-ISO date (DD/MM convention)
+504,ORD-10461,email,format_inconsistency,aditya.banerjee317@rediffmail.com,ADITYA.BANERJEE317@REDIFFMAIL.COM,uppercase email
+504,ORD-10461,phone,format_inconsistency,+91 98706 57802,+919870657802,phone format variant
+504,ORD-10461,order_date,format_inconsistency,2026-05-26,"May 26, 2026",non-ISO date (DD/MM convention)
+504,ORD-10461,signup_date,format_inconsistency,2023-04-10,10 Apr 2023,non-ISO date (DD/MM convention)
+505,ORD-10498,*row*,exact_duplicate,,,identical copy of another row (source ORD-10498)
+506,ORD-10462,order_date,format_inconsistency,2026-09-05,05-09-2026,non-ISO date (DD/MM convention)
+506,ORD-10462,status,format_inconsistency,Pending,Pendng,status variant / typo
+507,ORD-10463,signup_date,format_inconsistency,2024-07-22,2024/07/22,non-ISO date (DD/MM convention)
+508,ORD-10464,email,invalid_email,vikram.rao12@gmail.com,vikram.rao12@gmail,malformed email
+508,ORD-10464,order_date,format_inconsistency,2025-07-30,"July 30, 2025",non-ISO date (DD/MM convention)
+509,ORD-10465,signup_date,format_inconsistency,2023-11-01,01-11-2023,non-ISO date (DD/MM convention)
+511,ORD-10467,phone,missing_value,+1 65456 73925,-,placeholder: -
+511,ORD-10467,order_date,format_inconsistency,2025-07-29,"July 29, 2025",non-ISO date (DD/MM convention)
+512,ORD-10468,customer_name,missing_value,Meera Rao,nan,placeholder: nan
+512,ORD-10468,rating,invalid_value,4,11,rating outside 1-5 or not an integer
+512,ORD-10468,status,format_inconsistency,Delivered,Deliverd,status variant / typo
+513,ORD-10469,signup_date,format_inconsistency,2024-04-26,26-04-2024,non-ISO date (DD/MM convention)
+514,ORD-10470,order_date,format_inconsistency,2026-06-02,"June 02, 2026",non-ISO date (DD/MM convention)
+514,ORD-10470,payment_method,format_inconsistency,Credit Card,CREDIT CARD,payment label variant
+515,ORD-10471,order_date,format_inconsistency,2025-03-27,27/03/2025,non-ISO date (DD/MM convention)
+516,ORD-10472,order_date,format_inconsistency,2025-10-24,"October 24, 2025",non-ISO date (DD/MM convention)
+517,ORD-10473,quantity,missing_value,2,NULL,placeholder: NULL
+517,ORD-10473,order_date,format_inconsistency,2025-03-15,15/03/2025,non-ISO date (DD/MM convention)
+518,ORD-10474,phone,missing_value,+65 80279 31160,Unknown,placeholder: Unknown
+518,ORD-10474,total_amount,format_inconsistency,420.00,420,currency/format variant
+518,ORD-10474,order_date,format_inconsistency,2026-05-28,2026/05/28,non-ISO date (DD/MM convention)
+518,ORD-10474,payment_method,format_inconsistency,Debit Card,Debit_Card,payment label variant
+519,ORD-10475,order_date,format_inconsistency,2026-01-18,"January 18, 2026",non-ISO date (DD/MM convention)
+521,ORD-10477,product_category,format_inconsistency,Home & Kitchen,Home and Kitchen,category variant
+522,ORD-10478,phone,missing_value,+91 94260 77141,Unknown,placeholder: Unknown
+522,ORD-10478,unit_price,format_inconsistency,8390.00,"₹8,390.00",currency/format variant
+523,ORD-10479,city,missing_value,Delhi,none,placeholder: none
+523,ORD-10479,order_date,missing_value,2026-05-03,NULL,placeholder: NULL
+523,ORD-10479,rating,missing_value,4,NULL,placeholder: NULL
+524,ORD-10480,customer_name,format_inconsistency,Lakshmi Kulkarni,lakshmi kulkarni,casing / stray whitespace
+526,ORD-10482,total_amount,format_inconsistency,13360.00,13360.00 INR,currency/format variant
+526,ORD-10482,order_date,format_inconsistency,2026-07-23,23/07/2026,non-ISO date (DD/MM convention)
+526,ORD-10482,signup_date,format_inconsistency,2025-01-24,24 Jan 2025,non-ISO date (DD/MM convention)
+526,ORD-10482,product_category,format_inconsistency,Sports,sports,category variant
+526,ORD-10482,payment_method,format_inconsistency,Net Banking,Net banking,payment label variant
+527,ORD-10483,status,format_inconsistency,Delivered,delivered,status variant / typo
+529,ORD-10175,*row*,near_duplicate,,,"same order, name typo/case variant (source ORD-10175)"
+530,ORD-10485,customer_name,format_inconsistency,Aditya Pillai,aditya pillai,casing / stray whitespace
+530,ORD-10485,phone,format_inconsistency,+91 96869 39344,+91-9686939344,phone format variant
+530,ORD-10485,signup_date,format_inconsistency,2025-03-26,26 Mar 2025,non-ISO date (DD/MM convention)
+531,ORD-10486,phone,format_inconsistency,+91 89137 76236,(+91) 8913776236,phone format variant
+531,ORD-10486,country,format_inconsistency,India,india,country spelling variant
+531,ORD-10486,city,format_inconsistency,Ahmedabad,ahmedabad,casing / whitespace
+532,ORD-10487,phone,format_inconsistency,+91 85817 46680,85817 46680,phone format variant
+532,ORD-10487,order_date,format_inconsistency,2025-04-23,23/04/2025,non-ISO date (DD/MM convention)
+532,ORD-10487,signup_date,format_inconsistency,2023-02-07,07-02-2023,non-ISO date (DD/MM convention)
+533,ORD-10488,order_date,format_inconsistency,2025-09-11,11/09/2025,non-ISO date (DD/MM convention)
+533,ORD-10488,product_category,format_inconsistency,Electronics,electronics,category variant
+533,ORD-10488,payment_method,format_inconsistency,Net Banking,NetBanking,payment label variant
+534,ORD-10489,email,missing_value,lakshmi.kulkarni225@rediffmail.com,nan,placeholder: nan
+535,ORD-10490,phone,format_inconsistency,+91 94215 22814,9421522814,phone format variant
+536,ORD-10491,order_date,format_inconsistency,2025-04-11,"April 11, 2025",non-ISO date (DD/MM convention)
+537,ORD-10492,email,format_inconsistency,rohan.patel49@hotmail.com,ROHAN.PATEL49@HOTMAIL.COM,uppercase email
+537,ORD-10492,customer_name,format_inconsistency,Rohan Patel,rohan patel,casing / stray whitespace
+537,ORD-10492,order_date,format_inconsistency,2026-01-20,20 Jan 2026,non-ISO date (DD/MM convention)
+539,ORD-10494,order_date,format_inconsistency,2026-02-13,13 Feb 2026,non-ISO date (DD/MM convention)
+539,ORD-10494,product_category,format_inconsistency,Grocery,GROCERY,category variant
+539,ORD-10494,status,format_inconsistency,Delivered,delivered,status variant / typo
+540,ORD-10495,phone,missing_value,+91 88689 41356,-,placeholder: -
+540,ORD-10495,unit_price,missing_value,300.00,,blank
+540,ORD-10495,order_date,invalid_date,2026-02-16,2026-13-05,calendar-impossible date
+540,ORD-10495,customer_name,format_inconsistency,Isha Kulkarni,isha kulkarni,casing / stray whitespace
+540,ORD-10495,signup_date,format_inconsistency,2024-12-02,"December 02, 2024",non-ISO date (DD/MM convention)
+540,ORD-10495,status,format_inconsistency,Shipped,shipped,status variant / typo
+541,ORD-10496,total_amount,format_inconsistency,2460.00,"2,460",currency/format variant
+541,ORD-10496,order_date,format_inconsistency,2025-10-14,14 Oct 2025,non-ISO date (DD/MM convention)
+542,ORD-10497,signup_date,format_inconsistency,2023-02-15,2023/02/15,non-ISO date (DD/MM convention)
+543,ORD-10498,phone,format_inconsistency,+91 96167 20739,96167 20739,phone format variant
+543,ORD-10498,signup_date,format_inconsistency,2023-04-26,2023/04/26,non-ISO date (DD/MM convention)
+543,ORD-10498,payment_method,format_inconsistency,Debit Card,debit card,payment label variant
+544,ORD-10499,rating,missing_value,5,-,placeholder: -
+544,ORD-10499,unit_price,format_inconsistency,3500.00,Rs. 3500,currency/format variant
+545,ORD-10500,unit_price,format_inconsistency,300.00,Rs. 300,currency/format variant

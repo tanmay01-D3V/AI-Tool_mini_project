@@ -1,0 +1,11 @@
+pandas
+pandera
+rapidfuzz
+google-genai
+streamlit
+jinja2
+pytest
+python-dotenv
+python-dateutil
+phonenumbers
+pydantic

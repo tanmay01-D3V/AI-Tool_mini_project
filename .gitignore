@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+outputs/
+.DS_Store
+prompt_log/runs/

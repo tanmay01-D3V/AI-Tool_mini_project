@@ -1,0 +1,42 @@
+{
+  "dirty_rows": 545,
+  "clean_rows": 500,
+  "columns": 16,
+  "total_planted_issues": 848,
+  "by_issue_type": {
+    "format_inconsistency": 618,
+    "exact_duplicate": 25,
+    "missing_value": 129,
+    "logical_inconsistency": 6,
+    "invalid_value": 8,
+    "duplicate_key_conflict": 5,
+    "invalid_phone": 6,
+    "calculation_mismatch": 8,
+    "invalid_email": 12,
+    "invalid_quantity": 6,
+    "near_duplicate": 15,
+    "invalid_date": 4,
+    "future_date": 3,
+    "outlier": 3
+  },
+  "by_column": {
+    "unit_price": 55,
+    "order_date": 173,
+    "signup_date": 96,
+    "phone": 75,
+    "*row*": 40,
+    "email": 52,
+    "city": 55,
+    "payment_method": 60,
+    "rating": 28,
+    "total_amount": 43,
+    "status": 40,
+    "country": 40,
+    "order_id": 5,
+    "product_category": 35,
+    "customer_name": 33,
+    "quantity": 18
+  },
+  "legit_blank_ratings_not_errors": 151,
+  "note": "Rating is legitimately blank for Pending/Cancelled/Shipped orders. Duplicate rows inherit the source row's other issues, which are not logged again. Dates use DD/MM convention."
+}
