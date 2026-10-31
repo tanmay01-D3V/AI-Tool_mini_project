@@ -1,0 +1,278 @@
+{# templates/report.html.j2 #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data-quality report – {{ meta.source_file }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; background: #f7f7f7; }
+    h1, h2, h3 { margin-top: 1.5rem; }
+    .section { background: #fff; padding: 1rem; margin-bottom: 1rem; box-shadow: 0 0 4px rgba(0,0,0,0.1); }
+    .box { border: 1px solid #ddd; padding: 0.8rem; background: #fafafa; }
+    .grey { color: #777; }
+    .bar-wrap { margin: 0.15rem 0; display: flex; align-items: center; gap: 0.5rem; }
+    .bar-bg { flex: 1; background: #e0e0e0; height: 0.85rem; border-radius: 3px; overflow: hidden; }
+    .bar-fill { height: 100%; background: #4caf50; }
+    .bar-label { font-size: 0.85rem; white-space: nowrap; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.9rem; margin-top: 0.5rem; }
+    th, td { border: 1px solid #ddd; padding: 0.35rem 0.5rem; text-align: left; }
+    th { background: #f0f0f0; }
+    .small { font-size: 0.85rem; color: #555; }
+    .note { font-size: 0.82rem; color: #888; margin-top: 0.3rem; }
+    ul { margin: 0.4rem 0; padding-left: 1.2rem; }
+  </style>
+</head>
+<body>
+
+<h1>Data-quality validation report</h1>
+
+{# ── 1. AI summary ────────────────────────────────────────────── #}
+<div class="section">
+  <h2>AI-generated (Gemini)</h2>
+  {% if ai_summary %}
+    <div class="box">{{ ai_summary }}</div>
+  {% else %}
+    <div class="box grey">Not generated</div>
+  {% endif %}
+</div>
+
+{# ── 2. Dataset overview ──────────────────────────────────────── #}
+<div class="section">
+  <h2>Dataset overview</h2>
+  <table>
+    <tr><th>Field</th><th>Value</th></tr>
+    <tr><td>File</td><td>{{ source_file }}</td></tr>
+    <tr><td>Rows</td><td>{{ rows }}</td></tr>
+    <tr><td>Columns</td><td>{{ cols }}</td></tr>
+    <tr><td>Processed at</td><td>{{ processed_at }}</td></tr>
+  </table>
+</div>
+
+{# ── 3. Quality score ─────────────────────────────────────────── #}
+<div class="section">
+  <h2>Quality score</h2>
+  <p>Definition: <em>1 − (unique flagged non-row cells ÷ total cells)</em></p>
+  {% set before_pct = (quality_before * 100) | round(1) %}
+  {% set after_pct  = (quality_after  * 100) | round(1) %}
+  <table>
+    <tr><th>Stage</th><th>Score</th><th>Percentage</th></tr>
+    <tr><td>Before cleaning</td><td>{{ quality_before }}</td><td>{{ before_pct }}%</td></tr>
+    <tr><td>After cleaning</td><td>{{ quality_after }}</td><td>{{ after_pct }}%</td></tr>
+  </table>
+</div>
+
+{# ── 4. Issues by type and column ─────────────────────────────── #}
+<div class="section">
+  <h2>Issues by type</h2>
+  <p class="small">Before / after cleaning</p>
+  {% for typ, cnt in detector_counts_by_type_before.items() %}
+    {% set pct = [(cnt / rows * 100), 100] | min | round(1) %}
+    <div class="bar-label">{{ typ }} (before): {{ cnt }}</div>
+    <div class="bar-wrap">
+      <div class="bar-bg"><div class="bar-fill" style="width:{{ pct }}%"></div></div>
+      <span class="bar-label">{{ pct }}%</span>
+    </div>
+  {% endfor %}
+  {% for typ, cnt in detector_counts_by_type_after.items() %}
+    {% set pct = [(cnt / rows * 100), 100] | min | round(1) %}
+    <div class="bar-label">{{ typ }} (after): {{ cnt }}</div>
+    <div class="bar-wrap">
+      <div class="bar-bg"><div class="bar-fill" style="width:{{ pct }}%; background:#2196f3"></div></div>
+      <span class="bar-label">{{ pct }}%</span>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="section">
+  <h2>Issues by column</h2>
+  {% for col, cnt in detector_counts_by_column_before.items() %}
+    {% set pct = [(cnt / rows * 100), 100] | min | round(1) %}
+    <div class="bar-label">{{ col }} (before): {{ cnt }}</div>
+    <div class="bar-wrap">
+      <div class="bar-bg"><div class="bar-fill" style="width:{{ pct }}%"></div></div>
+      <span class="bar-label">{{ pct }}%</span>
+    </div>
+  {% endfor %}
+  {% for col, cnt in detector_counts_by_column_after.items() %}
+    {% set pct = [(cnt / rows * 100), 100] | min | round(1) %}
+    <div class="bar-label">{{ col }} (after): {{ cnt }}</div>
+    <div class="bar-wrap">
+      <div class="bar-bg"><div class="bar-fill" style="width:{{ pct }}%; background:#2196f3"></div></div>
+      <span class="bar-label">{{ pct }}%</span>
+    </div>
+  {% endfor %}
+</div>
+
+{# ── 5. Missing values ────────────────────────────────────────── #}
+<div class="section">
+  <h2>Missing values</h2>
+  <p class="small">Blanks vs disguised placeholders per column (after cleaning)</p>
+  {% if null_log_after_blank or null_log_after_placeholder %}
+  <table>
+    <tr><th>Column</th><th>Blank</th><th>Placeholder</th></tr>
+    {% for col in (null_log_after_blank.keys() | list + null_log_after_placeholder.keys() | list) | unique %}
+    <tr>
+      <td>{{ col }}</td>
+      <td>{{ null_log_after_blank.get(col, 0) }}</td>
+      <td>{{ null_log_after_placeholder.get(col, 0) }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <p class="grey">No missing values detected after cleaning.</p>
+  {% endif %}
+</div>
+
+{# ── 6. Duplicates ────────────────────────────────────────────── #}
+<div class="section">
+  <h2>Duplicates</h2>
+  <table>
+    <tr><th>Type</th><th>Count (after)</th></tr>
+    <tr><td>Exact duplicate rows</td><td>{{ detector_counts_by_type_after.get("exact_duplicate", 0) }}</td></tr>
+    <tr><td>Key-conflict rows</td><td>{{ detector_counts_by_type_after.get("duplicate_key_conflict", 0) }}</td></tr>
+    <tr><td>Near-duplicate rows</td><td>{{ detector_counts_by_type_after.get("near_duplicate", 0) }}</td></tr>
+  </table>
+</div>
+
+{# ── 7. Format inconsistencies ────────────────────────────────── #}
+<div class="section">
+  <h2>Format inconsistencies</h2>
+  <p class="small">3 before/after examples per changed column</p>
+  {% if examples_before %}
+  <table>
+    <tr><th>Column</th><th>Before (examples)</th><th>After (examples)</th></tr>
+    {% for col in examples_before.keys() %}
+    <tr>
+      <td>{{ col }}</td>
+      <td>{{ examples_before[col] | join(" | ") }}</td>
+      <td>{{ examples_after[col] | join(" | ") }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <p class="grey">No format changes recorded.</p>
+  {% endif %}
+</div>
+
+{# ── 8. Invalid values ────────────────────────────────────────── #}
+<div class="section">
+  <h2>Invalid values</h2>
+  <p class="small">Impossible or future dates, bad emails/phones, out-of-range numbers, total mismatches (Pandera)</p>
+  <table>
+    <tr><th>Stage</th><th>Total failures</th></tr>
+    <tr><td>Before cleaning</td><td>{{ validation_summary_before.total_failures }}</td></tr>
+    <tr><td>After cleaning</td><td>{{ validation_summary_after.total_failures }}</td></tr>
+  </table>
+  {% if failures_before | length > 0 %}
+  <p class="small" style="margin-top:0.6rem">Per-column failures (before){% if failures_before | length > 50 %} – showing 50 of {{ failures_before | length }}{% endif %}:</p>
+  <table>
+    <tr><th>Column</th><th>Check</th><th>Value</th></tr>
+    {% for _, r in failures_before.head(50).iterrows() %}
+    <tr><td>{{ r.column }}</td><td>{{ r.check }}</td><td>{{ r.value }}</td></tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+</div>
+
+{# ── 9. Changes applied ───────────────────────────────────────── #}
+<div class="section">
+  <h2>Changes applied</h2>
+  {% if rule_counts %}
+  <table>
+    <tr><th>Rule</th><th>Cells changed</th></tr>
+    {% for rule, cnt in rule_counts.items() %}
+    <tr><td>{{ rule }}</td><td>{{ cnt }}</td></tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <p class="grey">No rules applied.</p>
+  {% endif %}
+  <p style="margin-top:0.5rem"><a href="change_log.csv">Download change_log.csv</a></p>
+</div>
+
+{# ── 10. Items needing human review ───────────────────────────── #}
+<div class="section">
+  <h2>Items needing human review</h2>
+  {% set review_rows = [] %}
+  {% for _, r in flags_after.iterrows() %}
+    {% if r.issue_type in ["near_duplicate", "duplicate_key_conflict"] %}
+      {% set _ = review_rows.append(r) %}
+    {% endif %}
+  {% endfor %}
+  {% if review_rows %}
+  <ul>
+    {% for r in review_rows[:50] %}
+    <li>Row {{ r.row }}, column {{ r.column }} – {{ r.issue_type }}: {{ r.reason }}</li>
+    {% endfor %}
+  </ul>
+  {% if review_rows | length > 50 %}
+  <p class="note">Showing 50 of {{ review_rows | length }}</p>
+  {% endif %}
+  {% else %}
+  <p class="grey">No items require human review.</p>
+  {% endif %}
+</div>
+
+{# ── 11. Pandera validation ───────────────────────────────────── #}
+<div class="section">
+  <h2>Pandera validation</h2>
+  <table>
+    <tr><th>Stage</th><th>Total failures</th><th>Rows affected</th></tr>
+    <tr>
+      <td>Before cleaning</td>
+      <td>{{ validation_summary_before.total_failures }}</td>
+      <td>{{ validation_summary_before.rows_with_failures }}</td>
+    </tr>
+    <tr>
+      <td>After cleaning</td>
+      <td>{{ validation_summary_after.total_failures }}</td>
+      <td>{{ validation_summary_after.rows_with_failures }}</td>
+    </tr>
+  </table>
+  {% if validation_summary_after.by_column %}
+  <p class="small" style="margin-top:0.6rem">Per-column failures (after):</p>
+  <table>
+    <tr><th>Column</th><th>Failures</th></tr>
+    {% for col, cnt in validation_summary_after.by_column.items() %}
+    <tr><td>{{ col }}</td><td>{{ cnt }}</td></tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+</div>
+
+{# ── 12. Gemini usage ─────────────────────────────────────────── #}
+<div class="section">
+  <h2>Gemini usage</h2>
+  {% if gemini_usage %}
+  <table>
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Calls</td><td>{{ gemini_usage.calls }}</td></tr>
+    <tr><td>Model</td><td>{{ gemini_usage.model }}</td></tr>
+    <tr><td>Cache hits</td><td>{{ gemini_usage.cache_hits }}</td></tr>
+  </table>
+  {% else %}
+  <p class="grey">Not used</p>
+  {% endif %}
+</div>
+
+{# ── 13. Method and limitations ───────────────────────────────── #}
+<div class="section">
+  <h2>Method and limitations</h2>
+  <p>
+    This report combines deterministic code detectors (missing values, exact and
+    near-duplicates, Pandera schema checks) with a rule-based cleaning engine.
+    Gemini is only consulted for AI-generated summaries and category mapping
+    suggestions — it does not modify data directly.
+  </p>
+  <ul>
+    <li><strong>Day-first dates:</strong> ambiguous dates (e.g. 01/02/2024) are parsed
+        day-first; unusual orderings may silently produce wrong dates.</li>
+    <li><strong>Synthetic data:</strong> the sample dataset is generated; some checks
+        (e.g. future-date guards) may not reflect real-world data constraints.</li>
+    <li><strong>Near-duplicates:</strong> flagged but never auto-dropped; always require
+        human review.</li>
+  </ul>
+</div>
+
+</body>
+</html>
