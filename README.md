@@ -130,6 +130,7 @@ python -m pytest tests/test_app.py tests/test_prompts.py -v
 - **12 pytest tests** verify app structure and prompt rendering
 - **HTML reports** generated via Gemini P5 summary
 - **Downloadable outputs**: CSV, change log, HTML report, prompt log zip
+- **Live demo**: [https://cleanee.streamlit.app](https://cleanee.streamlit.app)
 
 ## Repository
 
